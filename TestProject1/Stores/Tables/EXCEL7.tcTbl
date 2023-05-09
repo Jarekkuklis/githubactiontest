@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{F1D3EE30-C2A8-4AFF-801C-1D39E2C902F0}" version="15.0">
+	<Table Name="EXCEL7">
+		<Source Object="Aliases.EXCEL.wndXLMAIN2.XLDESK.EXCEL7">
+			<DataExtraction Type="OpticalTableRecognition" DetectionMode="ByCoordinates" SelectionPreference="NearestToCenter" HasHeader="True">
+				<Rectangle Left="16" Top="16" Right="288" Bottom="93" />
+			</DataExtraction>
+		</Source>
+		<Columns>
+			<Column>first</Column>
+			<Column>secod</Column>
+			<Column>third</Column>
+		</Columns>
+		<Rows>
+			<Row>
+				<Cell Type="String">a</Cell>
+				<Cell Type="String">b</Cell>
+				<Cell Type="String">с с</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">d</Cell>
+				<Cell Type="String">e</Cell>
+				<Cell Type="String">g</Cell>
+			</Row>
+		</Rows>
+	</Table>
+</Root>

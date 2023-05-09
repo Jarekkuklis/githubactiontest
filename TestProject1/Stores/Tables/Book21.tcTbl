@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{F1D3EE30-C2A8-4AFF-801C-1D39E2C902F0}" version="15.0">
+	<Table Name="Book21">
+		<Source Object="C:\Users\jaroslaw.kuklis\Desktop\Book2.xlsx">
+			<DataExtraction Type="ExcelTableSheet" SheetTitle="Sheet1" FirstRowIsHeader="False" />
+		</Source>
+		<Columns>
+			<Column CompareStyle="Default">[Unnamed column 0]</Column>
+			<Column CompareStyle="Default">[Unnamed column 1]</Column>
+			<Column CompareStyle="Default">[Unnamed column 2]</Column>
+		</Columns>
+		<Rows>
+			<Row>
+				<Cell Type="String">a</Cell>
+				<Cell Type="String">b</Cell>
+				<Cell Type="String">c</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">d</Cell>
+				<Cell Type="String">e</Cell>
+				<Cell Type="String">f</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">g</Cell>
+				<Cell Type="String">h</Cell>
+				<Cell Type="String">i</Cell>
+			</Row>
+		</Rows>
+	</Table>
+</Root>

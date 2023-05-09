@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}" version="15.0">
+	<children>
+		<child name="pageLicenseManagementSmartbear" key="{04916A88-0677-43C9-BF3C-97EFC67F6E96}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="pageLicenseManagementSmartbear" ID="{04916A88-0677-43C9-BF3C-97EFC67F6E96}" FileName="Regions\pageLicenseManagementSmartbear.png" Update="False" />
+		</child>
+		<child name="linkWiadomoCi" key="{2AF9AC6D-B6F3-4B4F-8EE8-D9782DE46368}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="linkWiadomoCi" ID="{2AF9AC6D-B6F3-4B4F-8EE8-D9782DE46368}" FileName="Regions\linkWiadomoCi.png" Update="False" />
+		</child>
+		<child name="viewGroupNavigationLayout" key="{59B361CD-2DA5-4F3A-B773-7FF42EEE860B}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="viewGroupNavigationLayout" ID="{59B361CD-2DA5-4F3A-B773-7FF42EEE860B}" FileName="Regions\viewGroupNavigationLayout.png" Update="False" />
+		</child>
+	</children>
+</Root>

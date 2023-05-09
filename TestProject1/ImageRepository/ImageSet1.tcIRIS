@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{302E54A8-7D5B-4593-9563-357C2734256B}" version="1400" key="{391CF766-292B-4B80-8B2E-78D962965A4D}" typeId="{302E54A8-7D5B-4593-9563-357C2734256B}">
+	<config nodeName="ImageSet1" />
+	<testData />
+	<data>
+		<item caption="Item1" moniker="{FC8306E5-15EE-4F4E-957F-77340F0BDD3B}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\Item1.png" initialHash="111D40C8" selectionLeft="2260" selectionTop="560" selectionWidth="1180" selectionHeight="520" initialLeft="2260" initialTop="560" initialWidth="1180" initialHeight="520" pixelTolerance="0" colorTolerance="0" deviceName="" />
+		</item>
+		<item caption="Item2" moniker="{11D7019E-F9CE-4D1C-8BE2-43BADD602688}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\Item2.png" initialHash="70FC09AF" selectionLeft="4899" selectionTop="411" selectionWidth="75" selectionHeight="33" initialLeft="4899" initialTop="411" initialWidth="75" initialHeight="33" pixelTolerance="743" colorTolerance="0" deviceName="button yes" />
+		</item>
+	</data>
+</Root>

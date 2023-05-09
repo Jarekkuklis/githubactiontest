@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{F1D3EE30-C2A8-4AFF-801C-1D39E2C902F0}" version="15.0">
+	<Table Name="Page_1_content">
+		<Source Object="Aliases.WINWORD.formADocxWord.panel.panelADocx.panelMicrosoftWordDocument.Page_1.Page_1_content">
+			<DataExtraction Type="OpticalTableRecognition" DetectionMode="Automatic" SelectionPreference="NearestToCenter" HasHeader="False">
+				<Rectangle Left="100" Top="5" Right="509" Bottom="54" />
+			</DataExtraction>
+		</Source>
+		<Columns>
+			<Column>[Unnamed column 0]</Column>
+			<Column>[Unnamed column 1]</Column>
+			<Column>[Unnamed column 2]</Column>
+		</Columns>
+		<Rows SpecifedRowsCount="3">
+			<Row>
+				<Cell Type="String">a</Cell>
+				<Cell Type="String">b</Cell>
+				<Cell Type="String">с</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">d</Cell>
+				<Cell Type="String">e</Cell>
+				<Cell Type="String">f</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">g</Cell>
+				<Cell Type="String">h</Cell>
+				<Cell Type="String">j</Cell>
+			</Row>
+		</Rows>
+	</Table>
+</Root>

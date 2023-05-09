@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" version="1400" key="{52614CE7-F882-458F-94B0-57FA72E42EAD}" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}">
+	<config nodeName="Events" tlbHistory="&quot;TestComplete general events&quot;" />
+	<testData />
+	<data />
+	<children>
+		<child key="{441D7F88-A259-4D9E-B268-056E7EBD1B76}">
+			<config nodeName="EventControl1" lastOpenedTLB="" generatedCLSID="{E0586E82-8A5C-4A1F-AA6F-E575FEF951D9}" generatedTLBKey="{FBFFE1AC-C392-438F-9BB9-25505A093AEB}" generatedEventsKey="{04BFFDEF-9D59-4561-9DA1-E7FB070CBA18}" generatedTLBDesc="TestComplete EventControl1 Control - 14.10.2022 22:09:51">
+				<eventInfo infoTLBVer="version.dll" infoGUID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" infoID="1610743819" infoControlName="General Events" infoEventName="OnOverlappingWindow" infoEventRealName="OnOverlappingWindow" infoDescription="Occurs when an overlapping window appears." />
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{B213D10E-2EC3-4B29-8CD5-10268D5C9AF0}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps>
+					<Bitmap Name="Aliases.IsoSpeak" Data="61717A69700000000100000036040000780173F235636100033320A901C40250CCC8A000640101541EC24190EEC20CFFC9C12013C8D1478C9E894DD5FF57AF58F67FCDAA1570B781F884F412A306971930BDD75ECF04DB33F30CC3FF59E750C306A606DD0C647118FBFADB59FF23AD19FE83CC41578FCCAF4F8FC590771362F80F73072137AC59B91CAEFF3F1080CC06B901640608B809E27743BCB9265C3F482F483D0880D8D32BF350E460EE86F911C62F8DF0C55007520302207FC0FC02125BB97431D86D30BD201A399EC19A8004481CE407901E5F192E301FDD5E6433406A91F930B520F340E2303EB21A6436B23C3A1B663FB27A5CECD5C0F800E927450FCC2C52F5509207417A01E30BA450" />
+				</NodeBitmaps>
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.IsoSpeak.MainOptionsModule2.centralWidget.uiLayoutWidget.ProjectInfoModule.ProjectFrame.ProjectOptionsContainer.ProjectOptions.ProjectOptionsButtonMenu.ButtonMenuButtonGroup.ANALYZE" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.IsoSpeak.MessageBox.qt_msgbox_buttonbox.buttonOk" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Sets the &apos;%n&apos; button to the %p1 state." Action="CheckButton" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="Param1" DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="cbChecked" />
+					</Parameters>
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.IsoSpeak.MainOptionsModule2.centralWidget.uiLayoutWidget.ProjectInfoModule.ProjectFrame" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.IsoSpeak.MainOptionsModule2.centralWidget.uiLayoutWidget.ProjectInfoModule.ProjectFrame.ProjectOptionsContainer.ProjectOptions.ProjectOptionsButtonMenu2.ButtonMenuButtonGroup.LOAD_IMAGES" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.IsoSpeak.MessageBox.qt_msgbox_buttonbox.buttonOk" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="756" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="256" />
+					</Parameters>
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.IsoSpeak.MainOptionsModule2.centralWidget.uiLayoutWidget.ProjectInfoModule.ProjectFrame.ProjectOptionsContainer.ProjectOptions.qt_scrollarea_viewport" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.IsoSpeak.MainOptionsModule2.centralWidget.uiLayoutWidget.ProjectInfoModule.ProjectFrame.ProjectOptionsContainer.ProjectOptions.ProjectOptionsButtonMenu2.ButtonMenuButtonGroup.LOAD_IMAGES" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.IsoSpeak.InputDialog.DialogButtonBox.buttonOk" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.IsoSpeak.MainOptionsModule2.centralWidget.uiLayoutWidget.ProjectInfoModule.ProjectFrame.ProjectOptionsContainer.ProjectOptions.qt_scrollarea_viewport.IsoTableCellWidget.ToolButton" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.IsoSpeak.MessageBox2.qt_msgbox_buttonbox.buttonLoad" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Closes the &apos;%n&apos; window." Action="Close" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.IsoSpeak.dlgOpenConcentrationsFile" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.IsoSpeak.MainOptionsModule2.centralWidget.uiLayoutWidget.ProjectInfoModule.ProjectFrame.ProjectOptionsContainer.ProjectOptions.ProjectOptionsButtonMenu2.ButtonMenuButtonGroup.LOAD_IMAGES" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.IsoSpeak.MainOptionsModule2.centralWidget.uiLayoutWidget.ProjectInfoModule.ProjectFrame.ProjectOptionsContainer.ProjectOptions.ProjectOptionsButtonMenu2.ButtonMenuButtonGroup.LOAD_IMAGES" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.IsoSpeak.MessageBox.qt_msgbox_buttonbox.buttonOk" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; table cell at row %p1, column %p2." Action="ClickCell" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="Param1" DefVarType="0" VarType="8" ValueType="6" ValueValue="1" />
+						<Parameter Name="Param2" DefVarType="0" VarType="8" ValueType="6" ValueValue="Copy|Paste" />
+					</Parameters>
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.IsoSpeak.MainOptionsModule2.centralWidget.uiLayoutWidget.ProjectInfoModule.ProjectFrame.ProjectOptionsContainer.ProjectOptions" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; table cell at row %p1, column %p2." Action="ClickCell" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="Param1" DefVarType="0" VarType="8" ValueType="6" ValueValue="1" />
+						<Parameter Name="Param2" DefVarType="0" VarType="8" ValueType="6" ValueValue="Experiment ID" />
+					</Parameters>
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.IsoSpeak.MainOptionsModule2.centralWidget.uiLayoutWidget.ProjectInfoModule.ProjectFrame.ProjectOptionsContainer.ProjectOptions" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Sets the state of the &apos;%n&apos; check box to %p1." Action="ClickButton" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="Param1" DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="cbChecked" />
+					</Parameters>
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.IsoSpeak.MainOptionsModule2.centralWidget.uiLayoutWidget.ProjectInfoModule.ProjectFrame.ProjectOptionsContainer.ProjectOptions.qt_scrollarea_viewport.IsoTableCellWidget2.CheckBox" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.IsoSpeak.MainOptionsModule2.centralWidget.uiLayoutWidget.ProjectInfoModule.ProjectFrame.ProjectOptionsContainer.ProjectOptions.qt_scrollarea_viewport.checkButton" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.IsoSpeak.MainOptionsModule2.centralWidget.uiLayoutWidget.ProjectInfoModule.ProjectFrame.ProjectOptionsContainer.ProjectOptions.qt_scrollarea_viewport.checkButton2" />
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{A5852672-D579-4566-9A35-F59DED402ACC}" />
+</Root>
