@@ -2,7 +2,7 @@
 def Connect_Android_Appium():
   server = "http://localhost:4723/wd/hub"
   capabilities = {
-    "deviceName": "Pixel 6 API 33",
+    "deviceName": "Pixel_3a_API_33_x86_64",
     "platformVersion": "13",
     "platformName": "android",
     "automationName": "UIAutomator2",
@@ -13,8 +13,3 @@ def Connect_Android_Appium():
   
   
 
-
-def mobile():
-  Log.Message("test")
-    #Compares the viewGroupNavigationLayout Stores item with the image of the Regions.CreateRegionInfo(Aliases.Device.processStreitdatentechnikSDTMonteurPlus.viewGroupNavigationLayout, 131, 20, 1842, 791, False) object.
-    #Regions.viewGroupNavigationLayout.Check(Regions.CreateRegionInfo(Aliases.Device.processStreitdatentechnikSDTMonteurPlus.viewGroupNavigationLayout, 131, 20, 1842, 791, False))

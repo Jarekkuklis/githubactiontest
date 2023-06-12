@@ -1,10 +1,3 @@
-﻿def Test():
-  # Obtains the Table object
-  doctable = Aliases.WINWORD.formADocxWord.panel.panelADocx.panelMicrosoftWordDocument.Page_1.Page_1_content
-  # Obtains the control that displays data in the tabular form
-  pdftable = Aliases.Acrobat.wndAcrobatSDIWindow.AVTabsContainerView.AVDocumentMainView.AVFlipContainerView.AVSplitterView.AVSplitationPageView.AVSplitterView.AVScrolledPageView.AVScrollView.AVPageView
-  # Sets comparison properties
-  ReportDifference = True
-  MessageType = lmError
-  # Compares data stored by the Table object with data displayed by the specified control
-  doctable.CompareWithObject(pdftable, ReportDifference, MessageType)
+﻿def CreatingAndWritingToTextFile():
+    aqFile.WriteToTextFile("C:\\Users\\jaroslaw.kuklis\\Downloads\\mlb_players.tsv", "Hello!", aqFile.ctUTF8)
+    Log.Message("The file is created and the specified text is written to it successfully.")

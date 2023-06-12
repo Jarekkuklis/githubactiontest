@@ -18,6 +18,11 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
+			<testItem name="Test8" key="{02A6AAC7-AF70-4E0B-8D36-9B21FEB7175A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{7C7B9956-02D2-470D-A400-04B8CC08A8C4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
 		</children>
 	</testItems>
 	<variables key="{894DA1B3-37AA-4631-A9E8-7C4FCB5425A7}">
@@ -57,7 +62,7 @@
 		<setting name="AzureDevOps_TeamProject" type="5" value="PipelineTrening" />
 		<setting name="AzureDevOps_TeamProjectCollection" type="5" value="" />
 		<setting name="AzureDevOps_URL" type="5" value="https://dev.azure.com/jaroslawkuklis" />
-		<setting name="BitBar_APIKey" type="5" value="3A02A0401CAE82DD0CC62B0AE5BCC13B466A41B4C10CA981E6D769F197FB376B20865693F740E044E05958BA1836A632ADFB040EC13BDE989F41E28E26FD933D1575" />
+		<setting name="BitBar_APIKey" type="5" value="3A02DEEB41C532B924A6C28CE2C0856BBF82FB6748CD7DDC5D6BAD2B44F9EE4162AA825D01A6D77AABCDD5C850532B09E6C761D7EAB72823453167E55D030CBC4235D6" />
 		<setting name="BitBar_APIURL" type="5" value="https://cloud.bitbar.com/api/" />
 		<setting name="BitBar_FindAndroidDevice" type="5" value="( Device Group As in Selected Device )" />
 		<setting name="BitBar_FindIOSDevice" type="5" value="( Device Group As in Selected Device )" />

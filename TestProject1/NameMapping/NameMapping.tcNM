@@ -1125,6 +1125,65 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageAboveMemberRegistrationAbove2" Key="{D0572373-5C98-4F95-B98B-785D80F4A432}">
+								<Image FileName="-339628313" Left="8" Top="112" Right="1712" Bottom="1392" />
+								<TypeInfo Item0="{6A1BE656-B1BC-4C9A-AAB2-AF573C975663}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://above.pacificplace.com.hk/en/registration" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionAboutAbove" Key="{FDAD21F6-C5EA-472F-9474-711B9EB0CFEA}">
+										<Image FileName="-339628313" Left="8" Top="489" Right="1695" Bottom="2294" />
+										<TypeInfo Item0="{5DDA967F-11BD-45C5-B949-947F7331936C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;About above&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/section[contains(@class, &apos;section&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formMandatory" Key="{6024CFB8-7923-4C87-93CE-A182DD985600}">
+										<Image FileName="-339628313" Left="550" Top="951" Right="1153" Bottom="2161" />
+										<TypeInfo Item0="{5DDA967F-11BD-45C5-B949-947F7331936C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;*Mandatory&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;registration&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;crm__form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectTitle" Key="{BE637B8F-D077-429A-98C7-F1D6C9C81899}">
+										<Image FileName="-339628313" Left="540" Top="1043" Right="829" Bottom="1092" />
+										<TypeInfo Item0="{FDCE7741-E96A-429D-BE61-B8D0B6330EE5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//select[@id=(//label[.=&apos;Title*&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#title" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]//select" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="EXCEL" Key="{21D6A35C-ADDA-4785-B238-6B394049F2C1}">
@@ -1702,6 +1761,74 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="labelFirstName" Key="{F44E35F9-F2A7-4D21-B1B9-9607BBBE4C29}">
+										<Image FileName="-204058116" Left="550" Top="1162" Right="784" Bottom="1186" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(text(), &apos;First Name&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[3]/div//label[contains(@class, &apos;label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/form/div[3]/div//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMustBeIdenticalToCredit" Key="{D0ED8EA3-9095-4FBE-A4A1-63134E31DD97}">
+										<Image FileName="-204058116" Left="632" Top="1169" Right="778" Bottom="1181" />
+										<TypeInfo Item0="{5DD2C90C-E105-4A93-B872-89A62D26E64F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;(must be identical to credit card)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div//label/span[contains(@class, &apos;label__small&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxFirstName" Key="{7C96C889-2589-4E94-A69A-956D4D1E1A64}">
+										<Image FileName="1289528769" Left="550" Top="1149" Right="839" Bottom="1199" />
+										<TypeInfo Item0="{F35F1577-44C0-4653-8E0A-21A20CA6522B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;First Name&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#firstname" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;firstname&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/form/div[3]/div//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAboutAbove" Key="{666A982D-0300-4CC2-83A5-177C76566DA2}">
+										<Image FileName="1493271300" Left="296" Top="503" Right="1408" Bottom="2190" />
+										<TypeInfo Item0="{5DD2C90C-E105-4A93-B872-89A62D26E64F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{44DD9BD9-C400-4704-9A05-8817250A9923}">
+										<Image FileName="1493271300" Left="8" Top="112" Right="1695" Bottom="2451" />
+										<TypeInfo Item0="{5DD2C90C-E105-4A93-B872-89A62D26E64F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//body[contains(., &apos;© 2023 Swire Properties Management Limited. All rights reserved.&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[contains(@class, &apos;dom-loaded&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageTheHomeDepot" Key="{6689EBD4-25C2-49F7-9164-40F1DC1B8BC3}">
@@ -2067,6 +2194,53 @@
 												</Properties>
 											</Child>
 										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageScrollingContentInDesktopWin" Key="{7F7B9820-34E3-4367-B6C2-F9BC7314FADE}">
+								<Image FileName="-212016545" Left="8" Top="112" Right="1726" Bottom="1399" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://support.smartbear.com/testcomplete/docs/app-objects/specific-tasks/standard/scroll-bar/scrolling-content.html" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelSbtopicbody" Key="{2FCDA07E-25E1-4088-A55E-674450FD5E8E}">
+										<Image FileName="-212016545" Left="443" Top="301" Right="1203" Bottom="1457" />
+										<TypeInfo Item0="{5DD2C90C-E105-4A93-B872-89A62D26E64F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#sbTopicBody" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;doc-content&apos;]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndChrome_WidgetWin_12" Key="{EDEFBB53-9E38-4A2D-B3E3-8DD4F5BD730E}">
+								<Image FileName="-378157767" Left="0" Top="0" Right="362" Bottom="227" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Chrome_WidgetWin_1" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Chrome_RenderWidgetHostHWND" Key="{F73AB7D0-345B-40F6-90C5-AB6294ED4156}">
+										<Image FileName="-378157767" Left="0" Top="0" Right="362" Bottom="227" />
+										<TypeInfo Item0="{F214DEB1-6DD6-4031-BC3B-AB8B7FD82DD7}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_RenderWidgetHostHWND" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Chrome Legacy Window" />
+											</Property>
+										</Properties>
 									</Child>
 								</Children>
 							</Child>
@@ -3298,6 +3472,150 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="wndWorkerW" Key="{10F54C3E-237C-4995-96DC-46A797C7B7B5}">
+								<Image FileName="-2126083503" Left="0" Top="0" Right="5360" Bottom="1440" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="WorkerW" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="" />
+									</Property>
+									<Property Name="Index">
+										<Value Value="13" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="SHELLDLL_DefView" Key="{440C07F6-A229-4D08-B6A0-2132F6309592}" ExtendedFind="True">
+										<Image FileName="-2126083503" Left="0" Top="0" Right="5360" Bottom="1440" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="SHELLDLL_DefView" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="FolderView" Key="{A93EEB4F-1034-4CD2-A596-E51D5330ECE7}">
+												<Image FileName="-2126083503" Left="0" Top="0" Right="5360" Bottom="1440" />
+												<TypeInfo Item0="{D28421BD-0C60-409E-9B1F-7D49096AF4F6}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="SysListView32" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="FolderView" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Edit" Key="{15358CF1-930B-4B65-84F8-4F9C80BF60B0}">
+														<Image FileName="-364374127" Left="333" Top="728" Right="452" Bottom="762" />
+														<TypeInfo Item0="{690E14E4-E914-40F6-864D-6D82BA21DB8A}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Edit" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="New Text Document (2).txt" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgRename" Key="{8754E119-E673-46BA-8543-5D4E94502A69}">
+								<Image FileName="-1694628239" Left="0" Top="0" Right="452" Bottom="155" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Rename" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Rename" Key="{077BEBB1-F9A0-4EFA-982B-4406096B15C3}">
+										<Image FileName="-1694628239" Left="8" Top="31" Right="444" Bottom="147" />
+										<Properties>
+											<Property Name="FrameworkId">
+												<Value Value="DirectUI" />
+											</Property>
+											<Property Name="ClassName">
+												<Value Value="TaskDialog" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value Value="pane" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="Rename" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="CtrlNotifySink" Key="{82D37D7F-C6B0-4772-AF9E-F84E53A3CAB0}">
+												<Image FileName="-1694628239" Left="292" Top="115" Right="360" Bottom="138" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="CtrlNotifySink" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="" />
+													</Property>
+													<Property Name="Index">
+														<Value Value="7" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="btnYes" Key="{803751A8-4A36-40FD-8FEE-C9E5943F8AAD}">
+														<Image FileName="-1694628239" Left="292" Top="115" Right="360" Bottom="138" />
+														<TypeInfo Item0="{105738F5-C11E-4231-BC19-82B3DE8C1B2F}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="&amp;Yes" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndShell_SecondaryTrayWnd" Key="{B8DE9FA1-A281-4274-9C66-E87B87D5DEAE}">
+								<Image FileName="-405214050" Left="0" Top="0" Right="3440" Bottom="40" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_SecondaryTrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="WorkerW" Key="{8DE69BF8-CBFF-4417-A9C6-524E0FA1D2BC}">
+										<Image FileName="-405214050" Left="144" Top="0" Right="3374" Bottom="40" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="WorkerW" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSTaskListWClass" Key="{E115BBC5-0BAC-493D-B429-86CE2D648720}">
+												<Image FileName="-405214050" Left="144" Top="0" Right="3374" Bottom="40" />
+												<TypeInfo Item0="{F214DEB1-6DD6-4031-BC3B-AB8B7FD82DD7}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MSTaskListWClass" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="WINWORD" Key="{9E7ABD7C-DEAE-42D7-9D29-F419B561AA8E}">
@@ -3621,6 +3939,56 @@
 										<Properties>
 											<Property Name="WndClass">
 												<Value Value="Edit" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="Item" Key="{CD98E975-8315-432C-8AAA-AA0C69211586}">
+								<Image FileName="1009083143" Left="0" Top="0" Right="229" Bottom="196" />
+								<TypeInfo Item0="{0A926DB6-6F1B-4FAB-9E9C-79AD5450268F}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32768" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="dlgFont" Key="{9668F66F-3D04-4A7E-9F58-ADC17692BBF5}">
+								<Image FileName="127351423" Left="0" Top="0" Right="441" Bottom="478" />
+								<TypeInfo Item0="{EF9C5F66-95B9-4A25-BA19-C629C4CDCB63}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Font" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="cbxSize" Key="{E07E4D90-59C4-4128-A8F8-C09830E8E53C}">
+										<Image FileName="-109944921" Left="355" Top="61" Right="418" Bottom="192" />
+										<TypeInfo Item0="{B5B63E52-33C3-4922-BB93-22B282515767}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ComboBox" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="" />
+											</Property>
+											<Property Name="Index">
+												<Value Value="3" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnOK" Key="{9773DDC0-3430-4E80-A0CF-958D9B6EBF6C}">
+										<Image FileName="-2116447527" Left="255" Top="434" Right="334" Bottom="460" />
+										<TypeInfo Item0="{105738F5-C11E-4231-BC19-82B3DE8C1B2F}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="OK" />
 											</Property>
 										</Properties>
 									</Child>
@@ -4345,6 +4713,13 @@
 			<Child Name="pagePossibleAlternativesToOptica" Owner="{F1014C15-B4CB-4AAE-B208-A26525EB1009}">
 				<Child Name="buttonYes" Owner="{07402AE9-E995-43DD-9E5D-EF45306C1590}" />
 			</Child>
+			<Child Name="pageAboveMemberRegistrationAbove2" Owner="{D0572373-5C98-4F95-B98B-785D80F4A432}">
+				<Child Name="sectionAboutAbove" Owner="{FDAD21F6-C5EA-472F-9474-711B9EB0CFEA}">
+					<Child Name="formMandatory" Owner="{6024CFB8-7923-4C87-93CE-A182DD985600}">
+						<Child Name="selectTitle" Owner="{BE637B8F-D077-429A-98C7-F1D6C9C81899}" />
+					</Child>
+				</Child>
+			</Child>
 		</Child>
 		<Child Name="EXCEL" Owner="{21D6A35C-ADDA-4785-B238-6B394049F2C1}">
 			<Child Name="wndXLMAIN" Owner="{16C5D021-A60C-4A75-92DE-F3644FDED022}">
@@ -4408,8 +4783,14 @@
 				<Child Name="sectionAboutAbove" Owner="{23223C75-1541-4642-A891-7083708EA214}">
 					<Child Name="formMandatory" Owner="{B0140B3F-C44D-485B-8445-CEBC95E79232}">
 						<Child Name="selectTitle" Owner="{332CF048-E1B2-4A93-B28F-8F2D0B95BDC9}" />
+						<Child Name="labelFirstName" Owner="{F44E35F9-F2A7-4D21-B1B9-9607BBBE4C29}">
+							<Child Name="textnodeMustBeIdenticalToCredit" Owner="{D0ED8EA3-9095-4FBE-A4A1-63134E31DD97}" />
+						</Child>
+						<Child Name="textboxFirstName" Owner="{7C96C889-2589-4E94-A69A-956D4D1E1A64}" />
 					</Child>
+					<Child Name="panelAboutAbove" Owner="{666A982D-0300-4CC2-83A5-177C76566DA2}" />
 				</Child>
+				<Child Name="textnode" Owner="{44DD9BD9-C400-4704-9A05-8817250A9923}" />
 			</Child>
 			<Child Name="pageTheHomeDepot" Owner="{6689EBD4-25C2-49F7-9164-40F1DC1B8BC3}">
 				<Child Name="linkHeadermyaccount" Owner="{9B59682E-C93E-49EB-B24E-4F5EE5350300}">
@@ -4448,6 +4829,12 @@
 				<Child Name="Alert" Owner="{6B8E1A51-DEAD-4FBF-AC31-F7AE2857C257}">
 					<Child Name="buttonOk" Owner="{CFB4AA47-6864-43F6-BF47-245DE553BA0C}" />
 				</Child>
+			</Child>
+			<Child Name="pageScrollingContentInDesktopWin" Owner="{7F7B9820-34E3-4367-B6C2-F9BC7314FADE}">
+				<Child Name="panelSbtopicbody" Owner="{2FCDA07E-25E1-4088-A55E-674450FD5E8E}" />
+			</Child>
+			<Child Name="wndChrome_WidgetWin_12" Owner="{EDEFBB53-9E38-4A2D-B3E3-8DD4F5BD730E}">
+				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{F73AB7D0-345B-40F6-90C5-AB6294ED4156}" />
 			</Child>
 		</Child>
 		<Child Name="Orders" Owner="{D043A17C-E617-4363-B6CC-43346E4D2953}">
@@ -4612,6 +4999,25 @@
 					</Child>
 				</Child>
 			</Child>
+			<Child Name="wndWorkerW" Owner="{10F54C3E-237C-4995-96DC-46A797C7B7B5}">
+				<Child Name="SHELLDLL_DefView" Owner="{440C07F6-A229-4D08-B6A0-2132F6309592}">
+					<Child Name="FolderView" Owner="{A93EEB4F-1034-4CD2-A596-E51D5330ECE7}">
+						<Child Name="Edit" Owner="{15358CF1-930B-4B65-84F8-4F9C80BF60B0}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="dlgRename" Owner="{8754E119-E673-46BA-8543-5D4E94502A69}">
+				<Child Name="Rename" Owner="{077BEBB1-F9A0-4EFA-982B-4406096B15C3}">
+					<Child Name="CtrlNotifySink" Owner="{82D37D7F-C6B0-4772-AF9E-F84E53A3CAB0}">
+						<Child Name="btnYes" Owner="{803751A8-4A36-40FD-8FEE-C9E5943F8AAD}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="wndShell_SecondaryTrayWnd" Owner="{B8DE9FA1-A281-4274-9C66-E87B87D5DEAE}">
+				<Child Name="WorkerW" Owner="{8DE69BF8-CBFF-4417-A9C6-524E0FA1D2BC}">
+					<Child Name="MSTaskListWClass" Owner="{E115BBC5-0BAC-493D-B429-86CE2D648720}" />
+				</Child>
+			</Child>
 		</Child>
 		<Child Name="WINWORD" Owner="{9E7ABD7C-DEAE-42D7-9D29-F419B561AA8E}">
 			<Child Name="formADocxWord" Owner="{32696049-CE7A-4EF8-B1DF-3DF62CE988BB}">
@@ -4687,6 +5093,11 @@
 		<Child Name="notepad" Owner="{C24E3D65-1D4B-44FB-97A3-E7430D37B1A6}">
 			<Child Name="wndNotepad" Owner="{53C44C40-35DA-4170-B3E2-3DAE845AB252}">
 				<Child Name="Edit" Owner="{D96DEB4A-88F2-45E9-915C-8531C3E01F39}" />
+			</Child>
+			<Child Name="Item" Owner="{CD98E975-8315-432C-8AAA-AA0C69211586}" />
+			<Child Name="dlgFont" Owner="{9668F66F-3D04-4A7E-9F58-ADC17692BBF5}">
+				<Child Name="cbxSize" Owner="{E07E4D90-59C4-4128-A8F8-C09830E8E53C}" />
+				<Child Name="btnOK" Owner="{9773DDC0-3430-4E80-A0CF-958D9B6EBF6C}" />
 			</Child>
 		</Child>
 		<Child Name="POWERPNT" Owner="{35B9AC01-4DC0-4041-ADDF-A95868C923BA}">

@@ -5,8 +5,8 @@
 	<data />
 	<children>
 		<child key="{441D7F88-A259-4D9E-B268-056E7EBD1B76}">
-			<config nodeName="EventControl1" lastOpenedTLB="" generatedCLSID="{E0586E82-8A5C-4A1F-AA6F-E575FEF951D9}" generatedTLBKey="{FBFFE1AC-C392-438F-9BB9-25505A093AEB}" generatedEventsKey="{04BFFDEF-9D59-4561-9DA1-E7FB070CBA18}" generatedTLBDesc="TestComplete EventControl1 Control - 14.10.2022 22:09:51">
-				<eventInfo infoTLBVer="version.dll" infoGUID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" infoID="1610743819" infoControlName="General Events" infoEventName="OnOverlappingWindow" infoEventRealName="OnOverlappingWindow" infoDescription="Occurs when an overlapping window appears." />
+			<config nodeName="EventControl1" lastOpenedTLB="" generatedCLSID="{31947ED3-DC2D-4F42-9BE5-C64FC4986A8A}" generatedTLBKey="{2B67689B-44F2-4905-A7AE-AB2986D52CE5}" generatedEventsKey="{3E4016A5-E36D-40E5-AA7A-3258D20DC6EC}" generatedTLBDesc="TestComplete EventControl1 Control - 14.10.2022 22:09:51">
+				<eventInfo infoTLBVer="version.dll" infoGUID="{F5856842-4323-49FD-B806-36E22179EF8A}" infoID="1610743808" infoControlName="Test Engine Events" infoEventName="OnStartTest" infoEventRealName="OnStartTest" infoDescription="Occurs when TestComplete starts running a test (whether it is run from the UI or command line, or as a project test item)." />
 			</config>
 			<testData />
 			<data />
