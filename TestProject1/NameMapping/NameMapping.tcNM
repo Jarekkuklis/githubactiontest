@@ -3994,6 +3994,69 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="dlgNotepad" Key="{32A52C1C-55BA-4DB0-A205-B33176176460}">
+								<Image FileName="-1310293106" Left="0" Top="0" Right="366" Bottom="141" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Notepad" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Notepad" Key="{69179F69-25D9-4E9E-8EE6-D92045C3F8E8}">
+										<Image FileName="-1310293106" Left="8" Top="31" Right="358" Bottom="133" />
+										<Properties>
+											<Property Name="FrameworkId">
+												<Value Value="DirectUI" />
+											</Property>
+											<Property Name="ClassName">
+												<Value Value="TaskDialog" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value Value="pane" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="Notepad" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="CtrlNotifySink" Key="{05763206-BA9A-41B2-A0BC-B88AFA29FF20}">
+												<Image FileName="-1310293106" Left="178" Top="101" Right="270" Bottom="124" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="CtrlNotifySink" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="" />
+													</Property>
+													<Property Name="Index">
+														<Value Value="8" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="btnDontSave" Key="{094C9D63-98E2-4515-89C2-A770B15AD02F}">
+														<Image FileName="-1310293106" Left="178" Top="101" Right="270" Bottom="124" />
+														<TypeInfo Item0="{105738F5-C11E-4231-BC19-82B3DE8C1B2F}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Do&amp;n&apos;t Save" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="POWERPNT" Key="{35B9AC01-4DC0-4041-ADDF-A95868C923BA}">
@@ -5098,6 +5161,13 @@
 			<Child Name="dlgFont" Owner="{9668F66F-3D04-4A7E-9F58-ADC17692BBF5}">
 				<Child Name="cbxSize" Owner="{E07E4D90-59C4-4128-A8F8-C09830E8E53C}" />
 				<Child Name="btnOK" Owner="{9773DDC0-3430-4E80-A0CF-958D9B6EBF6C}" />
+			</Child>
+			<Child Name="dlgNotepad" Owner="{32A52C1C-55BA-4DB0-A205-B33176176460}">
+				<Child Name="Notepad" Owner="{69179F69-25D9-4E9E-8EE6-D92045C3F8E8}">
+					<Child Name="CtrlNotifySink" Owner="{05763206-BA9A-41B2-A0BC-B88AFA29FF20}">
+						<Child Name="btnDontSave" Owner="{094C9D63-98E2-4515-89C2-A770B15AD02F}" />
+					</Child>
+				</Child>
 			</Child>
 		</Child>
 		<Child Name="POWERPNT" Owner="{35B9AC01-4DC0-4041-ADDF-A95868C923BA}">
