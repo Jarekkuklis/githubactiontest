@@ -10854,4 +10854,25 @@
 			</FunctionDescriptions>
 		</Data>
 	</Child>
+	<Child Hash="-1421143730" Key="{2A7B90EA-F230-400B-A5DB-DEBB40B902A9}">
+		<Data Properties="4649B4DCF0C4644DBA8A686F5C710CB5UFFFFFFFFFFFFFFFFV4L5ZZY">
+			<FunctionDescriptions>
+				<Child Name="Visible" IsBasic="True" Data="ZI4L2L4ZOBZN">
+					<ReturnValue Param0="11" />
+				</Child>
+				<Child Name="Width" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+					<ReturnValue Param0="19" />
+				</Child>
+				<Child Name="Height" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+					<ReturnValue Param0="19" />
+				</Child>
+				<Child Name="Enabled" IsBasic="True" Data="ZI4L2L4ZOBZN">
+					<ReturnValue Param0="11" />
+				</Child>
+				<Child Name="ObjectIdentifier" IsBasic="True" Data="ZI4L2L4ZOCZN">
+					<ReturnValue Param0="12" />
+				</Child>
+			</FunctionDescriptions>
+		</Data>
+	</Child>
 </TypeInfo>

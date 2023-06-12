@@ -3614,6 +3614,18 @@
 											</Child>
 										</Children>
 									</Child>
+									<Child Name="TrayButton" Key="{8A841453-AFC2-48D4-8980-954A7E2F2BA7}">
+										<Image FileName="-1702294983" Left="48" Top="0" Right="96" Bottom="40" />
+										<TypeInfo Item0="{F214DEB1-6DD6-4031-BC3B-AB8B7FD82DD7}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="TrayButton" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Type here to search" />
+											</Property>
+										</Properties>
+									</Child>
 								</Children>
 							</Child>
 						</Children>
@@ -4205,6 +4217,42 @@
 															</Property>
 														</Properties>
 													</Child>
+													<Child Name="Number_pad" Key="{3049395A-20F0-4F24-B8FD-0B2F27524156}">
+														<Image FileName="-1366217516" Left="94" Top="487" Right="337" Bottom="675" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="XAML" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="NamedContainerAutomationPeer" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="group" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Number_pad" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="Five" Key="{A8C55F65-D2C6-42EE-A7FA-345D49764F16}">
+																<Image FileName="-1366217516" Left="176" Top="535" Right="256" Bottom="580" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value Value="XAML" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value Value="Button" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value Value="button" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="Five" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
 												</Children>
 											</Child>
 										</Children>
@@ -4305,6 +4353,72 @@
 												</Properties>
 											</Child>
 										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="CortanaUI" Key="{436BDDA7-5950-46D4-B6D9-A40761E77D15}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="CortanaUI" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndSearch" Key="{F402DA54-3049-447F-9C45-FD7AC8DE1E4A}">
+								<Image FileName="762016151" Left="0" Top="0" Right="784" Bottom="640" />
+								<TypeInfo Item0="{8B042FBF-1CB8-42B4-8EF7-857B1F473D78}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Windows.UI.Core.CoreWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Search" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Search_box" Key="{AE3800E9-5663-4AA7-8A36-0D9924AB4221}">
+										<Image FileName="-1330009263" Left="0" Top="600" Right="784" Bottom="640" />
+										<TypeInfo Item0="{BFCCD33C-B579-4DA7-BEA7-AA8E746E7BED}" />
+										<Properties>
+											<Property Name="FrameworkId">
+												<Value Value="XAML" />
+											</Property>
+											<Property Name="ClassName">
+												<Value Value="RichEditBox" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value Value="edit" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="Search_box" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageBing" Key="{C0829F3E-D93C-4FD6-AB8C-28C3F4863112}">
+								<Image FileName="-1376689556" Left="-784" Top="-600" Right="0" Bottom="0" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.bing.com/AS/API/WindowsCortanaPane/V2/Init" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelApp" Key="{FC580A15-3BE5-4E81-A017-B3D47E8AAA07}">
+										<Image FileName="-1376689556" Left="56" Top="166" Right="286" Bottom="186" />
+										<TypeInfo Item0="{2A7B90EA-F230-400B-A5DB-DEBB40B902A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;App&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;qfContainer&apos;]//li//div[contains(@class, &apos;secondaryText&apos;)]" />
+											</Selector>
+										</Selectors>
 									</Child>
 								</Children>
 							</Child>
@@ -5080,6 +5194,7 @@
 				<Child Name="WorkerW" Owner="{8DE69BF8-CBFF-4417-A9C6-524E0FA1D2BC}">
 					<Child Name="MSTaskListWClass" Owner="{E115BBC5-0BAC-493D-B429-86CE2D648720}" />
 				</Child>
+				<Child Name="TrayButton" Owner="{8A841453-AFC2-48D4-8980-954A7E2F2BA7}" />
 			</Child>
 		</Child>
 		<Child Name="WINWORD" Owner="{9E7ABD7C-DEAE-42D7-9D29-F419B561AA8E}">
@@ -5184,6 +5299,9 @@
 				<Child Name="NavView" Owner="{8C3BF6A9-596F-4965-929F-58D59287F5E6}">
 					<Child Name="LandmarkTarget" Owner="{145CCA80-5979-4D69-A52F-9FA960903409}">
 						<Child Name="Display_is_0" Owner="{7A54ED31-1CB2-4542-9CA4-D3C58797F9C3}" />
+						<Child Name="Number_pad" Owner="{3049395A-20F0-4F24-B8FD-0B2F27524156}">
+							<Child Name="Five" Owner="{A8C55F65-D2C6-42EE-A7FA-345D49764F16}" />
+						</Child>
 					</Child>
 				</Child>
 			</Child>
@@ -5200,6 +5318,14 @@
 				<Child Name="cxDBTextEdit2" Owner="{9F44F4BE-83DA-4923-94A7-977C823FDCE7}">
 					<Child Name="TcxCustomInnerTextEdit" Owner="{A8321902-FE1E-46D8-AA0A-8EF663B2145A}" />
 				</Child>
+			</Child>
+		</Child>
+		<Child Name="CortanaUI" Owner="{436BDDA7-5950-46D4-B6D9-A40761E77D15}">
+			<Child Name="wndSearch" Owner="{F402DA54-3049-447F-9C45-FD7AC8DE1E4A}">
+				<Child Name="Search_box" Owner="{AE3800E9-5663-4AA7-8A36-0D9924AB4221}" />
+			</Child>
+			<Child Name="pageBing" Owner="{C0829F3E-D93C-4FD6-AB8C-28C3F4863112}">
+				<Child Name="panelApp" Owner="{FC580A15-3BE5-4E81-A017-B3D47E8AAA07}" />
 			</Child>
 		</Child>
 	</LogicalNodes>
