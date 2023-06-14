@@ -65,7 +65,5 @@
 			</Operation>
 		</Children>
 	</TestData>
-	<Parameters Key="{1D8CEDFB-B5A4-4418-8E4E-46C32DFB5490}">
-		<Parameter0 Name="Param1" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="@calculator" Description="" />
-	</Parameters>
+	<Parameters Key="{1D8CEDFB-B5A4-4418-8E4E-46C32DFB5490}" />
 </Root>
