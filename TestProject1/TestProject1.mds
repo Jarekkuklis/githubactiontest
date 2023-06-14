@@ -13,8 +13,15 @@
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{51CD66E3-9217-4BDF-A11B-6E3C1EC94830}" version="14">
 		<children>
-			<testItem name="Test7" key="{EEB81250-DA15-43F0-A5D7-556820691B19}" group="False" parallel="False" enabled="False" testMoniker="*|@notepad" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Test7" key="{EEB81250-DA15-43F0-A5D7-556820691B19}" group="False" parallel="False" enabled="True" testMoniker="*|@notepad" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="Test8" key="{3CD8FBA1-BB9C-451D-818A-BBDDDA111DC6}" group="False" parallel="False" enabled="True" testMoniker="*|*" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters>
+					<param0 name="Expression" type="1" localVarName="" value="@calculator" />
+				</testParameters>
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
