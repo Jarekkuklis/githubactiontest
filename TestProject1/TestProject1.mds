@@ -18,13 +18,6 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="Test8" key="{02A6AAC7-AF70-4E0B-8D36-9B21FEB7175A}" group="False" parallel="False" enabled="True" testMoniker="*|*" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters>
-					<param0 name="Expression" type="1" localVarName="" value="@calculator" />
-				</testParameters>
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
 		</children>
 	</testItems>
 	<variables key="{894DA1B3-37AA-4631-A9E8-7C4FCB5425A7}">
