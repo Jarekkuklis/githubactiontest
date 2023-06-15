@@ -2244,6 +2244,146 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageTUmaczDeeplNajlepszyTranslat" Key="{9509C5FB-C96F-4ECF-80AF-084196ABA660}">
+								<Image FileName="-1357237918" Left="8" Top="112" Right="1726" Bottom="1399" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.deepl.com/pl/translator*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionTekstRDOwy" Key="{BB7CABA0-16F2-4406-BA3B-0C2197D65622}">
+										<Image FileName="-1357237918" Left="160" Top="283" Right="859" Bottom="896" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(.,&apos;Tekst źródłowy&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Tekst źródłowy&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTranslationSourceHeading" Key="{7FD8DB01-9433-4D02-88BD-226A4BDFE51E}">
+										<Image FileName="-1357237918" Left="159" Top="282" Right="160" Bottom="283" />
+										<Selectors>
+											<Selector>
+												<Value Value="#translation-source-heading" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3[.=&apos;Tekst źródłowy&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section/h3[contains(@class, &apos;sr-only&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;panelTranslateText&apos;]//section/h3" />
+											</Selector>
+											<Selector>
+												<Value Value="//section/h3" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelTekstRDOwy" Key="{F9F2001C-F639-4D40-B2F9-C40FD6506F60}">
+										<Image FileName="-1357237918" Left="185" Top="364" Right="794" Bottom="815" />
+										<TypeInfo Item0="{5DD2C90C-E105-4A93-B872-89A62D26E64F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@aria-labelledby=(//h3[.=&apos;Tekst źródłowy&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//d-textarea/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pagePostJobDiversityjobs" Key="{0D8610E1-7637-47D4-AD4A-65331408B548}">
+								<Image FileName="66005980" Left="8" Top="125" Right="1726" Bottom="1399" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://qa.diversityjobs.com/employer/private/job_posting/career/edit" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formVacancy" Key="{40045DCF-9DFA-452B-894F-A192D982BB86}">
+										<Image FileName="66005980" Left="259" Top="398" Right="1039" Bottom="2978" />
+										<Selectors>
+											<Selector>
+												<Value Value="#vacancy" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@name=&apos;vacancy&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Job Posting&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;edit&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxJobTitle" Key="{3FA01289-B50E-4EB0-A11B-BFB27465FA98}">
+										<Image FileName="66005980" Left="459" Top="588" Right="769" Bottom="630" />
+										<TypeInfo Item0="{F35F1577-44C0-4653-8E0A-21A20CA6522B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Job Title:*&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#field69" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//form/div[@id=&apos;p69&apos;]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//form/div[@id=&apos;p69&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxJobId" Key="{F25C4B02-4ADF-4404-939E-5198784450D6}">
+										<Image FileName="1569054404" Left="459" Top="666" Right="769" Bottom="708" />
+										<TypeInfo Item0="{F35F1577-44C0-4653-8E0A-21A20CA6522B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Job ID:&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#field82" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//form/div[@id=&apos;p82&apos;]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//form/div[@id=&apos;p82&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectJobType" Key="{2D3B1214-EFCF-4C57-ADB1-1A91BD6C90FA}">
+										<Image FileName="1492605871" Left="459" Top="744" Right="769" Bottom="787" />
+										<TypeInfo Item0="{0FD04820-397E-41AE-A374-B14B8FA29338}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//select[@id=(//label[contains(.,&apos;Job Type:*&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#vacancyfield28" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;p28&apos;]/select" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="Orders" Key="{D043A17C-E617-4363-B6CC-43346E4D2953}">
@@ -5012,6 +5152,20 @@
 			</Child>
 			<Child Name="wndChrome_WidgetWin_12" Owner="{EDEFBB53-9E38-4A2D-B3E3-8DD4F5BD730E}">
 				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{F73AB7D0-345B-40F6-90C5-AB6294ED4156}" />
+			</Child>
+			<Child Name="pageTUmaczDeeplNajlepszyTranslat" Owner="{9509C5FB-C96F-4ECF-80AF-084196ABA660}">
+				<Child Name="sectionTekstRDOwy" Owner="{BB7CABA0-16F2-4406-BA3B-0C2197D65622}">
+					<Child Name="textnodeTranslationSourceHeading" Owner="{7FD8DB01-9433-4D02-88BD-226A4BDFE51E}">
+						<Child Name="panelTekstRDOwy" Owner="{F9F2001C-F639-4D40-B2F9-C40FD6506F60}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pagePostJobDiversityjobs" Owner="{0D8610E1-7637-47D4-AD4A-65331408B548}">
+				<Child Name="formVacancy" Owner="{40045DCF-9DFA-452B-894F-A192D982BB86}">
+					<Child Name="textboxJobTitle" Owner="{3FA01289-B50E-4EB0-A11B-BFB27465FA98}" />
+					<Child Name="textboxJobId" Owner="{F25C4B02-4ADF-4404-939E-5198784450D6}" />
+					<Child Name="selectJobType" Owner="{2D3B1214-EFCF-4C57-ADB1-1A91BD6C90FA}" />
+				</Child>
 			</Child>
 		</Child>
 		<Child Name="Orders" Owner="{D043A17C-E617-4363-B6CC-43346E4D2953}">

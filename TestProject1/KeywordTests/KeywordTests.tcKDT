@@ -11,5 +11,6 @@
 		<child name="Test12" key="{D0802365-88D9-4B33-A40C-68133E37D342}" path="Test12.tcKDTest" />
 		<child name="Test13" key="{0A66178B-97ED-4D13-8BB1-35E378C189B0}" path="Test13.tcKDTest" />
 		<child name="Test14" key="{E9C9BE73-009D-40DE-B9F8-8BF72FAF6F0F}" path="Test14.tcKDTest" />
+		<child name="Test15" key="{5A845804-9B10-4800-BC4C-DECFC8D66AB4}" path="Test15.tcKDTest" />
 	</children>
 </Root>

@@ -5,5 +5,6 @@
 		<child name="Unit2" key="{A759944D-31EB-4DF5-8106-9F5D47FC386C}" path="Unit2.py" />
 		<child name="Unit3" key="{0FD52A5E-52CA-4959-9DA1-1794957956DD}" path="Unit3.py" />
 		<child name="Unit4" key="{60976810-4C75-47C4-A4C8-4399A58AA957}" path="Unit4.py" />
+		<child name="Unit5" key="{962F92D4-21C1-4F42-AAC8-93F35617F0DF}" path="Unit5.py" />
 	</children>
 </Root>

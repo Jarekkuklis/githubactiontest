@@ -13,17 +13,13 @@
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{51CD66E3-9217-4BDF-A11B-6E3C1EC94830}" version="14">
 		<children>
-			<testItem name="Test7" key="{EEB81250-DA15-43F0-A5D7-556820691B19}" group="False" parallel="False" enabled="True" testMoniker="*|*" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters>
-					<param0 name="Expression" type="1" localVarName="" value="@calculator and @notepad" />
-				</testParameters>
+			<testItem name="test" key="{0E8D8259-91F4-45EA-9550-AA64334BBA58}" group="False" parallel="False" enabled="True" testMoniker="*|@tag" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="Test8" key="{3CD8FBA1-BB9C-451D-818A-BBDDDA111DC6}" group="False" parallel="False" enabled="True" testMoniker="*|*" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters>
-					<param0 name="Expression" type="1" localVarName="" value="@calculator and @notepad" />
-				</testParameters>
+			<testItem name="secTest" key="{707024E5-A2CC-47E3-A5B0-88E8A1281608}" group="False" parallel="False" enabled="True" testMoniker="*|@tag" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>

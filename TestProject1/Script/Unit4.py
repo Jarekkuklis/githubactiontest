@@ -1,3 +1,8 @@
-﻿def foo():
-  Aliases.browser.pageAboveMemberRegistrationAbove2.sectionAboutAbove.formMandatory.selectTitle.ClickItem(1)
+﻿#@tag
+def test():
+  Log.Message("abc")
+
+#@tag
+def secTest():
+  Log.Message("Xyz")
   
