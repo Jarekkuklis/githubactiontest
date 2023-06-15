@@ -1,8 +1,8 @@
 ﻿#@tag
 def test():
-  Log.Message("abc")
+  TestedApps.notepad.Run()
 
 #@tag
 def secTest():
-  Log.Message("Xyz")
+  TestedApps.Orders.Run()
   
