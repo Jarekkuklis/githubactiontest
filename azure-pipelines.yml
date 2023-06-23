@@ -1,3 +1,14 @@
+
+
+
+
+trigger:
+- master
+
+pool:
+  name: testcomplete
+
+steps:
 # Starter pipeline
 - task: VisualStudioTestPlatformInstaller@1
   inputs:
@@ -9,21 +20,12 @@
     accessKey: 'b8254f83-b556-4dc6-90a0-a2419911ab6a'
     searchMode: 'ProjectItems'
     logsLevel: '0'
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
 
-trigger:
-- main
+- task: VSTest@2
+  inputs:
+    testSelector: 'testAssemblies'
+    testAssemblyVer2: '**/*.pjs'
+    searchFolder: '$(System.DefaultWorkingDirectory)'
+    testFiltercriteria: '@calculator=true'
 
-pool:
-  vmImage: ubuntu-latest
 
-steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
-
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
