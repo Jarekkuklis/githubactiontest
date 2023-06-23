@@ -1,4 +1,8 @@
 # Starter pipeline
+- task: VisualStudioTestPlatformInstaller@1
+  inputs:
+    packageFeedSelector: 'nugetOrg'
+    versionSelector: 'latestPreRelease'
 - task: InstallTestCompleteAdapter@1
   inputs:
     preferredExecutor: 'TC'
