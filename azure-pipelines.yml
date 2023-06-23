@@ -10,10 +10,20 @@ pool:
   name: Default
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
 
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+- task: VisualStudioTestPlatformInstaller@1
+  inputs:
+    packageFeedSelector: 'nugetOrg'
+    versionSelector: 'latestPreRelease'
+- task: InstallTestCompleteAdapter@1
+  inputs:
+    preferredExecutor: 'TC'
+    accessKey: 'b8254f83-b556-4dc6-90a0-a2419911ab6a'
+    searchMode: 'ProjectItems'
+    logsLevel: '0'
+- task: VSTest@2
+  inputs:
+    testSelector: 'testAssemblies'
+    testAssemblyVer2: '**/*.pjs'
+    searchFolder: '$(System.DefaultWorkingDirectory)'
+    testFiltercriteria: '@calculator=true'
