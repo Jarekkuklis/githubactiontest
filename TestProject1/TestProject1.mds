@@ -29,7 +29,7 @@
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="ProjectTestItem1" key="{3706CEE8-C553-4F8C-830B-93A6ACDAB0E7}" group="False" parallel="False" enabled="True" testMoniker="*|@Reports" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="ProjectTestItem1" key="{3706CEE8-C553-4F8C-830B-93A6ACDAB0E7}" group="False" parallel="False" enabled="True" testMoniker="*|@tag1" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
