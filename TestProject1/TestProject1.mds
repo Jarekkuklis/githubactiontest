@@ -14,7 +14,7 @@
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{51CD66E3-9217-4BDF-A11B-6E3C1EC94830}" version="14">
 		<children>
-			<testItem name="Test8" key="{8CC1FF68-8908-4601-9A34-7D276517247B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{7C7B9956-02D2-470D-A400-04B8CC08A8C4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Test8" key="{8CC1FF68-8908-4601-9A34-7D276517247B}" group="False" parallel="False" enabled="False" testMoniker="KDT\{7C7B9956-02D2-470D-A400-04B8CC08A8C4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -28,6 +28,11 @@
 						<children />
 					</testItem>
 				</children>
+			</testItem>
+			<testItem name="ProjectTestItem1" key="{3706CEE8-C553-4F8C-830B-93A6ACDAB0E7}" group="False" parallel="False" enabled="True" testMoniker="*|@Reports" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
 			</testItem>
 		</children>
 	</testItems>
