@@ -19,7 +19,6 @@ steps:
   inputs:
     preferredExecutor: 'TC'
     accessKey: 'b8254f83-b556-4dc6-90a0-a2419911ab6a'
-    searchMode: 'ProjectItems'
     logsLevel: '0'
 - task: VSTest@2
   inputs:
