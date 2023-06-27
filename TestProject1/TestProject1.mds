@@ -9,13 +9,14 @@
 		<child name="NameMapping" key="{C8773301-BE22-4D77-8727-C1D0B6EE801C}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
 		<child name="Stores" key="{0F080A2C-DD4B-4F99-9304-56155163E062}" type="Stores" typeId="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" pluginName="Stores" path="Stores\Stores.tcStores" />
 		<child name="AndroidGestureCollection" key="{AA82B217-D1F2-4848-85A7-CE8B25768E5E}" type="Android Gesture Collection" typeId="{1C993555-DDEB-4830-848C-5C3CF963DBD1}" pluginName="Android Support" path="AndroidGestureCollection\AndroidGestureCollection.agc" />
+		<child name="Scenarios" key="{6DFA5E50-984F-4C74-926A-6F803CBDA480}" type="Scenarios" typeId="{146B1623-3D4E-46FF-A0E5-CC234C212913}" pluginName="Gherkin / BDD" path="Scenarios\Scenarios.tcTestCases" />
 	</children>
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{51CD66E3-9217-4BDF-A11B-6E3C1EC94830}" version="14">
 		<children>
 			<testItem name="Test8" key="{8CC1FF68-8908-4601-9A34-7D276517247B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{7C7B9956-02D2-470D-A400-04B8CC08A8C4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 			<testItem name="Group1" key="{D93A1ADB-6856-4B3C-9FB1-FAEEDF8817BB}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
