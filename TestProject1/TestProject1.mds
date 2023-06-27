@@ -13,14 +13,14 @@
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{51CD66E3-9217-4BDF-A11B-6E3C1EC94830}" version="14">
 		<children>
-			<testItem name="test" key="{0E8D8259-91F4-45EA-9550-AA64334BBA58}" group="False" parallel="False" enabled="True" testMoniker="*|@tag" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Test7" key="{7F723BED-F998-4925-8DAB-5882A55E4339}" group="False" parallel="False" enabled="True" testMoniker="KDT\{99DD4391-C79F-4FDC-BD45-5F5DFBE852DB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="secTest" key="{707024E5-A2CC-47E3-A5B0-88E8A1281608}" group="False" parallel="False" enabled="True" testMoniker="*|@tag" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Test8" key="{8CC1FF68-8908-4601-9A34-7D276517247B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{7C7B9956-02D2-470D-A400-04B8CC08A8C4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<environments activeCloud="SWT" />
+				<environments activeCloud="CBT" />
 				<children />
 			</testItem>
 		</children>
@@ -56,12 +56,12 @@
 			<data />
 		</setting>
 		<setting name="ApplicationHangingTimeout" type="2" value="30000" />
-		<setting name="AzureDevOps_CollectionID" type="5" value="{E784E582-D3FF-4F6B-845C-D27A85651C89}" />
-		<setting name="AzureDevOps_ProjectID" type="5" value="vstfs:///Classification/TeamProject/93ec8ccc-8194-4c96-915e-4d44c7e5687d" />
-		<setting name="AzureDevOps_ServerName" type="5" value="https://dev.azure.com/jaroslawkuklis" />
-		<setting name="AzureDevOps_TeamProject" type="5" value="PipelineTrening" />
+		<setting name="AzureDevOps_CollectionID" type="5" value="" />
+		<setting name="AzureDevOps_ProjectID" type="5" value="" />
+		<setting name="AzureDevOps_ServerName" type="5" value="" />
+		<setting name="AzureDevOps_TeamProject" type="5" value="" />
 		<setting name="AzureDevOps_TeamProjectCollection" type="5" value="" />
-		<setting name="AzureDevOps_URL" type="5" value="https://dev.azure.com/jaroslawkuklis" />
+		<setting name="AzureDevOps_URL" type="5" value="" />
 		<setting name="BitBar_APIKey" type="5" value="3A02DEEB41C532B924A6C28CE2C0856BBF82FB6748CD7DDC5D6BAD2B44F9EE4162AA825D01A6D77AABCDD5C850532B09E6C761D7EAB72823453167E55D030CBC4235D6" />
 		<setting name="BitBar_APIURL" type="5" value="https://cloud.bitbar.com/api/" />
 		<setting name="BitBar_FindAndroidDevice" type="5" value="( Device Group As in Selected Device )" />
