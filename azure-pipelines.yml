@@ -25,4 +25,3 @@ steps:
     testSelector: 'testAssemblies'
     testAssemblyVer2: '**/*.pjs'
     searchFolder: '$(System.DefaultWorkingDirectory)'
-    testFiltercriteria: '@calculator=true'
