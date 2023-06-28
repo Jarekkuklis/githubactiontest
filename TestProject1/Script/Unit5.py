@@ -12,7 +12,7 @@ def Test8():
     Aliases.Microsoft_WindowsCalculator.Calculator.NavView.LandmarkTarget.Number_pad.Five.Click()
     #Closes the 'wndCalculator' window.
     Aliases.ApplicationFrameHost.wndCalculator.Close()"""
-
+#@tag1
 @given("The tested app is running")
 def step_impl():
     #Clicks the 'TrayButton' object.
