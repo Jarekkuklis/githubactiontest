@@ -14,22 +14,7 @@
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{51CD66E3-9217-4BDF-A11B-6E3C1EC94830}" version="14">
 		<children>
-			<testItem name="Test8" key="{8CC1FF68-8908-4601-9A34-7D276517247B}" group="False" parallel="False" enabled="False" testMoniker="KDT\{7C7B9956-02D2-470D-A400-04B8CC08A8C4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="Group1" key="{D93A1ADB-6856-4B3C-9FB1-FAEEDF8817BB}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<children>
-					<testItem name="Test7" key="{7F723BED-F998-4925-8DAB-5882A55E4339}" group="False" parallel="False" enabled="False" testMoniker="KDT\{99DD4391-C79F-4FDC-BD45-5F5DFBE852DB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-				</children>
-			</testItem>
-			<testItem name="ProjectTestItem1" key="{3706CEE8-C553-4F8C-830B-93A6ACDAB0E7}" group="False" parallel="False" enabled="True" testMoniker="*|@tag1" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="ProjectTestItem1" key="{D76EE4F8-6AD4-420E-9600-28A5D5A7BAD0}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F4665231-D30F-425D-9FB2-6B624D789750}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -46,7 +31,7 @@
 		</data>
 	</variables>
 	<settings key="{AC7608EC-867E-4AD2-9911-E039D2023A3B}">
-		<settingsVersion value="15.52" />
+		<settingsVersion value="15.53" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -67,12 +52,12 @@
 			<data />
 		</setting>
 		<setting name="ApplicationHangingTimeout" type="2" value="30000" />
-		<setting name="AzureDevOps_CollectionID" type="5" value="" />
-		<setting name="AzureDevOps_ProjectID" type="5" value="" />
-		<setting name="AzureDevOps_ServerName" type="5" value="" />
-		<setting name="AzureDevOps_TeamProject" type="5" value="" />
+		<setting name="AzureDevOps_CollectionID" type="5" value="{E784E582-D3FF-4F6B-845C-D27A85651C89}" />
+		<setting name="AzureDevOps_ProjectID" type="5" value="vstfs:///Classification/TeamProject/93ec8ccc-8194-4c96-915e-4d44c7e5687d" />
+		<setting name="AzureDevOps_ServerName" type="5" value="https://dev.azure.com/jaroslawkuklis" />
+		<setting name="AzureDevOps_TeamProject" type="5" value="PipelineTrening" />
 		<setting name="AzureDevOps_TeamProjectCollection" type="5" value="" />
-		<setting name="AzureDevOps_URL" type="5" value="" />
+		<setting name="AzureDevOps_URL" type="5" value="https://dev.azure.com/jaroslawkuklis" />
 		<setting name="BitBar_APIKey" type="5" value="3A02DEEB41C532B924A6C28CE2C0856BBF82FB6748CD7DDC5D6BAD2B44F9EE4162AA825D01A6D77AABCDD5C850532B09E6C761D7EAB72823453167E55D030CBC4235D6" />
 		<setting name="BitBar_APIURL" type="5" value="https://cloud.bitbar.com/api/" />
 		<setting name="BitBar_FindAndroidDevice" type="5" value="( Device Group As in Selected Device )" />
@@ -333,7 +318,7 @@
 				<column type="5" enabled="True" />
 			</columns>
 			<data>
-				<row val0="False" val1="*" />
+				<row val0="True" val1="*" />
 				<row val0="True" val1="MsoCommandBar*" />
 				<row val0="True" val1="_Ww*" />
 				<row val0="True" val1="OpusApp" />

@@ -83,9 +83,18 @@
 			<data />
 		</child>
 		<child key="{3D8DF1FC-2ED2-49F6-8143-62E8C88F0995}">
-			<config nodeName="GNWTest" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+			<config nodeName="GNWTest" autorunOnRecording="False" enabled="False" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="BitBar">
 					<param name="BitBar" parameters="" workFolder="" application="C:\Users\jaroslaw.kuklis\Downloads\GNWTest.apk" upload="True" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{FF4EE309-100A-4BA8-9112-D1E297F34B80}">
+			<config nodeName="app_debug" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="BitBar">
+					<param name="BitBar" parameters="" workFolder="" application="C:\Users\jaroslaw.kuklis\Downloads\app-debug.apk" upload="True" />
 				</runModeParams>
 			</config>
 			<testData />

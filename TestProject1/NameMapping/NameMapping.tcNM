@@ -4668,6 +4668,96 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="wndPPTFrameClass" Key="{B599D6A7-9CE7-4432-925D-54E3988F59BC}">
+								<Image FileName="-2038426770" Left="0" Top="0" Right="1014" Bottom="725" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="PPTFrameClass" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelMsodocktop" Key="{8BE4CA48-33E8-4888-8ECC-C7513B99F941}">
+										<Image FileName="-2038426770" Left="1" Top="1" Right="1013" Bottom="162" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="Caption">
+												<Value Value="MsoDockTop" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="toolbar" Key="{658F105A-8FE5-4268-8F14-DE450992F8A4}">
+												<Image FileName="-2038426770" Left="1" Top="1" Right="1013" Bottom="162" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MsoCommandBar" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Ribbon" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Ribbon" Key="{51639EA2-BE8B-40C1-AEF2-6E5830DEE734}">
+														<Image FileName="-2038426770" Left="1" Top="1" Right="1013" Bottom="162" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="MsoWorkPane" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Ribbon" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="NUIPane" Key="{DE2DAC1F-B321-4CFE-8328-7906CC2987EA}">
+																<Image FileName="-2038426770" Left="1" Top="1" Right="1013" Bottom="162" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="NUIPane" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="NetUIHWND" Key="{FF97A182-A626-4C31-B968-CED3AAD8A3B0}">
+																		<Image FileName="-2038426770" Left="1" Top="1" Right="1013" Bottom="162" />
+																		<TypeInfo Item0="{F214DEB1-6DD6-4031-BC3B-AB8B7FD82DD7}" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value Value="NetUIHWND" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="MDIClient" Key="{6DE622E1-647C-467D-B351-48FA98A97E86}">
+										<Image FileName="-2038426770" Left="1" Top="162" Right="725" Bottom="702" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="MDIClient" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="wndmdiClass" Key="{E2C9199D-F39C-46DE-8C17-5231D0A45CF0}">
+												<Image FileName="-2038426770" Left="-7" Top="131" Right="733" Bottom="710" />
+												<TypeInfo Item0="{F684DCE7-3F8F-4C3A-8CC5-F1EF2EE83AD9}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="mdiClass" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="Microsoft_WindowsCalculator" Key="{6C08DD68-B17B-4B58-B3C8-496DC57C3724}">
@@ -5395,6 +5485,26 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="processFedinsMyshield" Key="{3531BC8B-B937-4D9B-9DAD-2606FDE006BB}">
+								<Properties>
+									<Property Name="ProcessName">
+										<Value Value="com.fedins.myshield" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="webView" Key="{FF152C2E-2A6E-41E9-8C8C-E0E5207E7BD3}">
+										<Image FileName="1557664965" Left="0" Top="81" Right="1080" Bottom="2115" />
+										<Selectors>
+											<Selector>
+												<Value Value="//android.webkit.WebView[@focusable=&quot;true&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.webkit.WebView/android.webkit.WebView" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 				</Children>
@@ -5955,6 +6065,9 @@
 				</Child>
 				<Child Name="webView" Owner="{6F975CAF-7CA0-4D29-A7C5-EE32E4D2FE2E}" />
 			</Child>
+			<Child Name="processFedinsMyshield" Owner="{3531BC8B-B937-4D9B-9DAD-2606FDE006BB}">
+				<Child Name="webView" Owner="{FF152C2E-2A6E-41E9-8C8C-E0E5207E7BD3}" />
+			</Child>
 		</Child>
 		<Child Name="notepad" Owner="{C24E3D65-1D4B-44FB-97A3-E7430D37B1A6}">
 			<Child Name="wndNotepad" Owner="{53C44C40-35DA-4170-B3E2-3DAE845AB252}">
@@ -5979,6 +6092,20 @@
 					<Child Name="diwindow" Owner="{F33817D5-B375-4C64-8A0A-9F191DD44426}">
 						<Child Name="client" Owner="{05B2A380-AEE3-4AE1-ABF1-510BA88551F3}" />
 					</Child>
+				</Child>
+			</Child>
+			<Child Name="wndPPTFrameClass" Owner="{B599D6A7-9CE7-4432-925D-54E3988F59BC}">
+				<Child Name="panelMsodocktop" Owner="{8BE4CA48-33E8-4888-8ECC-C7513B99F941}">
+					<Child Name="toolbar" Owner="{658F105A-8FE5-4268-8F14-DE450992F8A4}">
+						<Child Name="Ribbon" Owner="{51639EA2-BE8B-40C1-AEF2-6E5830DEE734}">
+							<Child Name="NUIPane" Owner="{DE2DAC1F-B321-4CFE-8328-7906CC2987EA}">
+								<Child Name="NetUIHWND" Owner="{FF97A182-A626-4C31-B968-CED3AAD8A3B0}" />
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="MDIClient" Owner="{6DE622E1-647C-467D-B351-48FA98A97E86}">
+					<Child Name="wndmdiClass" Owner="{E2C9199D-F39C-46DE-8C17-5231D0A45CF0}" />
 				</Child>
 			</Child>
 		</Child>
