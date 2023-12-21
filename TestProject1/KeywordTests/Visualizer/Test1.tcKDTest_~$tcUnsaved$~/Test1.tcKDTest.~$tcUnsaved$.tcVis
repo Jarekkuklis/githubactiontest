@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{F4665231-D30F-425D-9FB2-6B624D789750}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45110.350625" objectName="Aliases.POWERPNT.wndPPTFrameClass.panelMsodocktop.toolbar.Ribbon.NUIPane.NetUIHWND" objectLeft="1" objectTop="1" objectRight="1013" objectBottom="162" clickPointX="945" clickPointY="107" imageFileName="tcvi1126040031228800.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45110.3506365741" objectName="Aliases.POWERPNT.wndPPTFrameClass.MDIClient.wndmdiClass" objectLeft="-7" objectTop="131" objectRight="733" objectBottom="710" clickPointX="-2841" clickPointY="-120" imageFileName="tcvi1126040562228803.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

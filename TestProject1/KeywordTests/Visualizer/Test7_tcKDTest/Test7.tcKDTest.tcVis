@@ -1,9 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{99DD4391-C79F-4FDC-BD45-5F5DFBE852DB}">
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45089.4528356481" objectName="Aliases.notepad.wndNotepad.Edit" objectLeft="8" objectTop="51" objectRight="1703" objectBottom="635" clickPointX="673" clickPointY="231" imageFileName="tcvi1037234765219840.png" storageFileName="" needUpdate="False" rectColor="255" />
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45089.4528472222" objectName="Aliases.notepad.wndNotepad.Edit" objectLeft="8" objectTop="51" objectRight="1703" objectBottom="635" clickPointX="-118" clickPointY="-168" imageFileName="tcvi1037235765219841.png" storageFileName="" needUpdate="False" rectColor="255" />
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45089.4528587963" objectName="Aliases.notepad.wndNotepad" objectLeft="0" objectTop="0" objectRight="1711" objectBottom="666" clickPointX="-1" clickPointY="-1" imageFileName="tcvi1037236968219842.png" storageFileName="" needUpdate="False" rectColor="255" />
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45089.4528703704" objectName="Aliases.notepad.dlgNotepad.Notepad.CtrlNotifySink.btnDontSave" objectLeft="178" objectTop="101" objectRight="270" objectBottom="124" clickPointX="214" clickPointY="106" imageFileName="tcvi1037238156219843.png" storageFileName="" needUpdate="False" rectColor="255" />
-	</data>
+	<data key="{99DD4391-C79F-4FDC-BD45-5F5DFBE852DB}" />
 </Root>

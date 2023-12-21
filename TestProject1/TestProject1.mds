@@ -10,14 +10,36 @@
 		<child name="Stores" key="{0F080A2C-DD4B-4F99-9304-56155163E062}" type="Stores" typeId="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" pluginName="Stores" path="Stores\Stores.tcStores" />
 		<child name="AndroidGestureCollection" key="{AA82B217-D1F2-4848-85A7-CE8B25768E5E}" type="Android Gesture Collection" typeId="{1C993555-DDEB-4830-848C-5C3CF963DBD1}" pluginName="Android Support" path="AndroidGestureCollection\AndroidGestureCollection.agc" />
 		<child name="Scenarios" key="{6DFA5E50-984F-4C74-926A-6F803CBDA480}" type="Scenarios" typeId="{146B1623-3D4E-46FF-A0E5-CC234C212913}" pluginName="Gherkin / BDD" path="Scenarios\Scenarios.tcTestCases" />
+		<child name="ReadyAPI1" key="{49838EC5-3518-4EBB-A69A-5B7BB50CF6E4}" type="ReadyAPI or SoapUI" typeId="{D5F2AF2E-BADF-483C-AB3E-DE7F0B6FBB55}" pluginName="ReadyAPI Runner" path="ReadyAPI1\ReadyAPI1.tcReadyAPI" />
 	</children>
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{51CD66E3-9217-4BDF-A11B-6E3C1EC94830}" version="14">
 		<children>
-			<testItem name="ProjectTestItem1" key="{D76EE4F8-6AD4-420E-9600-28A5D5A7BAD0}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F4665231-D30F-425D-9FB2-6B624D789750}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Test1" key="{780B1593-A4B7-4BF1-ADA4-0E066F34BB26}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F4665231-D30F-425D-9FB2-6B624D789750}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
+			</testItem>
+			<testItem name="Test8" key="{26D2F7B8-A2F0-444A-A668-D2F0DB095FE6}" group="False" parallel="False" enabled="True" testMoniker="KDT\{7C7B9956-02D2-470D-A400-04B8CC08A8C4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
+			<testItem name="Group1" key="{D3FC9998-E102-4967-82F7-6BC969FB398A}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Test3" key="{DE91C496-F8B7-4B07-B263-5F5D655E4AD7}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6AD7069B-3002-4A60-8228-2A033C5196FA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children>
+							<testItem name="Test1_2" key="{0FEEB643-9DC8-4C7B-83B0-575B593DDD04}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F4665231-D30F-425D-9FB2-6B624D789750}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+				</children>
 			</testItem>
 		</children>
 	</testItems>
@@ -27,11 +49,23 @@
 				<Variable Name="Password1" Type="Password" Local="False">
 					<DefValue StrValue="3800390036003100360033004400330046003400440038004300420046003100380043003900420041003700460036003800300042003100430037003100390042003200440039004400300031003000" />
 				</Variable>
+				<Variable Name="Password2" Type="Password" Local="False">
+					<DefValue StrValue="3800390036003100310033004400330046003400440038004600330046003700450043003900390032003700390034003500410046003900360033003700420037003600310044003100410037004600410043003000300041004300300043004400450044004600450035003400300045003400430046003700340041003200330033003300350044004600380046003000300039003000" />
+				</Variable>
+				<Variable Name="Var1" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="Var2" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="Var3" Type="String" Local="True">
+					<DefValue />
+				</Variable>
 			</Items>
 		</data>
 	</variables>
 	<settings key="{AC7608EC-867E-4AD2-9911-E039D2023A3B}">
-		<settingsVersion value="15.53" />
+		<settingsVersion value="15.59" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -58,7 +92,7 @@
 		<setting name="AzureDevOps_TeamProject" type="5" value="PipelineTrening" />
 		<setting name="AzureDevOps_TeamProjectCollection" type="5" value="" />
 		<setting name="AzureDevOps_URL" type="5" value="https://dev.azure.com/jaroslawkuklis" />
-		<setting name="BitBar_APIKey" type="5" value="3A02DEEB41C532B924A6C28CE2C0856BBF82FB6748CD7DDC5D6BAD2B44F9EE4162AA825D01A6D77AABCDD5C850532B09E6C761D7EAB72823453167E55D030CBC4235D6" />
+		<setting name="BitBar_APIKey" type="5" value="3A02A04090AB82ED14C61B1AE3A32680F123A302A4CE86CF81CD735ACDA6392F97A93E0CCCB093306191E4808F45E4A1D5B7FED39657930C89E1C0E5B500728B13DB" />
 		<setting name="BitBar_APIURL" type="5" value="https://cloud.bitbar.com/api/" />
 		<setting name="BitBar_FindAndroidDevice" type="5" value="( Device Group As in Selected Device )" />
 		<setting name="BitBar_FindIOSDevice" type="5" value="( Device Group As in Selected Device )" />

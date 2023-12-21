@@ -1184,6 +1184,69 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageOfficeDepotAppDistribution" Key="{EE94D59A-D05E-4047-AF31-76C012382A46}">
+								<Image FileName="-325393415" Left="0" Top="109" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://wwwsqm.officedepot.com/iphone/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkWwwsqm" Key="{85BAB4E5-8C3A-44D3-82BA-B28DA8821F52}">
+										<Image FileName="-325393415" Left="48" Top="177" Right="128" Bottom="194" />
+										<TypeInfo Item0="{5DD2C90C-E105-4A93-B872-89A62D26E64F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;WWWSQM&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageAppendLogFolderOperationTest" Key="{3B11EA57-5260-445B-ADA1-777B1D26BBFB}">
+								<Image FileName="-29307218" Left="8" Top="129" Right="3448" Bottom="1408" />
+								<TypeInfo Item0="{6A1BE656-B1BC-4C9A-AAB2-AF573C975663}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://support.smartbear.com/testcomplete/docs/keyword-testing/reference/logging/append-folder.html" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeOperationResult" Key="{CF62D463-A0AE-45E8-B552-5D90864E3285}">
+										<Image FileName="-29307218" Left="463" Top="499" Right="1203" Bottom="533" />
+										<TypeInfo Item0="{5DDA967F-11BD-45C5-B949-947F7331936C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#operation-result" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3[.=&apos;Operation Result&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeScriptingAnalogue" Key="{B07C4CCD-F122-4FA9-99B5-98F88417A43E}">
+										<Image FileName="-896363218" Left="463" Top="611" Right="1203" Bottom="645" />
+										<TypeInfo Item0="{5DDA967F-11BD-45C5-B949-947F7331936C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#scripting-analogue" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3[.=&apos;Scripting Analogue&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="EXCEL" Key="{21D6A35C-ADDA-4785-B238-6B394049F2C1}">
@@ -2327,6 +2390,18 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="buttonTabtranslatetext" Key="{72796188-7663-4C43-BDA8-A5CDD1A36EAF}">
+										<Image FileName="-1673478818" Left="1020" Top="201" Right="1187" Bottom="267" />
+										<TypeInfo Item0="{3686AA18-2E8D-4AD7-B5AE-72493D24C70C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#tabTranslateText" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Tłumacz tekst&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pagePostJobDiversityjobs" Key="{0D8610E1-7637-47D4-AD4A-65331408B548}">
@@ -2768,6 +2843,263 @@
 											</Selector>
 											<Selector>
 												<Value Value="//div[contains(@class, &apos;modal-buttons&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageLogowanieKontaGoogle" Key="{1346D9EF-D66E-4E5B-8ED8-38E74E995E75}">
+								<Image FileName="-866105292" Left="0" Top="109" Right="3440" Bottom="1400" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://accounts.google.com/v3/signin/challenge/pwd*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionWpiszHasO" Key="{242AE9D0-34BE-4F10-9921-6CF3171A7A1A}">
+										<Image FileName="-866105292" Left="1536" Top="712" Right="1904" Bottom="838" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Wpisz hasło&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxWpiszHasO" Key="{7A333E17-DE4C-48CD-BEBD-3A54B5BDE45A}">
+										<Image FileName="-866105292" Left="1538" Top="738" Right="1902" Bottom="790" />
+										<TypeInfo Item0="{F35F1577-44C0-4653-8E0A-21A20CA6522B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;Passwd&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//input[contains(@class, &apos;whsOnd&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;password&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[2]/div/div/div/div//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonDalej" Key="{96387258-82BA-4657-A0CA-95FC8D2F8543}">
+										<Image FileName="-1658838488" Left="1823" Top="876" Right="1904" Bottom="912" />
+										<TypeInfo Item0="{EB744139-29CB-4581-98F9-805317F5C3A4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Dalej&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/div/button[contains(@class, &apos;VfPpkd-LgbsSe&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;passwordNext&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageW3schoolsTryitEditor" Key="{DB3C036F-2FEF-4AED-A6B5-E326ADC67CE2}">
+								<Image FileName="1776865153" Left="0" Top="109" Right="3440" Bottom="1400" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.w3schools.com/tags/tryit.asp*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="frameIframeresult" Key="{D2EC89A9-A46B-4718-A50D-7F1DC96B34FA}">
+										<Image FileName="1776865153" Left="1725" Top="254" Right="3430" Bottom="1390" />
+										<Selectors>
+											<Selector>
+												<Value Value="#iframeResult" />
+											</Selector>
+											<Selector>
+												<Value Value="//iframe[@name=&apos;iframeResult&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;iframewrapper&apos;]/iframe" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/iframe" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="selectChooseACar" Key="{6CBAC13A-BA0D-42B2-AB21-0C5DDFDD9790}">
+												<Image FileName="1776865153" Left="1824" Top="368" Right="1881" Bottom="387" />
+												<TypeInfo Item0="{0FD04820-397E-41AE-A374-B14B8FA29338}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//select[@id=(//label[.=&apos;Choose a car:&apos;]/@for)]" />
+													</Selector>
+													<Selector>
+														<Value Value="#cars" />
+													</Selector>
+													<Selector>
+														<Value Value="//select" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageCreateItemProductInformation" Key="{4E0F3ACA-E818-4152-A9E8-5BB0C795274F}">
+								<Image FileName="1858509899" Left="0" Top="121" Right="3440" Bottom="1400" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://fa-ewki-dev3-saasfademo1.ds-fa.oraclepdemos.com/fscmUI/faces/FndOverview*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formFof1" Key="{AF5532F4-7CD2-4CD7-A83B-3F3A36C848FC}">
+										<Image FileName="1858509899" Left="0" Top="7" Right="3423" Bottom="7" />
+										<Selectors>
+											<Selector>
+												<Value Value="#_FOf1" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@name=&apos;_FOf1&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Navigator&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;FndOverview&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;x1g1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectCameraColor" Key="{AA8BA9A8-04ED-4A7E-8190-40B8FAC2BE5B}">
+										<Image FileName="1858509899" Left="1891" Top="922" Right="2227" Bottom="950" />
+										<TypeInfo Item0="{0FD04820-397E-41AE-A374-B14B8FA29338}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//select[@id=(//label[.=&apos;Camera Color&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[3]/td/select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectCameraBrand" Key="{F9B71DF1-62FC-4DCD-9F3A-629CFC0CD629}">
+										<Image FileName="101711917" Left="1891" Top="958" Right="2227" Bottom="986" />
+										<TypeInfo Item0="{0FD04820-397E-41AE-A374-B14B8FA29338}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//select[@id=(//label[.=&apos;Camera Brand&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//td[2]//tr/td//tr[4]/td/select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectTrackingUnitOfMeasure" Key="{6E576D64-9D4E-4FE1-8AA6-0CC9EEF48BE4}">
+										<Image FileName="2070691399" Left="596" Top="1094" Right="744" Bottom="1122" />
+										<TypeInfo Item0="{0FD04820-397E-41AE-A374-B14B8FA29338}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//select[@id=(//label[.=&apos;Tracking Unit of Measure&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]//tbody/tr/td/span/select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectPricing" Key="{BC173C11-8CD6-4335-A100-75DECCC44AF5}">
+										<Image FileName="-1382403063" Left="596" Top="1130" Right="678" Bottom="1158" />
+										<TypeInfo Item0="{0FD04820-397E-41AE-A374-B14B8FA29338}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//select[@id=(//label[.=&apos;Pricing&apos;]/@for)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectConversions" Key="{DFFBA50C-39B2-4AD8-94C1-1CF659D144BC}">
+										<Image FileName="-894919445" Left="596" Top="1166" Right="687" Bottom="1194" />
+										<TypeInfo Item0="{0FD04820-397E-41AE-A374-B14B8FA29338}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//select[@id=(//label[.=&apos;Conversions&apos;]/@for)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{5FDECF5E-624C-4D8F-88AE-96A31F9497B1}">
+										<Image FileName="1509561927" Left="42" Top="1059" Right="3336" Bottom="1249" />
+										<TypeInfo Item0="{5DD2C90C-E105-4A93-B872-89A62D26E64F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[5]//div[contains(@class, &apos;x1dl&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxAutocompletesOnTab" Key="{E13983DC-28A5-416A-A5C6-8A66E2270717}">
+										<Image FileName="-43929019" Left="596" Top="1216" Right="843" Bottom="1244" />
+										<TypeInfo Item0="{F35F1577-44C0-4653-8E0A-21A20CA6522B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Secondary Unit of Measure&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[6]/td//tr/td//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[6]/td//tr/td//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSearchSecondaryUnitOf" Key="{1BDFF308-2251-4B85-AA04-66FF9BD657F8}">
+										<Image FileName="-1925511685" Left="844" Top="1217" Right="870" Bottom="1243" />
+										<TypeInfo Item0="{5DD2C90C-E105-4A93-B872-89A62D26E64F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[@title=&apos;Search: Secondary Unit of Measure&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[6]/td//tr/td//a[contains(@class, &apos;x1o2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;_FOf1&apos;]//tr[6]/td//tr/td//a" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[6]/td//tr/td//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell" Key="{27A0DC9B-2B86-4A3F-B811-DC10517F788C}">
+										<Image FileName="1887648838" Left="597" Top="1065" Right="786" Bottom="1095" />
+										<TypeInfo Item0="{5DD2C90C-E105-4A93-B872-89A62D26E64F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[.=&apos;Ctr&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[7]/td[contains(@class, &apos;xen&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__af_Z_window&apos;]//tr[7]/td" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;DhtmlZOrderManagerLayerContainer&apos;]//tr/td//tr[7]/td" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -4157,6 +4489,110 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="toolwindowTaskbar" Key="{232840DA-8D6B-4ECF-AB64-3E021F0ADE3C}">
+								<Image FileName="1292770985" Left="0" Top="0" Right="1920" Bottom="40" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="ToolWindow" />
+									</Property>
+									<Property Name="Caption">
+										<Value Value="Taskbar" />
+									</Property>
+									<Property Name="ObjectGroupIndex">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="toolwindow" Key="{58AA3DEC-8D31-497D-97A1-A028FDDCE565}">
+										<Image FileName="1292770985" Left="142" Top="0" Right="1437" Bottom="40" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ReBarWindow32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panelRunningApplications" Key="{1BC5DE4A-E6D2-4B7C-A246-350FE8C97F27}">
+												<Image FileName="1292770985" Left="144" Top="0" Right="1437" Bottom="40" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="Caption">
+														<Value Value="Running applications" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="toolbarRunningApplications" Key="{73540752-FF33-4F3A-8489-D80187AB7243}">
+														<Image FileName="1292770985" Left="144" Top="0" Right="1437" Bottom="40" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ToolBar" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="Running applications" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="menubuttonTestcomplete152Running" Key="{793287FE-1661-47D9-9A5A-898AF3E3DEC0}">
+																<Image FileName="1292770985" Left="588" Top="0" Right="637" Bottom="40" />
+																<TypeInfo Item0="{C836DA9D-8730-480F-B0EF-693F176E6D8B}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="MenuButton" />
+																	</Property>
+																	<Property Name="Caption">
+																		<Value Value="TestComplete 15 - 2 running windows" />
+																	</Property>
+																	<Property Name="ObjectGroupIndex">
+																		<Value Value="1" Type="0" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="listTaskSwitcher" Key="{519E7579-DDB0-4B54-BE42-DA5F9B144767}">
+								<Image FileName="-1568855614" Left="0" Top="0" Right="1920" Bottom="211" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="List" />
+									</Property>
+									<Property Name="Caption">
+										<Value Value="Task Switcher" />
+									</Property>
+									<Property Name="ObjectGroupIndex">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="buttonClose" Key="{C12F7454-5013-40CB-A89A-2070766CCA3D}">
+										<Image FileName="-1568855614" Left="731" Top="63" Right="763" Bottom="95" />
+										<TypeInfo Item0="{C836DA9D-8730-480F-B0EF-693F176E6D8B}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="Caption">
+												<Value Value="Close" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="2" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="WINWORD" Key="{9E7ABD7C-DEAE-42D7-9D29-F419B561AA8E}">
@@ -5043,6 +5479,121 @@
 							</Child>
 						</Children>
 					</Child>
+					<Child Name="MATLABWindow" Key="{AF8750BF-5DCA-4E5A-B5C1-1FB1F7DAD093}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="MATLABWindow" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="formMatlabApp" Key="{988DDEDD-C15F-4F3A-B85B-CE9AF79A8401}">
+								<Image FileName="-791105632" Left="0" Top="0" Right="656" Bottom="519" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Form" />
+									</Property>
+									<Property Name="Caption">
+										<Value Value="MATLAB App" />
+									</Property>
+									<Property Name="ObjectGroupIndex">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panel" Key="{432AA451-35CE-4906-9D6E-79E900E03F0A}">
+										<Image FileName="-791105632" Left="8" Top="31" Right="648" Bottom="511" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="CefBrowserWindow" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="pane" Key="{061522B3-8ACB-4B3A-9839-276F7EEC2498}">
+												<Image FileName="-791105632" Left="8" Top="31" Right="648" Bottom="511" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="Chrome_WidgetWin_0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="pageMatlabApp" Key="{9A903318-2E16-4DA8-B1A8-AB065E15FB37}">
+														<Image FileName="-791105632" Left="8" Top="31" Right="648" Bottom="511" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Page" />
+															</Property>
+															<Property Name="URL">
+																<Value Value="https://127.0.0.1:31515/toolbox/matlab/uitools/uifigureappjs/cefComponentContainer.html*" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panelButton" Key="{18804D5F-2720-45FC-A635-1F1D52DE60B1}">
+																<Image FileName="-791105632" Left="87" Top="164" Right="181" Bottom="181" />
+																<TypeInfo Item0="{5924E857-26E0-4452-B6D4-6FDDD8B3AAE5}" />
+																<Selectors>
+																	<Selector>
+																		<Value Value="//div//div[contains(@class, &apos;mwIconAndTextContainerNode&apos;)]" />
+																	</Selector>
+																</Selectors>
+															</Child>
+															<Child Name="textboxUniqname340" Key="{461EE843-BCE6-4930-99D1-E913CF84B7BC}">
+																<Image FileName="-3465535" Left="452" Top="163" Right="542" Bottom="183" />
+																<TypeInfo Item0="{E049CE9D-E854-446B-BE1B-F124C5EC44C3}" />
+																<Selectors>
+																	<Selector>
+																		<Value Value="#uniqName_34_0" />
+																	</Selector>
+																	<Selector>
+																		<Value Value="//div[3]//input[@type=&apos;text&apos;]" />
+																	</Selector>
+																	<Selector>
+																		<Value Value="//input[contains(@class, &apos;dijitReset&apos;)]" />
+																	</Selector>
+																	<Selector>
+																		<Value Value="//div[@id=&apos;widget_uniqName_34_0&apos;]//input" />
+																	</Selector>
+																	<Selector>
+																		<Value Value="//div[3]//input" />
+																	</Selector>
+																</Selectors>
+															</Child>
+															<Child Name="textbox" Key="{D2C6DBBD-41D7-4B70-BB7E-93F14D31A4DD}">
+																<Image FileName="886961742" Left="440" Top="261" Right="538" Bottom="281" />
+																<TypeInfo Item0="{E049CE9D-E854-446B-BE1B-F124C5EC44C3}" />
+																<Selectors>
+																	<Selector>
+																		<Value Value="//div[5]//input[@type=&apos;text&apos;]" />
+																	</Selector>
+																	<Selector>
+																		<Value Value="//input[contains(@class, &apos;mwInputNode&apos;)]" />
+																	</Selector>
+																	<Selector>
+																		<Value Value="//div[@id=&apos;uniqName_34_1&apos;]/input" />
+																	</Selector>
+																	<Selector>
+																		<Value Value="//div[5]//input" />
+																	</Selector>
+																</Selectors>
+															</Child>
+															<Child Name="panel" Key="{FA10D535-3E84-47C1-8684-EBF7BE231384}">
+																<Image FileName="-1383862256" Left="183" Top="376" Right="197" Bottom="390" />
+																<TypeInfo Item0="{5924E857-26E0-4452-B6D4-6FDDD8B3AAE5}" />
+																<Selectors>
+																	<Selector>
+																		<Value Value="//div[contains(@class, &apos;mwCheckBoxRadioIconNode&apos;)]" />
+																	</Selector>
+																</Selectors>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
 				</Children>
 			</Child>
 			<Child Name="Mobile" Key="{EAA31E0A-7446-4D99-90A2-EAA253239DC0}">
@@ -5176,6 +5727,20 @@
 											</Selector>
 											<Selector>
 												<Value Value="//android.widget.TwoLineListItem[1]/android.widget.TextView[1]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textViewText2" Key="{B0498DAF-B661-4352-B7B2-18C9DF95E0E0}">
+										<Image FileName="-1408266816" Left="72" Top="529" Right="1032" Bottom="586" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[contains(@text, &quot;1, MyMoney, 12&quot;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//*[@resource-id=&quot;android:id/text2&quot;])[1]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.TwoLineListItem[1]/android.widget.TextView[2]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -5483,6 +6048,37 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="editTextUrlBar" Key="{6C94DCE3-12B9-408A-ADDC-557FB08DF6E6}">
+										<Image FileName="-2025572897" Left="168" Top="90" Right="768" Bottom="240" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;com.android.chrome:id/url_bar&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.EditText" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;com.android.chrome:id/location_bar&quot;]/android.widget.EditText" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.FrameLayout/android.widget.EditText" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textViewEntityDescription" Key="{ECEF9FC0-A55C-419F-AAA5-BF25AE3E9EF8}">
+										<Image FileName="230959193" Left="168" Top="506" Right="924" Bottom="563" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@text=&quot;Technology company&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//*[@resource-id=&quot;com.android.chrome:id/entity_description&quot;])[1]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.LinearLayout/android.widget.TextView[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="processFedinsMyshield" Key="{3531BC8B-B937-4D9B-9DAD-2606FDE006BB}">
@@ -5500,6 +6096,84 @@
 											</Selector>
 											<Selector>
 												<Value Value="//android.webkit.WebView/android.webkit.WebView" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="processSecAndroidAppLauncher" Key="{EC15691E-C98C-457E-BDA3-94F31DC0201E}">
+								<Properties>
+									<Property Name="ProcessName">
+										<Value Value="com.sec.android.app.launcher" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textViewHotseatIcon" Key="{88BAAAE1-B36B-4586-B424-415B3FD086FB}">
+										<Image FileName="986709277" Left="542" Top="1944" Right="788" Bottom="2115" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@content-desc=&quot;Chrome&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@text=&quot;Chrome&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//*[@resource-id=&quot;com.sec.android.app.launcher:id/hotseat_icon&quot;])[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;com.sec.android.app.launcher:id/hotseat&quot;]/android.view.ViewGroup/android.widget.TextView[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;com.sec.android.app.launcher:id/drag_layer&quot;]/android.view.ViewGroup/android.view.ViewGroup/android.widget.TextView[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="processGoogleAndroidAppsNexuslauncher" Key="{6FFB52FF-EE03-4B75-BF37-B3732E55C52E}">
+								<Properties>
+									<Property Name="ProcessName">
+										<Value Value="com.google.android.apps.nexuslauncher" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="recyclerViewAppsListView" Key="{1F70E2BD-0A65-46E9-8D5A-126584DD5156}">
+										<Image FileName="-1764378482" Left="0" Top="176" Right="1080" Bottom="2154" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;com.google.android.apps.nexuslauncher:id/apps_list_view&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//androidx.recyclerview.widget.RecyclerView" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[*[@text=&quot;Appium Settings&quot;]]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;com.google.android.apps.nexuslauncher:id/apps_view&quot;]/androidx.recyclerview.widget.RecyclerView" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.RelativeLayout/androidx.recyclerview.widget.RecyclerView" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textViewIcon" Key="{7BCB6A93-D19E-4053-AEBF-5F082B5697DD}">
+										<Image FileName="-1764378482" Left="850" Top="935" Right="1058" Bottom="1265" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@content-desc=&quot;Orders&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@text=&quot;Orders&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//*[@resource-id=&quot;com.google.android.apps.nexuslauncher:id/icon&quot;])[15]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;com.google.android.apps.nexuslauncher:id/apps_list_view&quot;]/android.widget.TextView[15]" />
+											</Selector>
+											<Selector>
+												<Value Value="//androidx.recyclerview.widget.RecyclerView/android.widget.TextView[15]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -5639,6 +6313,13 @@
 					</Child>
 				</Child>
 			</Child>
+			<Child Name="pageOfficeDepotAppDistribution" Owner="{EE94D59A-D05E-4047-AF31-76C012382A46}">
+				<Child Name="linkWwwsqm" Owner="{85BAB4E5-8C3A-44D3-82BA-B28DA8821F52}" />
+			</Child>
+			<Child Name="pageAppendLogFolderOperationTest" Owner="{3B11EA57-5260-445B-ADA1-777B1D26BBFB}">
+				<Child Name="textnodeOperationResult" Owner="{CF62D463-A0AE-45E8-B552-5D90864E3285}" />
+				<Child Name="textnodeScriptingAnalogue" Owner="{B07C4CCD-F122-4FA9-99B5-98F88417A43E}" />
+			</Child>
 		</Child>
 		<Child Name="EXCEL" Owner="{21D6A35C-ADDA-4785-B238-6B394049F2C1}">
 			<Child Name="wndXLMAIN" Owner="{16C5D021-A60C-4A75-92DE-F3644FDED022}">
@@ -5765,6 +6446,7 @@
 				<Child Name="sectionTekstTUmaczenia" Owner="{22948B21-41C4-4798-AF09-FD8B7C01398E}">
 					<Child Name="panelWitam" Owner="{99B43B80-73E7-4D7C-A8B3-7BF56DE783DD}" />
 				</Child>
+				<Child Name="buttonTabtranslatetext" Owner="{72796188-7663-4C43-BDA8-A5CDD1A36EAF}" />
 			</Child>
 			<Child Name="pagePostJobDiversityjobs" Owner="{0D8610E1-7637-47D4-AD4A-65331408B548}">
 				<Child Name="formVacancy" Owner="{40045DCF-9DFA-452B-894F-A192D982BB86}">
@@ -5799,6 +6481,30 @@
 				<Child Name="buttonOk" Owner="{F8FE9046-A47A-4784-811B-CE1CCFA756BF}" />
 				<Child Name="panelYear" Owner="{E62BB422-E493-4D12-970E-729909AAD99F}" />
 				<Child Name="panelOk" Owner="{91A3E138-D653-4862-8AA3-1C63915CB3F0}" />
+			</Child>
+			<Child Name="pageLogowanieKontaGoogle" Owner="{1346D9EF-D66E-4E5B-8ED8-38E74E995E75}">
+				<Child Name="sectionWpiszHasO" Owner="{242AE9D0-34BE-4F10-9921-6CF3171A7A1A}">
+					<Child Name="passwordboxWpiszHasO" Owner="{7A333E17-DE4C-48CD-BEBD-3A54B5BDE45A}" />
+				</Child>
+				<Child Name="buttonDalej" Owner="{96387258-82BA-4657-A0CA-95FC8D2F8543}" />
+			</Child>
+			<Child Name="pageW3schoolsTryitEditor" Owner="{DB3C036F-2FEF-4AED-A6B5-E326ADC67CE2}">
+				<Child Name="frameIframeresult" Owner="{D2EC89A9-A46B-4718-A50D-7F1DC96B34FA}">
+					<Child Name="selectChooseACar" Owner="{6CBAC13A-BA0D-42B2-AB21-0C5DDFDD9790}" />
+				</Child>
+			</Child>
+			<Child Name="pageCreateItemProductInformation" Owner="{4E0F3ACA-E818-4152-A9E8-5BB0C795274F}">
+				<Child Name="formFof1" Owner="{AF5532F4-7CD2-4CD7-A83B-3F3A36C848FC}">
+					<Child Name="selectCameraColor" Owner="{AA8BA9A8-04ED-4A7E-8190-40B8FAC2BE5B}" />
+					<Child Name="selectCameraBrand" Owner="{F9B71DF1-62FC-4DCD-9F3A-629CFC0CD629}" />
+					<Child Name="selectTrackingUnitOfMeasure" Owner="{6E576D64-9D4E-4FE1-8AA6-0CC9EEF48BE4}" />
+					<Child Name="selectPricing" Owner="{BC173C11-8CD6-4335-A100-75DECCC44AF5}" />
+					<Child Name="selectConversions" Owner="{DFFBA50C-39B2-4AD8-94C1-1CF659D144BC}" />
+					<Child Name="panel" Owner="{5FDECF5E-624C-4D8F-88AE-96A31F9497B1}" />
+					<Child Name="textboxAutocompletesOnTab" Owner="{E13983DC-28A5-416A-A5C6-8A66E2270717}" />
+					<Child Name="linkSearchSecondaryUnitOf" Owner="{1BDFF308-2251-4B85-AA04-66FF9BD657F8}" />
+					<Child Name="cell" Owner="{27A0DC9B-2B86-4A3F-B811-DC10517F788C}" />
+				</Child>
 			</Child>
 		</Child>
 		<Child Name="Orders" Owner="{D043A17C-E617-4363-B6CC-43346E4D2953}">
@@ -5983,6 +6689,18 @@
 				</Child>
 				<Child Name="TrayButton" Owner="{8A841453-AFC2-48D4-8980-954A7E2F2BA7}" />
 			</Child>
+			<Child Name="toolwindowTaskbar" Owner="{232840DA-8D6B-4ECF-AB64-3E021F0ADE3C}">
+				<Child Name="toolwindow" Owner="{58AA3DEC-8D31-497D-97A1-A028FDDCE565}">
+					<Child Name="panelRunningApplications" Owner="{1BC5DE4A-E6D2-4B7C-A246-350FE8C97F27}">
+						<Child Name="toolbarRunningApplications" Owner="{73540752-FF33-4F3A-8489-D80187AB7243}">
+							<Child Name="menubuttonTestcomplete152Running" Owner="{793287FE-1661-47D9-9A5A-898AF3E3DEC0}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="listTaskSwitcher" Owner="{519E7579-DDB0-4B54-BE42-DA5F9B144767}">
+				<Child Name="buttonClose" Owner="{C12F7454-5013-40CB-A89A-2070766CCA3D}" />
+			</Child>
 		</Child>
 		<Child Name="WINWORD" Owner="{9E7ABD7C-DEAE-42D7-9D29-F419B561AA8E}">
 			<Child Name="formADocxWord" Owner="{32696049-CE7A-4EF8-B1DF-3DF62CE988BB}">
@@ -6033,6 +6751,7 @@
 				<Child Name="buttonEdit" Owner="{B775A626-1391-46BA-B8DE-5F663A04B1C4}" />
 				<Child Name="listView1" Owner="{297D08C3-1705-40D8-BE76-F0E1BE1B0582}">
 					<Child Name="textViewText1" Owner="{54AD6B95-34F4-4C52-A5B7-A8A437918E94}" />
+					<Child Name="textViewText2" Owner="{B0498DAF-B661-4352-B7B2-18C9DF95E0E0}" />
 				</Child>
 			</Child>
 			<Child Name="processStreitdatentechnikSDTMonteurPlus" Owner="{052B99FA-515D-42C6-874B-B35A847FB4C2}">
@@ -6061,12 +6780,22 @@
 				<Child Name="viewPagerFrePager" Owner="{0AE8CF92-9384-4297-B364-F677C419660F}">
 					<Child Name="recyclerView" Owner="{2CDCDE8F-8A6E-464B-A9DC-5D461B99896A}">
 						<Child Name="buttonTermsAccept" Owner="{D9CC8B4B-7BF0-4A85-8522-1A463E9D12C2}" />
+						<Child Name="textViewEntityDescription" Owner="{ECEF9FC0-A55C-419F-AAA5-BF25AE3E9EF8}" />
 					</Child>
 				</Child>
 				<Child Name="webView" Owner="{6F975CAF-7CA0-4D29-A7C5-EE32E4D2FE2E}" />
+				<Child Name="editTextUrlBar" Owner="{6C94DCE3-12B9-408A-ADDC-557FB08DF6E6}" />
 			</Child>
 			<Child Name="processFedinsMyshield" Owner="{3531BC8B-B937-4D9B-9DAD-2606FDE006BB}">
 				<Child Name="webView" Owner="{FF152C2E-2A6E-41E9-8C8C-E0E5207E7BD3}" />
+			</Child>
+			<Child Name="processSecAndroidAppLauncher" Owner="{EC15691E-C98C-457E-BDA3-94F31DC0201E}">
+				<Child Name="textViewHotseatIcon" Owner="{88BAAAE1-B36B-4586-B424-415B3FD086FB}" />
+			</Child>
+			<Child Name="processGoogleAndroidAppsNexuslauncher" Owner="{6FFB52FF-EE03-4B75-BF37-B3732E55C52E}">
+				<Child Name="recyclerViewAppsListView" Owner="{1F70E2BD-0A65-46E9-8D5A-126584DD5156}">
+					<Child Name="textViewIcon" Owner="{7BCB6A93-D19E-4053-AEBF-5F082B5697DD}" />
+				</Child>
 			</Child>
 		</Child>
 		<Child Name="notepad" Owner="{C24E3D65-1D4B-44FB-97A3-E7430D37B1A6}">
@@ -6141,6 +6870,20 @@
 			</Child>
 			<Child Name="pageBing" Owner="{C0829F3E-D93C-4FD6-AB8C-28C3F4863112}">
 				<Child Name="panelApp" Owner="{FC580A15-3BE5-4E81-A017-B3D47E8AAA07}" />
+			</Child>
+		</Child>
+		<Child Name="MATLABWindow" Owner="{AF8750BF-5DCA-4E5A-B5C1-1FB1F7DAD093}">
+			<Child Name="formMatlabApp" Owner="{988DDEDD-C15F-4F3A-B85B-CE9AF79A8401}">
+				<Child Name="panel" Owner="{432AA451-35CE-4906-9D6E-79E900E03F0A}">
+					<Child Name="pane" Owner="{061522B3-8ACB-4B3A-9839-276F7EEC2498}">
+						<Child Name="pageMatlabApp" Owner="{9A903318-2E16-4DA8-B1A8-AB065E15FB37}">
+							<Child Name="panelButton" Owner="{18804D5F-2720-45FC-A635-1F1D52DE60B1}" />
+							<Child Name="textboxUniqname340" Owner="{461EE843-BCE6-4930-99D1-E913CF84B7BC}" />
+							<Child Name="textbox" Owner="{D2C6DBBD-41D7-4B70-BB7E-93F14D31A4DD}" />
+							<Child Name="panel" Owner="{FA10D535-3E84-47C1-8684-EBF7BE231384}" />
+						</Child>
+					</Child>
+				</Child>
 			</Child>
 		</Child>
 	</LogicalNodes>

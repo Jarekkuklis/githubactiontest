@@ -2,13 +2,23 @@
 <Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{47BF23AB-46AC-4EAA-A990-3EDD7C1703E4}">
 	<children>
 		<child name="TestProject1" key="{308B8A5F-54C3-47EC-AD46-B4B585BE52D9}" path="TestProject1\TestProject1.mds" />
+		<child name="TestProject2" key="{3BB4B1DB-2F85-4A8C-B4C3-FEAA7201E2BE}" path="TestProject2\TestProject2.mds" />
 	</children>
 	<testItems key="{DE321793-F96B-4C93-8018-8B52C827420D}">
 		<children>
 			<testItem key="{308B8A5F-54C3-47EC-AD46-B4B585BE52D9}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{3BB4B1DB-2F85-4A8C-B4C3-FEAA7201E2BE}" enabled="True" timeout="0" stopOnError="True" description="" />
 		</children>
 	</testItems>
-	<variables key="{2C4499A0-0897-4F75-A669-ABD3AE8240FD}" />
+	<variables key="{2C4499A0-0897-4F75-A669-ABD3AE8240FD}">
+		<data Version="4">
+			<Items>
+				<Variable Name="Var1" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+			</Items>
+		</data>
+	</variables>
 	<analysis key="{010EF11C-049B-4600-B776-D0EA8BEAEBE4}" />
 	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
 		<data />
