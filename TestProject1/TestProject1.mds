@@ -28,12 +28,7 @@
 			</testItem>
 			<testItem name="logerr" key="{2C9C2433-9DA6-4EBC-8EF6-5B9F8F81EF9B}" group="False" parallel="False" enabled="True" testMoniker="{1C509CDC-A193-4A6F-A455-8253A1892D8E}logerr" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<environments activeCloud="CBT" />
-				<children />
-			</testItem>
-			<testItem name="Test7" key="{DC616623-C370-4EC2-A037-54E58C79A9A4}" group="False" parallel="False" enabled="True" testMoniker="KDT\{99DD4391-C79F-4FDC-BD45-5F5DFBE852DB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 		</children>
