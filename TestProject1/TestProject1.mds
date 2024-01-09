@@ -18,12 +18,13 @@
 			<testItem name="logmsg" key="{497C057F-795B-4C33-B024-765C0CCABC3D}" group="False" parallel="False" enabled="True" testMoniker="{1C509CDC-A193-4A6F-A455-8253A1892D8E}logmsg" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="logwar" key="{3184D903-A323-44F5-9E53-F67B0062012E}" group="False" parallel="False" enabled="True" testMoniker="{1C509CDC-A193-4A6F-A455-8253A1892D8E}logwar" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="CBT" />
-				<children />
+				<children>
+					<testItem name="logwar" key="{3184D903-A323-44F5-9E53-F67B0062012E}" group="False" parallel="False" enabled="True" testMoniker="{1C509CDC-A193-4A6F-A455-8253A1892D8E}logwar" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+				</children>
 			</testItem>
 			<testItem name="logerr" key="{2C9C2433-9DA6-4EBC-8EF6-5B9F8F81EF9B}" group="False" parallel="False" enabled="True" testMoniker="{1C509CDC-A193-4A6F-A455-8253A1892D8E}logerr" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />

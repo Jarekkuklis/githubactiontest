@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{F4665231-D30F-425D-9FB2-6B624D789750}" />
+	<data key="{F4665231-D30F-425D-9FB2-6B624D789750}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45281.5470023148" objectName="Aliases.explorer.wndShell_SecondaryTrayWnd.TrayButton" objectLeft="48" objectTop="0" objectRight="96" objectBottom="40" clickPointX="79" clickPointY="33" imageFileName="tcvi620932718110320.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45281.5470023148" objectName="Aliases.CortanaUI.wndSearch" objectLeft="0" objectTop="0" objectRight="784" objectBottom="640" clickPointX="-1969" clickPointY="-402" imageFileName="tcvi62093315629960.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45281.5470138889" objectName="Aliases.CortanaUI.wndSearch" objectLeft="0" objectTop="0" objectRight="784" objectBottom="640" clickPointX="200" clickPointY="187" imageFileName="tcvi62093410929961.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="45281.5470486111" objectName="Aliases.ApplicationFrameHost.wndCalculator" objectLeft="545" objectTop="1" objectRight="733" objectBottom="33" clickPointX="-1" clickPointY="-1" imageFileName="tcvi62093696899880.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
 </Root>

@@ -3105,6 +3105,103 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageComboBoxComponentsVaadinDocs" Key="{0CD09273-125C-4852-A676-0D7E86631ECF}">
+								<Image FileName="-6759570" Left="0" Top="121" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://vaadin.com/docs/latest/components/combo-box" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="articleDocumentation" Key="{F15C6C7B-4FBD-4955-B7A9-150588D5A656}">
+										<Image FileName="-6759570" Left="580" Top="194" Right="1564" Bottom="9181" />
+										<Selectors>
+											<Selector>
+												<Value Value="//article[contains(., &apos;Documentation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//article[contains(@class, &apos;ArticleLayout-module--articleLayout--b775b&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;gatsby-focus-wrapper&apos;]//article" />
+											</Selector>
+											<Selector>
+												<Value Value="//article" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{7DA046CC-340A-4BE2-BA43-C358263D552E}">
+										<Image FileName="-6759570" Left="616" Top="486" Right="1308" Bottom="563" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;preamble&apos;]//combo-box-basic-wc" />
+											</Selector>
+											<Selector>
+												<Value Value="//combo-box-basic-wc" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="shadowroot" Key="{270E8D91-64D8-4075-825D-0799652B56F0}" ExtendedFind="True">
+												<Image FileName="-6759570" Left="616" Top="486" Right="1308" Bottom="563" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="ShadowRoot" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="textnodeCountry" Key="{C25699C4-5BF0-4BE8-9315-E219F0B442ED}">
+														<Image FileName="-6759570" Left="616" Top="486" Right="808" Bottom="563" />
+														<Selectors>
+															<Selector>
+																<Value Value="vaadin-combo-box" />
+															</Selector>
+														</Selectors>
+														<Children>
+															<Child Name="shadowroot" Key="{ABFC8A90-A08F-4829-92E5-C2558F132266}" ExtendedFind="True">
+																<Image FileName="-6759570" Left="616" Top="486" Right="808" Bottom="563" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="ShadowRoot" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="panelTogglebutton" Key="{102E6632-B853-467C-9EB2-6249664493C7}">
+																		<Image FileName="-6759570" Left="778" Top="529" Right="802" Bottom="553" />
+																		<TypeInfo Item0="{5DD2C90C-E105-4A93-B872-89A62D26E64F}" />
+																		<Selectors>
+																			<Selector>
+																				<Value Value="#toggleButton" />
+																			</Selector>
+																			<Selector>
+																				<Value Value="[aria-hidden=&apos;true&apos;]:nth-child(4)" />
+																			</Selector>
+																		</Selectors>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="textnodeVaadinComboBoxItem51" Key="{6FBEC9A0-5AF7-4067-9575-EE03D933F164}">
+										<Image FileName="-1650528153" Left="620" Top="643" Right="787" Bottom="679" />
+										<TypeInfo Item0="{5DD2C90C-E105-4A93-B872-89A62D26E64F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#vaadin-combo-box-item-5" />
+											</Selector>
+											<Selector>
+												<Value Value="//vaadin-combo-box-item[.=&apos;Angola&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="Orders" Key="{D043A17C-E617-4363-B6CC-43346E4D2953}">
@@ -6505,6 +6602,20 @@
 					<Child Name="linkSearchSecondaryUnitOf" Owner="{1BDFF308-2251-4B85-AA04-66FF9BD657F8}" />
 					<Child Name="cell" Owner="{27A0DC9B-2B86-4A3F-B811-DC10517F788C}" />
 				</Child>
+			</Child>
+			<Child Name="pageComboBoxComponentsVaadinDocs" Owner="{0CD09273-125C-4852-A676-0D7E86631ECF}">
+				<Child Name="articleDocumentation" Owner="{F15C6C7B-4FBD-4955-B7A9-150588D5A656}">
+					<Child Name="textnode" Owner="{7DA046CC-340A-4BE2-BA43-C358263D552E}">
+						<Child Name="shadowroot" Owner="{270E8D91-64D8-4075-825D-0799652B56F0}">
+							<Child Name="textnodeCountry" Owner="{C25699C4-5BF0-4BE8-9315-E219F0B442ED}">
+								<Child Name="shadowroot" Owner="{ABFC8A90-A08F-4829-92E5-C2558F132266}">
+									<Child Name="panelTogglebutton" Owner="{102E6632-B853-467C-9EB2-6249664493C7}" />
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="textnodeVaadinComboBoxItem51" Owner="{6FBEC9A0-5AF7-4067-9575-EE03D933F164}" />
 			</Child>
 		</Child>
 		<Child Name="Orders" Owner="{D043A17C-E617-4363-B6CC-43346E4D2953}">

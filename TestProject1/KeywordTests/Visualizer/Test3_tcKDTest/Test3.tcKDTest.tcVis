@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{6AD7069B-3002-4A60-8228-2A033C5196FA}" />
+	<data key="{6AD7069B-3002-4A60-8228-2A033C5196FA}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45282.6561805556" objectName="Aliases.chrome.pageComboBoxComponentsVaadinDocs.articleDocumentation.textnode.shadowroot.textnodeCountry.shadowroot.panelTogglebutton" objectLeft="778" objectTop="529" objectRight="802" objectBottom="553" clickPointX="795" clickPointY="538" imageFileName="tcvi71676584388080.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45282.6562037037" objectName="Aliases.chrome.pageComboBoxComponentsVaadinDocs.textnodeVaadinComboBoxItem51" objectLeft="620" objectTop="643" objectRight="787" objectBottom="679" clickPointX="698" clickPointY="674" imageFileName="tcvi71676781288081.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
 </Root>
