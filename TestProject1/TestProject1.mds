@@ -31,6 +31,11 @@
 				<environments activeCloud="CBT" />
 				<children />
 			</testItem>
+			<testItem name="Test7" key="{DC616623-C370-4EC2-A037-54E58C79A9A4}" group="False" parallel="False" enabled="True" testMoniker="KDT\{99DD4391-C79F-4FDC-BD45-5F5DFBE852DB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
 		</children>
 	</testItems>
 	<variables key="{894DA1B3-37AA-4631-A9E8-7C4FCB5425A7}">
