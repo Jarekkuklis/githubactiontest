@@ -20,6 +20,11 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
+			<testItem name="Test1" key="{4459545F-22CA-4BD2-A67F-E1ACDAC34041}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F4665231-D30F-425D-9FB2-6B624D789750}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
 		</children>
 	</testItems>
 	<variables key="{894DA1B3-37AA-4631-A9E8-7C4FCB5425A7}">
@@ -44,7 +49,7 @@
 		</data>
 	</variables>
 	<settings key="{AC7608EC-867E-4AD2-9911-E039D2023A3B}">
-		<settingsVersion value="15.59" />
+		<settingsVersion value="15.60" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
