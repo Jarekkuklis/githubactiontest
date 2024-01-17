@@ -15,14 +15,14 @@
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{51CD66E3-9217-4BDF-A11B-6E3C1EC94830}" version="14">
 		<children>
-			<testItem name="logmsg" key="{497C057F-795B-4C33-B024-765C0CCABC3D}" group="False" parallel="False" enabled="True" testMoniker="{1C509CDC-A193-4A6F-A455-8253A1892D8E}logmsg" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Test1" key="{4459545F-22CA-4BD2-A67F-E1ACDAC34041}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F4665231-D30F-425D-9FB2-6B624D789750}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="Test1" key="{4459545F-22CA-4BD2-A67F-E1ACDAC34041}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F4665231-D30F-425D-9FB2-6B624D789750}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="logmsg" key="{497C057F-795B-4C33-B024-765C0CCABC3D}" group="False" parallel="False" enabled="True" testMoniker="{1C509CDC-A193-4A6F-A455-8253A1892D8E}logmsg" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 		</children>
