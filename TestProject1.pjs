@@ -13,8 +13,11 @@
 	<variables key="{2C4499A0-0897-4F75-A669-ABD3AE8240FD}">
 		<data Version="4">
 			<Items>
-				<Variable Name="Var1" Type="String" Local="True">
-					<DefValue />
+				<Variable Name="test" Type="String" Local="False">
+					<DefValue StrValue="False" />
+				</Variable>
+				<Variable Name="test2" Type="Boolean" Local="True">
+					<DefValue BoolValue="False" />
 				</Variable>
 			</Items>
 		</data>

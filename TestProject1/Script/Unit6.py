@@ -1,8 +1,11 @@
 ﻿def logmsg():
-  Log.Message("msg")
   
-def logwar():
-  Log.Warning("war")
+  if eval(ProjectSuite.Variables.test2) == True:
+    Log.Message(ProjectSuite.Variables.test2)
+  else: False
   
-def logerr():
-  Log.Error("err")
+def logmsg2():
+  
+  
+    Log.Message(ProjectSuite.Variables.test2)
+  
