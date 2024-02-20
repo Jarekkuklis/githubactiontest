@@ -331,6 +331,24 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeGoogle" Key="{028ABB46-8B23-4A50-AE8E-3E2E04409D75}">
+										<Image FileName="353016618" Left="36" Top="363" Right="101" Bottom="394" />
+										<TypeInfo Item0="{5DD2C90C-E105-4A93-B872-89A62D26E64F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h3[.=&apos;Google&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div//a/h3[contains(@class, &apos;LC20lb&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;www.google.pl&apos;)]/h3" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div//div//a/h3" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageAllegroAtrakcyjneCenyStronaG" Key="{F037B528-41DA-4650-B7EE-69B0297A24AF}">
@@ -3202,6 +3220,53 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageTryit" Key="{8FC0FAEA-905C-41F4-B3F0-505D6151396F}">
+								<Image FileName="1602081869" Left="0" Top="121" Right="3440" Bottom="1400" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.w3schools.com/js/tryit.asp*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Prompt" Key="{ECB70833-CFFF-424A-9937-C4CFE4546E09}">
+										<Image FileName="822595977" Left="1489" Top="78" Right="1951" Bottom="290" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Prompt" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="textboxValue" Key="{FA6B8E8E-FD79-4356-BE5E-473709F06F4C}">
+												<Image FileName="822595977" Left="1516" Top="163" Right="1924" Bottom="199" />
+												<TypeInfo Item0="{DE289312-5293-4EA8-9D30-3794597CBA3A}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="TextBox" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Value" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="buttonOk" Key="{B4E91FD9-41C1-49BC-9381-FCC5E361C965}">
+												<Image FileName="-730641464" Left="1774" Top="223" Right="1845" Bottom="261" />
+												<TypeInfo Item0="{DE289312-5293-4EA8-9D30-3794597CBA3A}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Button" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="OK" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="Orders" Key="{D043A17C-E617-4363-B6CC-43346E4D2953}">
@@ -4569,6 +4634,38 @@
 														<Value Value="MSTaskListWClass" />
 													</Property>
 												</Properties>
+												<Children>
+													<Child Name="buttonGoogleChrome1RunningWindow" Key="{C947A9EF-73A1-49E0-B6CE-6EF3EA7F9075}">
+														<Image FileName="-1127435776" Left="245" Top="0" Right="294" Bottom="40" />
+														<TypeInfo Item0="{C836DA9D-8730-480F-B0EF-693F176E6D8B}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="Google Chrome - 1 running window" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="2" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="buttonTestcomplete151RunningWind" Key="{D414CC6F-DECF-46CF-A798-90173E0F94C5}">
+														<Image FileName="240301667" Left="588" Top="0" Right="637" Bottom="40" />
+														<TypeInfo Item0="{C836DA9D-8730-480F-B0EF-693F176E6D8B}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="TestComplete 15 - 1 running window" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="2" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
 											</Child>
 										</Children>
 									</Child>
@@ -6317,6 +6414,7 @@
 			<Child Name="pageAllegroSzukajWGoogle" Owner="{DA51F654-B69A-40EC-BFFB-81BE60316604}">
 				<Child Name="textnodeAllegroAtrakcyjneCeny" Owner="{F9A34775-B869-4A08-9B05-25014B4A8A69}" />
 				<Child Name="linkWiadomoCi" Owner="{29B649DF-37B4-4005-B6A6-78A5CA193C0F}" />
+				<Child Name="textnodeGoogle" Owner="{028ABB46-8B23-4A50-AE8E-3E2E04409D75}" />
 			</Child>
 			<Child Name="pageAllegroAtrakcyjneCenyStronaG" Owner="{F037B528-41DA-4650-B7EE-69B0297A24AF}">
 				<Child Name="buttonOkZgadzamSi" Owner="{B08DC49D-2745-4544-9A39-289DFA2033D0}" />
@@ -6617,6 +6715,12 @@
 				</Child>
 				<Child Name="textnodeVaadinComboBoxItem51" Owner="{6FBEC9A0-5AF7-4067-9575-EE03D933F164}" />
 			</Child>
+			<Child Name="pageTryit" Owner="{8FC0FAEA-905C-41F4-B3F0-505D6151396F}">
+				<Child Name="Prompt" Owner="{ECB70833-CFFF-424A-9937-C4CFE4546E09}">
+					<Child Name="textboxValue" Owner="{FA6B8E8E-FD79-4356-BE5E-473709F06F4C}" />
+					<Child Name="buttonOk" Owner="{B4E91FD9-41C1-49BC-9381-FCC5E361C965}" />
+				</Child>
+			</Child>
 		</Child>
 		<Child Name="Orders" Owner="{D043A17C-E617-4363-B6CC-43346E4D2953}">
 			<Child Name="HwndSource_MainForm" Owner="{47552EE2-5B4C-4116-A76C-4F4B2B8D636C}">
@@ -6796,7 +6900,10 @@
 			</Child>
 			<Child Name="wndShell_SecondaryTrayWnd" Owner="{B8DE9FA1-A281-4274-9C66-E87B87D5DEAE}">
 				<Child Name="WorkerW" Owner="{8DE69BF8-CBFF-4417-A9C6-524E0FA1D2BC}">
-					<Child Name="MSTaskListWClass" Owner="{E115BBC5-0BAC-493D-B429-86CE2D648720}" />
+					<Child Name="MSTaskListWClass" Owner="{E115BBC5-0BAC-493D-B429-86CE2D648720}">
+						<Child Name="buttonGoogleChrome1RunningWindow" Owner="{C947A9EF-73A1-49E0-B6CE-6EF3EA7F9075}" />
+						<Child Name="buttonTestcomplete151RunningWind" Owner="{D414CC6F-DECF-46CF-A798-90173E0F94C5}" />
+					</Child>
 				</Child>
 				<Child Name="TrayButton" Owner="{8A841453-AFC2-48D4-8980-954A7E2F2BA7}" />
 			</Child>

@@ -19,10 +19,10 @@
 		<child key="{617E6331-F339-42FA-80B8-DC59E747C8C9}">
 			<config nodeName="msedge" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="Simple">
-					<param name="RunAs" parameters="--disable-web-security --user-data-dir=C:\Users\jaroslaw.kuklis\AppData\Local\Microsoft\Edge\User Data\Default --disable-site-isolation-trials" workFolder="" userName="" password="" domain="" />
-					<param name="Profile" parameters="--disable-web-security --user-data-dir=C:\Users\jaroslaw.kuklis\AppData\Local\Microsoft\Edge\User Data\Default --disable-site-isolation-trials" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="8" forceRunMode="False" />
-					<param name="Debug" parameters="--disable-web-security --user-data-dir=C:\Users\jaroslaw.kuklis\AppData\Local\Microsoft\Edge\User Data\Default --disable-site-isolation-trials" workFolder="" />
-					<param name="Simple" fileName="msedge.exe" filePath="C:\Program Files (x86)\Microsoft\Edge\Application\" parameters="--disable-web-security --user-data-dir=C:\Users\jaroslaw.kuklis\AppData\Local\Microsoft\Edge\User Data\Default --disable-site-isolation-trials" workFolder="" />
+					<param name="RunAs" parameters="-injectCefHook" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="-injectCefHook" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="8" forceRunMode="False" />
+					<param name="Debug" parameters="-injectCefHook" workFolder="" />
+					<param name="Simple" fileName="msedge.exe" filePath="C:\Program Files (x86)\Microsoft\Edge\Application\" parameters="-injectCefHook" workFolder="" />
 				</runModeParams>
 			</config>
 			<testData />
@@ -92,9 +92,18 @@
 			<data />
 		</child>
 		<child key="{FF4EE309-100A-4BA8-9112-D1E297F34B80}">
-			<config nodeName="app_debug" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+			<config nodeName="app_debug" autorunOnRecording="False" enabled="False" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="BitBar">
 					<param name="BitBar" parameters="" workFolder="" application="C:\Users\jaroslaw.kuklis\Downloads\app-debug.apk" upload="True" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{BEF84657-7C58-4D6C-97E8-210DD8EAC804}">
+			<config nodeName="AndroidProdUAT" autorunOnRecording="False" enabled="False" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="BitBar">
+					<param name="BitBar" parameters="" workFolder="" application="C:\Users\jaroslaw.kuklis\Downloads\AndroidProdUAT.apk" upload="True" />
 				</runModeParams>
 			</config>
 			<testData />

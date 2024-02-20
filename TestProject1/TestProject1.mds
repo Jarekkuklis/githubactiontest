@@ -15,12 +15,7 @@
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{51CD66E3-9217-4BDF-A11B-6E3C1EC94830}" version="14">
 		<children>
-			<testItem name="Test1" key="{4459545F-22CA-4BD2-A67F-E1ACDAC34041}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F4665231-D30F-425D-9FB2-6B624D789750}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="logmsg" key="{497C057F-795B-4C33-B024-765C0CCABC3D}" group="False" parallel="False" enabled="True" testMoniker="{1C509CDC-A193-4A6F-A455-8253A1892D8E}logmsg" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Test1" key="{1B2B4792-B491-4324-8C8B-743CBF557C32}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F4665231-D30F-425D-9FB2-6B624D789750}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -36,7 +31,7 @@
 				<Variable Name="Password2" Type="Password" Local="False">
 					<DefValue StrValue="3800390036003100310033004400330046003400440038004600330046003700450043003900390032003700390034003500410046003900360033003700420037003600310044003100410037004600410043003000300041004300300043004400450044004600450035003400300045003400430046003700340041003200330033003300350044004600380046003000300039003000" />
 				</Variable>
-				<Variable Name="Var1" Type="String" Local="False">
+				<Variable Name="Var1" Type="Object" Local="False">
 					<DefValue />
 				</Variable>
 				<Variable Name="Var2" Type="String" Local="False">
@@ -45,11 +40,16 @@
 				<Variable Name="Var3" Type="String" Local="True">
 					<DefValue />
 				</Variable>
+				<Variable Name="Var11" Type="DB Table" Local="False">
+					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+						<ConnectionInfo FileName="..\..\..\..\..\Desktop\New Microsoft Excel Worksheet.xlsx" Table="Sheet1$" HasColumnNames="False" />
+					</DefValue>
+				</Variable>
 			</Items>
 		</data>
 	</variables>
 	<settings key="{AC7608EC-867E-4AD2-9911-E039D2023A3B}">
-		<settingsVersion value="15.60" />
+		<settingsVersion value="15.61" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -76,7 +76,7 @@
 		<setting name="AzureDevOps_TeamProject" type="5" value="PipelineTrening" />
 		<setting name="AzureDevOps_TeamProjectCollection" type="5" value="" />
 		<setting name="AzureDevOps_URL" type="5" value="https://dev.azure.com/jaroslawkuklis" />
-		<setting name="BitBar_APIKey" type="5" value="3A02A04090AB82ED14C61B1AE3A32680F123A302A4CE86CF81CD735ACDA6392F97A93E0CCCB093306191E4808F45E4A1D5B7FED39657930C89E1C0E5B500728B13DB" />
+		<setting name="BitBar_APIKey" type="5" value="3A02A04190AF828D0C862B0233BDB56856F449873CFC079CC1C073C01A8A4043C6C07D5615958A0C0D6F4AC96B8B3E7D8E842CD87B27A7AD44E8930C4271DFCAC1" />
 		<setting name="BitBar_APIURL" type="5" value="https://cloud.bitbar.com/api/" />
 		<setting name="BitBar_FindAndroidDevice" type="5" value="( Device Group As in Selected Device )" />
 		<setting name="BitBar_FindIOSDevice" type="5" value="( Device Group As in Selected Device )" />
@@ -397,7 +397,7 @@
 				<column type="5" enabled="True" />
 			</columns>
 			<data>
-				<row val0="False" val1="*" />
+				<row val0="True" val1="*" />
 				<row val0="True" val1="DirectUIHWND" />
 				<row val0="True" val1="Windows.UI.Core.CoreWindow" />
 				<row val0="True" val1="NetUIHWNDElement" />
@@ -577,7 +577,7 @@
 			</columns>
 			<data />
 		</setting>
-		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="2" colIndex="1">
+		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="0" colIndex="1">
 			<columns>
 				<column type="5" enabled="True" />
 				<column type="2" enabled="True" />
@@ -615,6 +615,7 @@
 		<setting name="Playback_Log_AutosaveInterval" type="2" value="0" />
 		<setting name="Playback_Log_EventCount" type="2" value="0" />
 		<setting name="Playback_Log_PostImageOnError" type="1" value="True" />
+		<setting name="Playback_Log_SuggestMoveSelector" type="1" value="True" />
 		<setting name="Playback_ObjectSearchStrategy" type="6" rowIndex="1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
@@ -630,7 +631,7 @@
 		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
 		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="False" />
 		<setting name="Playback_Runtime_UseCaseSensitiveParameters" type="1" value="False" />
-		<setting name="Playback_StopOnError" type="1" value="True" />
+		<setting name="Playback_StopOnError" type="1" value="False" />
 		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="False" />
 		<setting name="Playback_StopOnWarning" type="1" value="False" />
 		<setting name="Playback_TestItemMaxReRunCount" type="2" value="1" />
