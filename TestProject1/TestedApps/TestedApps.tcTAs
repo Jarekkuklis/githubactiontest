@@ -40,15 +40,6 @@
 			<testData />
 			<data />
 		</child>
-		<child key="{801AF494-0DA3-43E4-B1C0-9ED89FF395BE}">
-			<config nodeName="Orders1" autorunOnRecording="False" enabled="False" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
-				<runModeParams activeRunMode="BitBar">
-					<param name="BitBar" parameters="" workFolder="" application="C:\Users\Public\Documents\TestComplete 15 Samples\Mobile\Android\Orders\Orders Application\bin\Orders.apk" upload="True" />
-				</runModeParams>
-			</config>
-			<testData />
-			<data />
-		</child>
 		<child key="{7AD01411-484C-4F5E-91E9-E1A7EBBAB692}">
 			<config nodeName="_cambiofechahoy" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="RunAs">
@@ -104,6 +95,15 @@
 			<config nodeName="AndroidProdUAT" autorunOnRecording="False" enabled="False" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="BitBar">
 					<param name="BitBar" parameters="" workFolder="" application="C:\Users\jaroslaw.kuklis\Downloads\AndroidProdUAT.apk" upload="True" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{961655E1-16CB-4303-8A8D-8EABCB35D0D2}">
+			<config nodeName="Orders1" autorunOnRecording="False" enabled="False" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="BitBar">
+					<param name="BitBar" parameters="" workFolder="" application="C:\Users\Public\Documents\TestComplete 15 Samples\Mobile\Android\Orders\Orders Application\bin\Orders.apk" upload="True" />
 				</runModeParams>
 			</config>
 			<testData />

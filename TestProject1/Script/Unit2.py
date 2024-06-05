@@ -31,3 +31,6 @@ def MyTest1():
 
 def MyTest2():
   Log.Message("it is test2")
+
+  
+  Main_RunMobileTests_Parallel()

@@ -3,11 +3,13 @@
 	<children>
 		<child name="TestProject1" key="{308B8A5F-54C3-47EC-AD46-B4B585BE52D9}" path="TestProject1\TestProject1.mds" />
 		<child name="TestProject2" key="{3BB4B1DB-2F85-4A8C-B4C3-FEAA7201E2BE}" path="TestProject2\TestProject2.mds" />
+		<child name="TestProject3" key="{5ECEDA25-F733-42DA-BAAB-B4B7D09D4490}" path="TestProject3\TestProject3.mds" />
 	</children>
 	<testItems key="{DE321793-F96B-4C93-8018-8B52C827420D}">
 		<children>
 			<testItem key="{308B8A5F-54C3-47EC-AD46-B4B585BE52D9}" enabled="True" timeout="0" stopOnError="True" description="" />
 			<testItem key="{3BB4B1DB-2F85-4A8C-B4C3-FEAA7201E2BE}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{5ECEDA25-F733-42DA-BAAB-B4B7D09D4490}" enabled="True" timeout="0" stopOnError="True" description="" />
 		</children>
 	</testItems>
 	<variables key="{2C4499A0-0897-4F75-A669-ABD3AE8240FD}">

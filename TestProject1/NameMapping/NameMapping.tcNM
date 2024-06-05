@@ -96,6 +96,51 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="buttonHeadlessuiTabsTab1" Key="{863C47F4-652A-4D13-8BBB-9DEBDD491BA7}">
+										<Image FileName="1229401155" Left="1020" Top="214" Right="1194" Bottom="280" />
+										<TypeInfo Item0="{3686AA18-2E8D-4AD7-B5AE-72493D24C70C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#headlessui-tabs-tab-1" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Tłumacz tekst&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionTUmaczTekst" Key="{954AB436-D42E-4FEE-AF35-F505BB212700}">
+										<Image FileName="1229401155" Left="1021" Top="305" Right="2419" Bottom="918" />
+										<TypeInfo Item0="{5DDA967F-11BD-45C5-B949-947F7331936C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(.,&apos;Tłumacz tekst&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Tłumacz tekst&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTranslationSourceHeading" Key="{080CEA0C-55CD-4D63-8618-F26AAC5BB908}">
+										<Image FileName="1229401155" Left="1021" Top="361" Right="1022" Bottom="362" />
+										<TypeInfo Item0="{5DDA967F-11BD-45C5-B949-947F7331936C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#translation-source-heading" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3[.=&apos;Tekst źródłowy&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/h3[contains(@class, &apos;sr-only&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;textareasContainer&apos;]//div/h3" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/h3" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageTUmaczDeeplNajlepszyTranslat2" Key="{6B84CA36-96B2-4A3F-A72C-5E1DA42896B0}">
@@ -1302,6 +1347,245 @@
 													</Property>
 												</Properties>
 											</Child>
+											<Child Name="panelBook1" Key="{04470DE7-6315-4EC9-B1EC-E5732997D1FD}">
+												<Image FileName="2096368069" Left="1" Top="208" Right="1439" Bottom="736" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="Caption">
+														<Value Value="Book1" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="clientBook1" Key="{AF20324A-9723-40B2-B039-33D1C61BCA41}">
+														<Image FileName="2096368069" Left="1" Top="208" Right="1439" Bottom="736" />
+														<TypeInfo Item0="{C836DA9D-8730-480F-B0EF-693F176E6D8B}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Client" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="Book1" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="panel" Key="{41BE17AF-1ADA-404D-9D9F-886F354A5074}">
+										<Image FileName="1670514274" Left="1" Top="1" Right="1439" Bottom="162" />
+										<Properties>
+											<Property Name="FrameworkId">
+												<Value Value="Win32" />
+											</Property>
+											<Property Name="ClassName">
+												<Value Value="EXCEL2" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value Value="pane" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="0" Type="0" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="toolbar" Key="{F63E9289-2523-4F86-9772-32BD46D1F4C6}">
+												<Image FileName="1670514274" Left="1" Top="1" Right="1439" Bottom="162" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="Win32" />
+													</Property>
+													<Property Name="ClassName">
+														<Value Value="MsoCommandBar" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="tool bar" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="0" Type="0" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panelRibbon" Key="{E21E9E31-0A5C-43BC-A2DC-0D268F1D0E43}">
+														<Image FileName="1670514274" Left="1" Top="1" Right="1439" Bottom="162" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Panel" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="Ribbon" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panel" Key="{EC4295E4-0BDC-45C8-9B96-F24674003461}">
+																<Image FileName="1670514274" Left="1" Top="1" Right="1439" Bottom="162" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value Value="Win32" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value Value="NUIPane" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value Value="pane" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="0" Type="0" />
+																	</Property>
+																	<Property Name="ObjectGroupIndex">
+																		<Value Value="1" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="propertypageRibbon" Key="{E4E5DB65-69C2-422E-ABCD-702E19182F51}">
+																		<Image FileName="1670514274" Left="1" Top="1" Right="1439" Bottom="162" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="PropertyPage" />
+																			</Property>
+																			<Property Name="Caption">
+																				<Value Value="Ribbon" />
+																			</Property>
+																			<Property Name="ObjectGroupIndex">
+																				<Value Value="1" Type="0" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="paneLowerRibbon" Key="{E1F1EE25-34C3-4FAD-9F15-53CE2853E1E3}">
+																				<Image FileName="1670514274" Left="1" Top="65" Right="1414" Bottom="162" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Pane" />
+																					</Property>
+																					<Property Name="Caption">
+																						<Value Value="Lower Ribbon" />
+																					</Property>
+																					<Property Name="ObjectGroupIndex">
+																						<Value Value="1" Type="0" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="propertypageHome" Key="{907B80F9-6BEE-406D-8271-8414DD7CF9BA}">
+																						<Image FileName="1670514274" Left="1" Top="65" Right="1414" Bottom="162" />
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value Value="PropertyPage" />
+																							</Property>
+																							<Property Name="Caption">
+																								<Value Value="Home" />
+																							</Property>
+																							<Property Name="ObjectGroupIndex">
+																								<Value Value="1" Type="0" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="toolbarFont" Key="{AD93599C-BF6F-491B-ADD8-289B9DABDB8F}">
+																								<Image FileName="1670514274" Left="97" Top="66" Right="329" Bottom="161" />
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value Value="ToolBar" />
+																									</Property>
+																									<Property Name="Caption">
+																										<Value Value="Font" />
+																									</Property>
+																									<Property Name="ObjectGroupIndex">
+																										<Value Value="1" Type="0" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="groupingFontColor" Key="{08C91762-36C7-4284-AA29-03F987C62AAA}">
+																										<Image FileName="867666161" Left="284" Top="109" Right="321" Bottom="132" />
+																										<Properties>
+																											<Property Name="ObjectType">
+																												<Value Value="Grouping" />
+																											</Property>
+																											<Property Name="Caption">
+																												<Value Value="Font Color" />
+																											</Property>
+																											<Property Name="ObjectGroupIndex">
+																												<Value Value="1" Type="0" />
+																											</Property>
+																										</Properties>
+																										<Children>
+																											<Child Name="griddropdownbuttonFontColor" Key="{57DFBE95-B363-4FB2-B0D7-834A2167104F}">
+																												<Image FileName="867666161" Left="306" Top="109" Right="321" Bottom="132" />
+																												<TypeInfo Item0="{C836DA9D-8730-480F-B0EF-693F176E6D8B}" />
+																												<Properties>
+																													<Property Name="ObjectType">
+																														<Value Value="GridDropDownButton" />
+																													</Property>
+																													<Property Name="Caption">
+																														<Value Value="Font Color" />
+																													</Property>
+																													<Property Name="ObjectGroupIndex">
+																														<Value Value="1" Type="0" />
+																													</Property>
+																												</Properties>
+																											</Child>
+																										</Children>
+																									</Child>
+																									<Child Name="groupingFillColor" Key="{AD4A7992-9DF5-436B-97B5-39F82E9B7B91}">
+																										<Image FileName="2127032226" Left="245" Top="109" Right="282" Bottom="132" />
+																										<Properties>
+																											<Property Name="ObjectType">
+																												<Value Value="Grouping" />
+																											</Property>
+																											<Property Name="Caption">
+																												<Value Value="Fill Color" />
+																											</Property>
+																											<Property Name="ObjectGroupIndex">
+																												<Value Value="1" Type="0" />
+																											</Property>
+																										</Properties>
+																										<Children>
+																											<Child Name="splitbuttonFillColor" Key="{ECE5030E-838E-4826-974F-32DB3ABEB64B}">
+																												<Image FileName="2127032226" Left="245" Top="109" Right="267" Bottom="132" />
+																												<TypeInfo Item0="{C836DA9D-8730-480F-B0EF-693F176E6D8B}" />
+																												<Properties>
+																													<Property Name="ObjectType">
+																														<Value Value="SplitButton" />
+																													</Property>
+																													<Property Name="Caption">
+																														<Value Value="Fill Color" />
+																													</Property>
+																													<Property Name="ObjectGroupIndex">
+																														<Value Value="1" Type="0" />
+																													</Property>
+																												</Properties>
+																											</Child>
+																										</Children>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
 										</Children>
 									</Child>
 								</Children>
@@ -1467,6 +1751,321 @@
 																								<Value Value="A4" />
 																							</Property>
 																						</Properties>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="toolwindow" Key="{E304AB4D-D1A8-4AF2-B5F7-5371CEF9EE42}">
+								<Image FileName="-1104914474" Left="0" Top="0" Right="174" Bottom="256" />
+								<Properties>
+									<Property Name="FrameworkId">
+										<Value Value="Win32" />
+									</Property>
+									<Property Name="ClassName">
+										<Value Value="Net UI Tool Window" />
+									</Property>
+									<Property Name="LocalizedControlType">
+										<Value Value="menu" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+									<Property Name="ObjectGroupIndex">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelFontColor" Key="{8D39D09F-A48E-45BB-831C-5A9654F18962}">
+										<Image FileName="-1104914474" Left="0" Top="0" Right="174" Bottom="256" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="Caption">
+												<Value Value="Font Color" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="groupingThemeColors" Key="{AD5C1B81-7693-48EF-A136-6DE16718DA3C}">
+												<Image FileName="-1104914474" Left="2" Top="30" Right="172" Bottom="87" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Grouping" />
+													</Property>
+													<Property Name="Caption">
+														<Value Value="Theme Colors" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="listitemGrayAccent3" Key="{C484BBBF-4AB7-4468-BC6F-FFB5C8EE99E0}">
+														<Image FileName="-1104914474" Left="104" Top="64" Right="121" Bottom="77" />
+														<TypeInfo Item0="{C836DA9D-8730-480F-B0EF-693F176E6D8B}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ListItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="Gray, Accent 3" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="formBook2Excel" Key="{0AE39608-0115-4805-A094-11D7C28B27CC}">
+								<Image FileName="1296771328" Left="0" Top="0" Right="1440" Bottom="759" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Form" />
+									</Property>
+									<Property Name="WndClass">
+										<Value Value="XLMAIN" />
+									</Property>
+									<Property Name="ObjectGroupIndex">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panel" Key="{3310C973-0ACC-4CC1-97ED-9AC5BDAF929E}">
+										<Image FileName="1296771328" Left="1" Top="208" Right="1439" Bottom="736" />
+										<Properties>
+											<Property Name="FrameworkId">
+												<Value Value="Win32" />
+											</Property>
+											<Property Name="ClassName">
+												<Value Value="XLDESK" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value Value="pane" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="0" Type="0" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panelBook2" Key="{9F673044-21E1-4DC7-9A05-9619CF3B65AD}">
+												<Image FileName="1296771328" Left="1" Top="208" Right="1439" Bottom="736" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="Caption">
+														<Value Value="Book2" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="clientBook2" Key="{AE121D3C-65CB-4039-B99C-7035E6BB69D1}">
+														<Image FileName="1296771328" Left="1" Top="208" Right="1439" Bottom="736" />
+														<TypeInfo Item0="{C836DA9D-8730-480F-B0EF-693F176E6D8B}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Client" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="Book2" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="panel2" Key="{71FC8874-424A-4324-9E26-6C2FCDCF18C9}">
+										<Image FileName="740341393" Left="1" Top="1" Right="1439" Bottom="162" />
+										<Properties>
+											<Property Name="FrameworkId">
+												<Value Value="Win32" />
+											</Property>
+											<Property Name="ClassName">
+												<Value Value="EXCEL2" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value Value="pane" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="0" Type="0" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="toolbar" Key="{628BCC03-E972-4BFF-A8E5-C33D898DF653}">
+												<Image FileName="740341393" Left="1" Top="1" Right="1439" Bottom="162" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="Win32" />
+													</Property>
+													<Property Name="ClassName">
+														<Value Value="MsoCommandBar" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="tool bar" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="0" Type="0" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panelRibbon" Key="{F8B09C7A-8B49-46C4-BE33-547CDE53A29E}">
+														<Image FileName="740341393" Left="1" Top="1" Right="1439" Bottom="162" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Panel" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="Ribbon" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panel" Key="{F27BDB6F-1DD4-430C-8795-A9FC9E813897}">
+																<Image FileName="740341393" Left="1" Top="1" Right="1439" Bottom="162" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value Value="Win32" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value Value="NUIPane" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value Value="pane" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="0" Type="0" />
+																	</Property>
+																	<Property Name="ObjectGroupIndex">
+																		<Value Value="1" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="propertypageRibbon" Key="{9DD3857B-4186-4693-9538-CE382D87CF7B}">
+																		<Image FileName="740341393" Left="1" Top="1" Right="1439" Bottom="162" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="PropertyPage" />
+																			</Property>
+																			<Property Name="Caption">
+																				<Value Value="Ribbon" />
+																			</Property>
+																			<Property Name="ObjectGroupIndex">
+																				<Value Value="1" Type="0" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="paneLowerRibbon" Key="{CD84AD80-65FE-4202-82E4-63817DF4A397}">
+																				<Image FileName="740341393" Left="1" Top="65" Right="1414" Bottom="162" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Pane" />
+																					</Property>
+																					<Property Name="Caption">
+																						<Value Value="Lower Ribbon" />
+																					</Property>
+																					<Property Name="ObjectGroupIndex">
+																						<Value Value="1" Type="0" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="propertypageHome" Key="{6F990092-A0F5-4EFA-8583-301CEE388263}">
+																						<Image FileName="740341393" Left="1" Top="65" Right="1414" Bottom="162" />
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value Value="PropertyPage" />
+																							</Property>
+																							<Property Name="Caption">
+																								<Value Value="Home" />
+																							</Property>
+																							<Property Name="ObjectGroupIndex">
+																								<Value Value="1" Type="0" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="toolbarFont" Key="{86391BC1-C327-4C31-B0FB-D260FDA68F9A}">
+																								<Image FileName="740341393" Left="97" Top="66" Right="329" Bottom="161" />
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value Value="ToolBar" />
+																									</Property>
+																									<Property Name="Caption">
+																										<Value Value="Font" />
+																									</Property>
+																									<Property Name="ObjectGroupIndex">
+																										<Value Value="1" Type="0" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="groupingFillColor" Key="{BAE6CC07-774A-444E-80A6-E3A41ACA10EF}">
+																										<Image FileName="740341393" Left="245" Top="109" Right="282" Bottom="132" />
+																										<Properties>
+																											<Property Name="ObjectType">
+																												<Value Value="Grouping" />
+																											</Property>
+																											<Property Name="Caption">
+																												<Value Value="Fill Color" />
+																											</Property>
+																											<Property Name="ObjectGroupIndex">
+																												<Value Value="1" Type="0" />
+																											</Property>
+																										</Properties>
+																										<Children>
+																											<Child Name="splitbuttonFillColor" Key="{71DC1461-8964-44A4-AEB2-E45D1D643D3C}">
+																												<Image FileName="740341393" Left="245" Top="109" Right="267" Bottom="132" />
+																												<TypeInfo Item0="{C836DA9D-8730-480F-B0EF-693F176E6D8B}" />
+																												<Properties>
+																													<Property Name="ObjectType">
+																														<Value Value="SplitButton" />
+																													</Property>
+																													<Property Name="Caption">
+																														<Value Value="Fill Color" />
+																													</Property>
+																													<Property Name="ObjectGroupIndex">
+																														<Value Value="1" Type="0" />
+																													</Property>
+																												</Properties>
+																											</Child>
+																										</Children>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
 																					</Child>
 																				</Children>
 																			</Child>
@@ -3264,6 +3863,215 @@
 												</Properties>
 											</Child>
 										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="Open" Key="{0D5DB7EA-24C7-45A6-98F9-73AB225968DB}">
+								<Image FileName="335845963" Left="0" Top="0" Right="1200" Bottom="720" />
+								<Properties>
+									<Property Name="FrameworkId">
+										<Value Value="Win32" />
+									</Property>
+									<Property Name="ClassName">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="LocalizedControlType">
+										<Value Value="Dialog" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="Open" />
+									</Property>
+									<Property Name="ObjectGroupIndex">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="File_name_" Key="{5CE523C2-2FA6-496E-A9BE-78B5332137C9}">
+										<Image FileName="335845963" Left="197" Top="645" Right="975" Bottom="669" />
+										<Properties>
+											<Property Name="FrameworkId">
+												<Value Value="Win32" />
+											</Property>
+											<Property Name="ClassName">
+												<Value Value="ComboBoxEx32" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value Value="pane" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="File_name_" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="File_name_" Key="{49B40DF3-5511-4032-90C7-59908669438E}">
+												<Image FileName="335845963" Left="197" Top="645" Right="975" Bottom="669" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="Win32" />
+													</Property>
+													<Property Name="ClassName">
+														<Value Value="ComboBox" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="combo box" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="File_name_" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="buttonOpen" Key="{E96CD392-C505-4EF2-BB01-BC88B28E5A59}">
+														<Image FileName="335845963" Left="959" Top="646" Right="974" Bottom="668" />
+														<TypeInfo Item0="{9CB0BC6E-A75C-4E4F-883A-A5B8E983C865}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="Open" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="Open" Key="{59371E5D-7F4E-4E3A-A44F-B450208F61F6}">
+										<Image FileName="-958872718" Left="987" Top="674" Right="1075" Bottom="700" />
+										<TypeInfo Item0="{CE07A9DC-6B0B-4BB3-AFA7-2B4DE2DF2C4D}" />
+										<Properties>
+											<Property Name="FrameworkId">
+												<Value Value="Win32" />
+											</Property>
+											<Property Name="ClassName">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value Value="button" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="Open" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="panelFileName" Key="{B061649E-C1CE-46E5-8638-A9B097A3B361}">
+										<Image FileName="-714099532" Left="197" Top="645" Right="975" Bottom="669" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="Caption">
+												<Value Value="File name:" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="comboboxFileName" Key="{7FC71184-1633-4C9F-8CD9-4DF8B46417DA}">
+												<Image FileName="-714099532" Left="197" Top="645" Right="975" Bottom="669" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="ComboBox" />
+													</Property>
+													<Property Name="Caption">
+														<Value Value="File name:" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="editFileName" Key="{CA9D16CB-B170-44BB-A9A0-CF83E2518F9E}">
+														<Image FileName="-714099532" Left="201" Top="650" Right="955" Bottom="665" />
+														<TypeInfo Item0="{1E91A225-D4D2-43E6-B4A2-C033995D8EA4}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Edit" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="File name:" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="buttonOpen" Key="{33ABB164-BBA0-4B1B-96B7-CAEC3CE96788}">
+														<Image FileName="-1847039268" Left="959" Top="646" Right="974" Bottom="668" />
+														<TypeInfo Item0="{C836DA9D-8730-480F-B0EF-693F176E6D8B}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="Open" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageWebtocasefileuploads3" Key="{21CE9F5B-948E-4911-88DD-5E8A06D533D9}">
+								<Image FileName="904638601" Left="0" Top="121" Right="3440" Bottom="1400" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://smartbear.my.salesforce-sites.com/support/WebToCaseFileUploadS3*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formFileuploadform" Key="{1FB5CA88-8A72-4CEC-9A82-82E4CB7B3551}">
+										<Image FileName="904638601" Left="0" Top="196" Right="640" Bottom="234" />
+										<Selectors>
+											<Selector>
+												<Value Value="#fileUploadForm" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Upload file:&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;webtocasefiles&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelBrowse" Key="{B501FB36-47A3-4FCA-987F-E888CE653530}">
+										<Image FileName="904638601" Left="93" Top="196" Right="183" Bottom="224" />
+										<TypeInfo Item0="{5DD2C90C-E105-4A93-B872-89A62D26E64F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Browse ...&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;fileUploadForm&apos;]/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//label" />
+											</Selector>
+										</Selectors>
 									</Child>
 								</Children>
 							</Child>
@@ -5113,6 +5921,67 @@
 											</Property>
 										</Properties>
 									</Child>
+									<Child Name="menubarApplication" Key="{A395DC1E-E178-4EEA-843F-A96F59A93562}">
+										<Image FileName="654114615" Left="8" Top="31" Right="1463" Bottom="50" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="MenuBar" />
+											</Property>
+											<Property Name="Caption">
+												<Value Value="Application" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="menuitemFile" Key="{C9885E53-F10C-4BF0-84C7-2BD967ACE51E}">
+												<Image FileName="654114615" Left="8" Top="31" Right="40" Bottom="50" />
+												<TypeInfo Item0="{E43C79CA-FADE-4E12-AFF1-C214CF4200B4}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="MenuItem" />
+													</Property>
+													<Property Name="Caption">
+														<Value Value="File" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="menuitemEdit" Key="{BA64574F-D77B-4C22-BA6B-4AEEE313111E}">
+												<Image FileName="-1439238826" Left="40" Top="31" Right="74" Bottom="50" />
+												<TypeInfo Item0="{E43C79CA-FADE-4E12-AFF1-C214CF4200B4}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="MenuItem" />
+													</Property>
+													<Property Name="Caption">
+														<Value Value="Edit" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="menuitemFormat" Key="{19EE3025-3C05-4234-8BFE-C37ABEEC94AB}">
+												<Image FileName="-1472861710" Left="74" Top="31" Right="126" Bottom="50" />
+												<TypeInfo Item0="{E43C79CA-FADE-4E12-AFF1-C214CF4200B4}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="MenuItem" />
+													</Property>
+													<Property Name="Caption">
+														<Value Value="Format" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="Item" Key="{CD98E975-8315-432C-8AAA-AA0C69211586}">
@@ -5123,6 +5992,23 @@
 										<Value Value="#32768" />
 									</Property>
 								</Properties>
+								<Children>
+									<Child Name="menuitemFont" Key="{3C9AE3B3-B9BB-4E86-946D-45B057DF2053}">
+										<Image FileName="1270127190" Left="3" Top="25" Right="147" Bottom="47" />
+										<TypeInfo Item0="{E43C79CA-FADE-4E12-AFF1-C214CF4200B4}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="MenuItem" />
+											</Property>
+											<Property Name="Caption">
+												<Value Value="Font..." />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
 							</Child>
 							<Child Name="dlgFont" Key="{9668F66F-3D04-4A7E-9F58-ADC17692BBF5}">
 								<Image FileName="127351423" Left="0" Top="0" Right="441" Bottom="478" />
@@ -5162,6 +6048,69 @@
 												<Value Value="OK" />
 											</Property>
 										</Properties>
+									</Child>
+									<Child Name="comboboxFont" Key="{6DDC0467-03A2-480A-8CB9-E3D10F6C668D}">
+										<Image FileName="-1429173392" Left="20" Top="61" Right="192" Bottom="201" />
+										<TypeInfo Item0="{6C7488C9-8519-4E21-8E96-F000E8948D3B}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="ComboBox" />
+											</Property>
+											<Property Name="Caption">
+												<Value Value="Font:" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="editFont" Key="{72EF7900-8F26-442A-BE8F-01CA43362022}">
+												<Image FileName="1729299347" Left="23" Top="64" Right="189" Bottom="80" />
+												<TypeInfo Item0="{86C8D0DB-53E8-40CB-A63B-1760F6FA66B1}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Edit" />
+													</Property>
+													<Property Name="Caption">
+														<Value Value="Font:" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="titlebar" Key="{63A5E6EB-6BD6-4B1F-B208-FB86A1EA3968}">
+										<Image FileName="-1909627823" Left="8" Top="3" Right="433" Bottom="31" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="TitleBar" />
+											</Property>
+											<Property Name="ControlIndex">
+												<Value Value="0" Type="0" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="buttonClose" Key="{30BF9386-0D57-4276-9EF5-1702A5F4B4D5}">
+												<Image FileName="-1909627823" Left="400" Top="1" Right="434" Bottom="31" />
+												<TypeInfo Item0="{C836DA9D-8730-480F-B0EF-693F176E6D8B}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Button" />
+													</Property>
+													<Property Name="Caption">
+														<Value Value="Close" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
 									</Child>
 								</Children>
 							</Child>
@@ -6389,6 +7338,11 @@
 						</Child>
 					</Child>
 				</Child>
+				<Child Name="buttonHeadlessuiTabsTab1" Owner="{863C47F4-652A-4D13-8BBB-9DEBDD491BA7}">
+					<Child Name="sectionTUmaczTekst" Owner="{954AB436-D42E-4FEE-AF35-F505BB212700}">
+						<Child Name="textnodeTranslationSourceHeading" Owner="{080CEA0C-55CD-4D63-8618-F26AAC5BB908}" />
+					</Child>
+				</Child>
 			</Child>
 			<Child Name="pageTUmaczDeeplNajlepszyTranslat2" Owner="{6B84CA36-96B2-4A3F-A72C-5E1DA42896B0}">
 				<Child Name="headerTUmacz" Owner="{448451EE-6641-45C0-8639-932EF93482CB}">
@@ -6520,6 +7474,31 @@
 			<Child Name="wndXLMAIN" Owner="{16C5D021-A60C-4A75-92DE-F3644FDED022}">
 				<Child Name="XLDESK" Owner="{E7E24A5D-BAE0-43D7-B5E5-60565A7CE2B6}">
 					<Child Name="EXCEL6" Owner="{6415C427-7BB5-4E01-98D2-7A15C4E89342}" />
+					<Child Name="panelBook1" Owner="{04470DE7-6315-4EC9-B1EC-E5732997D1FD}">
+						<Child Name="clientBook1" Owner="{AF20324A-9723-40B2-B039-33D1C61BCA41}" />
+					</Child>
+				</Child>
+				<Child Name="panel" Owner="{41BE17AF-1ADA-404D-9D9F-886F354A5074}">
+					<Child Name="toolbar" Owner="{F63E9289-2523-4F86-9772-32BD46D1F4C6}">
+						<Child Name="panelRibbon" Owner="{E21E9E31-0A5C-43BC-A2DC-0D268F1D0E43}">
+							<Child Name="panel" Owner="{EC4295E4-0BDC-45C8-9B96-F24674003461}">
+								<Child Name="propertypageRibbon" Owner="{E4E5DB65-69C2-422E-ABCD-702E19182F51}">
+									<Child Name="paneLowerRibbon" Owner="{E1F1EE25-34C3-4FAD-9F15-53CE2853E1E3}">
+										<Child Name="propertypageHome" Owner="{907B80F9-6BEE-406D-8271-8414DD7CF9BA}">
+											<Child Name="toolbarFont" Owner="{AD93599C-BF6F-491B-ADD8-289B9DABDB8F}">
+												<Child Name="groupingFontColor" Owner="{08C91762-36C7-4284-AA29-03F987C62AAA}">
+													<Child Name="griddropdownbuttonFontColor" Owner="{57DFBE95-B363-4FB2-B0D7-834A2167104F}" />
+												</Child>
+												<Child Name="groupingFillColor" Owner="{AD4A7992-9DF5-436B-97B5-39F82E9B7B91}">
+													<Child Name="splitbuttonFillColor" Owner="{ECE5030E-838E-4826-974F-32DB3ABEB64B}" />
+												</Child>
+											</Child>
+										</Child>
+									</Child>
+								</Child>
+							</Child>
+						</Child>
+					</Child>
 				</Child>
 			</Child>
 			<Child Name="wndXLMAIN2" Owner="{C43197DC-4484-4EFD-8231-0697FC386B8A}">
@@ -6537,6 +7516,39 @@
 										<Child Name="A2" Owner="{09096D63-6B07-4C23-A5E4-798D004B3167}" />
 										<Child Name="A3" Owner="{65353445-C8DF-4D9D-831A-1DBBE6B0775C}" />
 										<Child Name="A4" Owner="{7ECCA0E9-C590-4E8C-ABE8-06F54030220A}" />
+									</Child>
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="toolwindow" Owner="{E304AB4D-D1A8-4AF2-B5F7-5371CEF9EE42}">
+				<Child Name="panelFontColor" Owner="{8D39D09F-A48E-45BB-831C-5A9654F18962}">
+					<Child Name="groupingThemeColors" Owner="{AD5C1B81-7693-48EF-A136-6DE16718DA3C}">
+						<Child Name="listitemGrayAccent3" Owner="{C484BBBF-4AB7-4468-BC6F-FFB5C8EE99E0}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="formBook2Excel" Owner="{0AE39608-0115-4805-A094-11D7C28B27CC}">
+				<Child Name="panel" Owner="{3310C973-0ACC-4CC1-97ED-9AC5BDAF929E}">
+					<Child Name="panelBook2" Owner="{9F673044-21E1-4DC7-9A05-9619CF3B65AD}">
+						<Child Name="clientBook2" Owner="{AE121D3C-65CB-4039-B99C-7035E6BB69D1}" />
+					</Child>
+				</Child>
+				<Child Name="panel2" Owner="{71FC8874-424A-4324-9E26-6C2FCDCF18C9}">
+					<Child Name="toolbar" Owner="{628BCC03-E972-4BFF-A8E5-C33D898DF653}">
+						<Child Name="panelRibbon" Owner="{F8B09C7A-8B49-46C4-BE33-547CDE53A29E}">
+							<Child Name="panel" Owner="{F27BDB6F-1DD4-430C-8795-A9FC9E813897}">
+								<Child Name="propertypageRibbon" Owner="{9DD3857B-4186-4693-9538-CE382D87CF7B}">
+									<Child Name="paneLowerRibbon" Owner="{CD84AD80-65FE-4202-82E4-63817DF4A397}">
+										<Child Name="propertypageHome" Owner="{6F990092-A0F5-4EFA-8583-301CEE388263}">
+											<Child Name="toolbarFont" Owner="{86391BC1-C327-4C31-B0FB-D260FDA68F9A}">
+												<Child Name="groupingFillColor" Owner="{BAE6CC07-774A-444E-80A6-E3A41ACA10EF}">
+													<Child Name="splitbuttonFillColor" Owner="{71DC1461-8964-44A4-AEB2-E45D1D643D3C}" />
+												</Child>
+											</Child>
+										</Child>
 									</Child>
 								</Child>
 							</Child>
@@ -6719,6 +7731,25 @@
 				<Child Name="Prompt" Owner="{ECB70833-CFFF-424A-9937-C4CFE4546E09}">
 					<Child Name="textboxValue" Owner="{FA6B8E8E-FD79-4356-BE5E-473709F06F4C}" />
 					<Child Name="buttonOk" Owner="{B4E91FD9-41C1-49BC-9381-FCC5E361C965}" />
+				</Child>
+			</Child>
+			<Child Name="Open" Owner="{0D5DB7EA-24C7-45A6-98F9-73AB225968DB}">
+				<Child Name="File_name_" Owner="{5CE523C2-2FA6-496E-A9BE-78B5332137C9}">
+					<Child Name="File_name_" Owner="{49B40DF3-5511-4032-90C7-59908669438E}">
+						<Child Name="buttonOpen" Owner="{E96CD392-C505-4EF2-BB01-BC88B28E5A59}" />
+					</Child>
+				</Child>
+				<Child Name="Open" Owner="{59371E5D-7F4E-4E3A-A44F-B450208F61F6}" />
+				<Child Name="panelFileName" Owner="{B061649E-C1CE-46E5-8638-A9B097A3B361}">
+					<Child Name="comboboxFileName" Owner="{7FC71184-1633-4C9F-8CD9-4DF8B46417DA}">
+						<Child Name="editFileName" Owner="{CA9D16CB-B170-44BB-A9A0-CF83E2518F9E}" />
+						<Child Name="buttonOpen" Owner="{33ABB164-BBA0-4B1B-96B7-CAEC3CE96788}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageWebtocasefileuploads3" Owner="{21CE9F5B-948E-4911-88DD-5E8A06D533D9}">
+				<Child Name="formFileuploadform" Owner="{1FB5CA88-8A72-4CEC-9A82-82E4CB7B3551}">
+					<Child Name="labelBrowse" Owner="{B501FB36-47A3-4FCA-987F-E888CE653530}" />
 				</Child>
 			</Child>
 		</Child>
@@ -7019,11 +8050,24 @@
 		<Child Name="notepad" Owner="{C24E3D65-1D4B-44FB-97A3-E7430D37B1A6}">
 			<Child Name="wndNotepad" Owner="{53C44C40-35DA-4170-B3E2-3DAE845AB252}">
 				<Child Name="Edit" Owner="{D96DEB4A-88F2-45E9-915C-8531C3E01F39}" />
+				<Child Name="menubarApplication" Owner="{A395DC1E-E178-4EEA-843F-A96F59A93562}">
+					<Child Name="menuitemFile" Owner="{C9885E53-F10C-4BF0-84C7-2BD967ACE51E}" />
+					<Child Name="menuitemEdit" Owner="{BA64574F-D77B-4C22-BA6B-4AEEE313111E}" />
+					<Child Name="menuitemFormat" Owner="{19EE3025-3C05-4234-8BFE-C37ABEEC94AB}" />
+				</Child>
 			</Child>
-			<Child Name="Item" Owner="{CD98E975-8315-432C-8AAA-AA0C69211586}" />
+			<Child Name="Item" Owner="{CD98E975-8315-432C-8AAA-AA0C69211586}">
+				<Child Name="menuitemFont" Owner="{3C9AE3B3-B9BB-4E86-946D-45B057DF2053}" />
+			</Child>
 			<Child Name="dlgFont" Owner="{9668F66F-3D04-4A7E-9F58-ADC17692BBF5}">
 				<Child Name="cbxSize" Owner="{E07E4D90-59C4-4128-A8F8-C09830E8E53C}" />
 				<Child Name="btnOK" Owner="{9773DDC0-3430-4E80-A0CF-958D9B6EBF6C}" />
+				<Child Name="comboboxFont" Owner="{6DDC0467-03A2-480A-8CB9-E3D10F6C668D}">
+					<Child Name="editFont" Owner="{72EF7900-8F26-442A-BE8F-01CA43362022}" />
+				</Child>
+				<Child Name="titlebar" Owner="{63A5E6EB-6BD6-4B1F-B208-FB86A1EA3968}">
+					<Child Name="buttonClose" Owner="{30BF9386-0D57-4276-9EF5-1702A5F4B4D5}" />
+				</Child>
 			</Child>
 			<Child Name="dlgNotepad" Owner="{32A52C1C-55BA-4DB0-A205-B33176176460}">
 				<Child Name="Notepad" Owner="{69179F69-25D9-4E9E-8EE6-D92045C3F8E8}">

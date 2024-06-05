@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Root signature="{3AE7D26E-11DE-411F-A26E-9C422F421771}" version="15.0">
+<Root signature="{38F76CCA-6AA2-4C88-9D23-FD0C0909411F}" version="15.0">
 	<data>
 		<setting name="UseProjectFileName" type="1" value="True" />
-		<setting name="ProjectFileName" type="5" value="C:\Users\jaroslaw.kuklis\Downloads\xml-json-data-source-sample-readyapi-project\TEST-Sample_test_suite.xml" />
+		<setting name="ProjectFileName" type="5" value="" />
 		<setting name="UseProjectDirectory" type="1" value="False" />
 		<setting name="ProjectDirectory" type="5" value="" />
 		<setting name="TestSuite" type="6" rowIndex="0" colIndex="0">
@@ -108,5 +108,13 @@
 			<data />
 		</setting>
 		<setting name="ToolArgs" type="5" value="" />
+		<setting name="SecurityTest" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="&lt;All&gt;" />
+			</data>
+		</setting>
 	</data>
 </Root>

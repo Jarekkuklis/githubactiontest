@@ -5,10 +5,7 @@
 	<data />
 	<children>
 		<child key="{441D7F88-A259-4D9E-B268-056E7EBD1B76}">
-			<config nodeName="EventControl1" lastOpenedTLB="" generatedCLSID="{C1BFEF52-1FAC-40DB-BF07-029D0869176C}" generatedTLBKey="{F41867A5-1CD2-4D54-884C-734CD6A49EFC}" generatedEventsKey="{89689DF6-67AF-434C-A476-9ABD737204B3}" generatedTLBDesc="TestComplete EventControl1 Control - 14.10.2022 22:09:51">
-				<eventInfo infoTLBVer="version.dll" infoGUID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" infoID="1610743811" infoControlName="General Events" infoEventName="OnLogError" infoEventRealName="OnLogError" infoDescription="Occurs when an error message is posted to the test log." />
-				<handlerInfo handlerName="EventControl1_OnLogError" handlerMoniker="{1C509CDC-A193-4A6F-A455-8253A1892D8E}EventControl1_OnLogError" handlerEventName="OnLogError" handlerRealIID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" handlerRealDispID="1610743811" />
-			</config>
+			<config nodeName="EventControl1" lastOpenedTLB="" generatedCLSID="{00000000-0000-0000-0000-000000000000}" generatedTLBKey="{00000000-0000-0000-0000-000000000000}" generatedEventsKey="{00000000-0000-0000-0000-000000000000}" generatedTLBDesc="TestComplete EventControl1 Control - 14.10.2022 22:09:51" />
 			<testData />
 			<data />
 		</child>

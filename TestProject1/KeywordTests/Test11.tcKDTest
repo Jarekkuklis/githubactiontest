@@ -8,9 +8,9 @@
 		</Data>
 		<Children>
 			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
-				<Data Description="Posts an information message to the test log." MessageType="0">
+				<Data Description="Posts an error to the test log." MessageType="1">
 					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
-						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="asfsa" />
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="asfsaasdsadasd" />
 						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
 						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
 							<Values IsEnum="True">
