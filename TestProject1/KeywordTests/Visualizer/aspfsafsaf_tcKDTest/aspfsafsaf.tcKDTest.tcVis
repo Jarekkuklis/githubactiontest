@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{33447B8D-E588-4E5F-A2BF-378E04BAF823}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45488.5878703704" objectName="NameMapping.Sys.browser.pagePrintersPrintixAdministrator.panelTableHead.panel.link" objectLeft="2247" objectTop="391" objectRight="2263" objectBottom="418" clickPointX="2255" clickPointY="414" imageFileName="tcvi42505168780402.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45488.5878935185" objectName="Aliases.panelViewMode" objectLeft="1782" objectTop="439" objectRight="2220" objectBottom="463" clickPointX="2194" clickPointY="452" imageFileName="tcvi42505310980403.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45488.5878935185" objectName="NameMapping.Sys.browser.pagePrintersPrintixAdministrator.panelTableHead.panel.link" objectLeft="2196" objectTop="439" objectRight="2210" objectBottom="459" clickPointX="2199" clickPointY="450" imageFileName="tcvi42505375080404.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

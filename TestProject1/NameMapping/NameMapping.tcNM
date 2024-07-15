@@ -157,6 +157,18 @@
 																	</Property>
 																</Properties>
 															</Child>
+															<Child Name="panelViewMode" Key="{1B57BC98-9BB4-4714-B671-1FEF3E838615}" ExtendedFind="True">
+																<Image FileName="1455052409" Left="1782" Top="439" Right="2220" Bottom="463" />
+																<TypeInfo Item0="{C069D0EC-C7CC-4F93-86D7-C93DE265B7AD}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Panel" />
+																	</Property>
+																	<Property Name="contentText">
+																		<Value Value="View mode" />
+																	</Property>
+																</Properties>
+															</Child>
 														</Children>
 													</Child>
 												</Children>
@@ -171,5 +183,7 @@
 			</Child>
 		</Children>
 	</Nodes>
-	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" />
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="panelViewMode" Owner="{1B57BC98-9BB4-4714-B671-1FEF3E838615}" />
+	</LogicalNodes>
 </Root>
