@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{CCCFA5F5-AB3B-408F-95C9-61DE90C5FAD5}" version="15.0">
 	<children>
+<<<<<<< HEAD
+		<child name="XmlCheckpoint1" key="{CAA81277-214E-437F-B539-6A496B804991}" path="XmlCheckpoint1\XmlCheckpoint1.tcXmlCheckpoint" />
+=======
 		<child name="XmlCheckpoint2" key="{508B1F3C-9F86-4EE7-A784-5EF6F9FDD81F}" path="XmlCheckpoint2\XmlCheckpoint2.tcXmlCheckpoint" />
+>>>>>>> 3a1af7d13643f5246ee4f71cd688107ff8f4b028
 	</children>
 </Root>

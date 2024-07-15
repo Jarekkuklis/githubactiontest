@@ -1,0 +1,8 @@
+---------------------------------------------------------------------
+The Name Mapping file had some missing values.
+TestComplete has fixed the file automatically.
+Please view the changes to make sure the added values are correct.
+Specify the missing values or remove the corresponding properties, if needed.
+---------------------------------------------------------------------
+
+The NameMapping.Sys.browser.pagePrintersPrintixAdministrator.panelTableHead.panel.panelViewMode.link.ObjectType property was lost.

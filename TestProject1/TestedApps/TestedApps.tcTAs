@@ -19,10 +19,17 @@
 		<child key="{617E6331-F339-42FA-80B8-DC59E747C8C9}">
 			<config nodeName="msedge" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="Simple">
+<<<<<<< HEAD
+					<param name="RunAs" parameters="--disable-web-security --user-data-dir=C:\Users\jaroslaw.kuklis\AppData\Local\Microsoft\Edge\User Data\Default --disable-site-isolation-trials" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="--disable-web-security --user-data-dir=C:\Users\jaroslaw.kuklis\AppData\Local\Microsoft\Edge\User Data\Default --disable-site-isolation-trials" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="8" forceRunMode="False" />
+					<param name="Debug" parameters="--disable-web-security --user-data-dir=C:\Users\jaroslaw.kuklis\AppData\Local\Microsoft\Edge\User Data\Default --disable-site-isolation-trials" workFolder="" />
+					<param name="Simple" fileName="msedge.exe" filePath="C:\Program Files (x86)\Microsoft\Edge\Application\" parameters="--disable-web-security --user-data-dir=C:\Users\jaroslaw.kuklis\AppData\Local\Microsoft\Edge\User Data\Default --disable-site-isolation-trials" workFolder="" />
+=======
 					<param name="RunAs" parameters="-injectCefHook" workFolder="" userName="" password="" domain="" />
 					<param name="Profile" parameters="-injectCefHook" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="8" forceRunMode="False" />
 					<param name="Debug" parameters="-injectCefHook" workFolder="" />
 					<param name="Simple" fileName="msedge.exe" filePath="C:\Program Files (x86)\Microsoft\Edge\Application\" parameters="-injectCefHook" workFolder="" />
+>>>>>>> 3a1af7d13643f5246ee4f71cd688107ff8f4b028
 				</runModeParams>
 			</config>
 			<testData />
@@ -40,6 +47,18 @@
 			<testData />
 			<data />
 		</child>
+<<<<<<< HEAD
+		<child key="{801AF494-0DA3-43E4-B1C0-9ED89FF395BE}">
+			<config nodeName="Orders1" autorunOnRecording="False" enabled="False" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="BitBar">
+					<param name="BitBar" parameters="" workFolder="" application="C:\Users\Public\Documents\TestComplete 15 Samples\Mobile\Android\Orders\Orders Application\bin\Orders.apk" upload="True" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+=======
+>>>>>>> 3a1af7d13643f5246ee4f71cd688107ff8f4b028
 		<child key="{7AD01411-484C-4F5E-91E9-E1A7EBBAB692}">
 			<config nodeName="_cambiofechahoy" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="RunAs">
@@ -73,6 +92,8 @@
 			<testData />
 			<data />
 		</child>
+<<<<<<< HEAD
+=======
 		<child key="{3D8DF1FC-2ED2-49F6-8143-62E8C88F0995}">
 			<config nodeName="GNWTest" autorunOnRecording="False" enabled="False" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="BitBar">
@@ -109,5 +130,6 @@
 			<testData />
 			<data />
 		</child>
+>>>>>>> 3a1af7d13643f5246ee4f71cd688107ff8f4b028
 	</children>
 </Root>

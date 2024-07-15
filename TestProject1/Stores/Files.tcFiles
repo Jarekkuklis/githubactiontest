@@ -7,11 +7,14 @@
 		<child name="_cambiofechahoy_bat" key="{3CD2BDF0-3AD0-4A7B-A31D-F5F1AD33AAF5}">
 			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="_cambiofechahoy_bat" ID="{3CD2BDF0-3AD0-4A7B-A31D-F5F1AD33AAF5}" FileName="Files\`cambiofechahoy.bat" Update="False" />
 		</child>
+<<<<<<< HEAD
+=======
 		<child name="localconvertpdftotxt1" key="{BCDBF781-5351-416D-94A8-4D94F774DBDB}">
 			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="localconvertpdftotxt1" ID="{BCDBF781-5351-416D-94A8-4D94F774DBDB}" FileName="Files\localconvertpdftotxt.txt" Update="False" />
 		</child>
 		<child name="New_Text_Document_xml" key="{A7839AB4-097C-4CE3-8942-CAC74655F96E}">
 			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="New_Text_Document_xml" ID="{A7839AB4-097C-4CE3-8942-CAC74655F96E}" FileName="Files\New Text Document.xml" Update="False" />
 		</child>
+>>>>>>> 3a1af7d13643f5246ee4f71cd688107ff8f4b028
 	</children>
 </Root>

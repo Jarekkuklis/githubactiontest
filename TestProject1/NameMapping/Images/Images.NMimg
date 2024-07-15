@@ -18,6 +18,7 @@
 		<Image File="1062784843.png" Checksum="127351423" />
 		<Image File="1065811421.png" Checksum="1452955173" />
 		<Image File="1069023875.png" Checksum="1152353305" />
+<<<<<<< HEAD
 		<Image File="110299796.png" Checksum="617627883" />
 		<Image File="110406734.png" Checksum="1787632050" />
 		<Image File="110472406.png" Checksum="-1159531934" />
@@ -236,5 +237,11 @@
 		<Image File="959400531.png" Checksum="-1694628239" />
 		<Image File="961375171.png" Checksum="-813202926" />
 		<Image File="961375406.png" Checksum="-824919697" />
+=======
+		<Image File="423934078.png" Checksum="1918028849" />
+		<Image File="423934515.png" Checksum="348165237" />
+		<Image File="423934921.png" Checksum="743249554" />
+		<Image File="423935890.png" Checksum="-192169824" />
+>>>>>>> 09a6b6282ee57ed8d44429edcd0cb866a19574e0
 	</Images>
 </Root>

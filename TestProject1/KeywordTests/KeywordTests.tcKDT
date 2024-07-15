@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
 	<children>
+<<<<<<< HEAD
 		<child name="PINRITIPRIT" key="{34BA7A80-75BB-4AF4-8755-9901A251E721}" path="PINRITIPRIT.tcKDTest" />
+=======
+		<child name="printx" key="{FBC821A6-D6F9-421C-B34B-4748738A9BD2}" path="printx.tcKDTest" />
+>>>>>>> 09a6b6282ee57ed8d44429edcd0cb866a19574e0
 	</children>
 </Root>
