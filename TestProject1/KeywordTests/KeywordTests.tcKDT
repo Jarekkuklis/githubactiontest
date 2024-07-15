@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
 	<children>
-		<child name="Test1" key="{1948B97B-E8D9-4F12-BE04-8408ECB81A2E}" path="..\..\..\..\..\..\..\Documents\TestComplete 15 Projects\TestProject1\TestProject1\KeywordTests\Test1.tcKDTest" />
-		<child name="Test10" key="{7CEFF7B1-78C9-46D6-BA13-53581CAAEA93}" path="..\..\..\..\..\..\..\Documents\TestComplete 15 Projects\TestProject1\TestProject1\KeywordTests\Test10.tcKDTest" />
-		<child name="Test11" key="{FA7F522A-BFD6-4F3E-9668-DF052BE26B70}" path="..\..\..\..\..\..\..\Documents\TestComplete 15 Projects\TestProject1\TestProject1\KeywordTests\Test11.tcKDTest" />
-		<child name="Test2" key="{33D760A6-0733-495E-8255-7C2F6DAB55C5}" path="..\..\..\..\..\..\..\Documents\TestComplete 15 Projects\TestProject1\TestProject1\KeywordTests\Test2.tcKDTest" />
-		<child name="Test3" key="{F60001E2-74CD-4011-9567-AFF3A5F2D135}" path="..\..\..\..\..\..\..\Documents\TestComplete 15 Projects\TestProject1\TestProject1\KeywordTests\Test3.tcKDTest" />
-		<child name="Test4" key="{7DC4BDDC-5D61-41D5-8E56-665B03F1601C}" path="..\..\..\..\..\..\..\Documents\TestComplete 15 Projects\TestProject1\TestProject1\KeywordTests\Test4.tcKDTest" />
-		<child name="Test5" key="{A5936B7F-A60E-40C0-854A-18A35A37A583}" path="..\..\..\..\..\..\..\Documents\TestComplete 15 Projects\TestProject1\TestProject1\KeywordTests\Test5.tcKDTest" />
-		<child name="Test6" key="{4114FD90-85AF-4ACD-B916-FAC334A65DA9}" path="..\..\..\..\..\..\..\Documents\TestComplete 15 Projects\TestProject1\TestProject1\KeywordTests\Test6.tcKDTest" />
-		<child name="Test7" key="{48940332-1CF4-4AAB-8396-0658DA2B7F28}" path="..\..\..\..\..\..\..\Documents\TestComplete 15 Projects\TestProject1\TestProject1\KeywordTests\Test7.tcKDTest" />
-		<child name="Test8" key="{113182DC-DCEE-474B-8ACA-25DF27BC6032}" path="..\..\..\..\..\..\..\Documents\TestComplete 15 Projects\TestProject1\TestProject1\KeywordTests\Test8.tcKDTest" />
-		<child name="Test9" key="{7F21626A-FC26-4C90-89A9-0AA740821347}" path="..\..\..\..\..\..\..\Documents\TestComplete 15 Projects\TestProject1\TestProject1\KeywordTests\Test9.tcKDTest" />
+		<child name="printx" key="{FBC821A6-D6F9-421C-B34B-4748738A9BD2}" path="printx.tcKDTest" />
 	</children>
 </Root>

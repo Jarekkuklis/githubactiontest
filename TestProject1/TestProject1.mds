@@ -12,7 +12,13 @@
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{F17711DC-C63F-41B5-8C0D-D07D5B6AFF45}" version="14">
-		<children />
+		<children>
+			<testItem name="printx" key="{B14DF54F-33E5-4D6C-BA9D-48F478EB04C0}" group="False" parallel="False" enabled="True" testMoniker="KDT\{FBC821A6-D6F9-421C-B34B-4748738A9BD2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+		</children>
 	</testItems>
 	<variables key="{7BD7B2D7-46A9-4398-AF56-646FF0AAAA92}" />
 	<settings key="{6E04B40A-632C-4037-B319-D12E67DF5986}">
