@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{63470AB8-2F49-4395-BB40-4D82B76141F5}">
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="44957.4707986111" objectName="Aliases.browser.pageLicenseManagementSmartbear.buttonClose" objectLeft="1083" objectTop="562" objectRight="1109" objectBottom="588" clickPointX="1097" clickPointY="573" imageFileName="tcvi173249896829160.png" storageFileName="" needUpdate="False" rectColor="255" />
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="44957.4708101852" objectName="Aliases.chrome.pageLicenseManagementSmartbear.buttonShareLicenseByLink" objectLeft="775" objectTop="752" objectRight="810" objectBottom="780" clickPointX="790" clickPointY="765" imageFileName="tcvi173250015629161.png" storageFileName="" needUpdate="False" rectColor="255" />
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="44957.4708217593" objectName="Aliases.chrome.pageLicenseManagementSmartbear.buttonClose" objectLeft="1083" objectTop="562" objectRight="1109" objectBottom="588" clickPointX="1092" clickPointY="582" imageFileName="tcvi173250117129162.png" storageFileName="" needUpdate="False" rectColor="255" />
-	</data>
-</Root>

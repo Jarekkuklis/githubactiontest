@@ -4075,6 +4075,131 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pagePrintersPrintixAdministrator" Key="{E1BE00CD-FF1F-4FF3-AE95-584C1E0F4B40}">
+								<Image FileName="-1906902708" Left="0" Top="121" Right="3440" Bottom="1400" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://printixautomation.testenv.printix.net/admin/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="headerPrintix" Key="{48B5B869-6819-44D8-8B57-C7564F6525C9}">
+										<Image FileName="-1906902708" Left="0" Top="121" Right="3440" Bottom="204" />
+										<Selectors>
+											<Selector>
+												<Value Value="header[contains(., &apos;Printix&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="header[@role=&apos;banner&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="header[contains(@class, &apos;header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navPrintix" Key="{7A06A2E0-5F92-4BA7-8C4F-66E3225F37F1}">
+										<Image FileName="-1906902708" Left="0" Top="121" Right="3440" Bottom="203" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Printix&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@role=&apos;navigation&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;navbar&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{AC9466A7-4C82-41DB-A810-DB2DC184F43B}">
+										<Image FileName="-1906902708" Left="2049" Top="136" Right="2100" Bottom="186" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul/li[7]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{9E001F54-0487-4F0C-94CE-F7F1FC4046B9}">
+										<Image FileName="-1906902708" Left="2064" Top="150" Right="2085" Bottom="171" />
+										<TypeInfo Item0="{5DD2C90C-E105-4A93-B872-89A62D26E64F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[7]/a/i[contains(@class, &apos;icon-printer&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[7]/a/i" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link" Key="{79F8CE3D-6B26-454D-B029-3F0EBD5DC419}">
+										<Image FileName="-1836362500" Left="2247" Top="391" Right="2263" Bottom="418" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[5]/a[contains(@class, &apos;clickable-text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;PrinterScrollContainer&apos;]//div[@id=&apos;TABLE_HEAD&apos;]/div[5]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode3" Key="{73CAC2C6-8CA5-4BB8-9834-4EAB06CD216B}">
+										<Image FileName="-1836362500" Left="2247" Top="395" Right="2263" Bottom="413" />
+										<TypeInfo Item0="{5DD2C90C-E105-4A93-B872-89A62D26E64F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//i[contains(@class, &apos;icon-eye&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;TABLE_HEAD&apos;]//i" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]//a/i" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link2" Key="{1AB7D3B8-3D1A-4681-85B4-91332A965E34}">
+										<Image FileName="1246624462" Left="2196" Top="439" Right="2210" Bottom="459" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;fl-right&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;TABLE_HEAD&apos;]//div/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]/px-printer-table-options//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode4" Key="{37852C04-1503-4A1A-BF38-3F8D752DA725}">
+										<Image FileName="1246624462" Left="2196" Top="441" Right="2210" Bottom="456" />
+										<TypeInfo Item0="{5DD2C90C-E105-4A93-B872-89A62D26E64F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a/i[contains(@class, &apos;icon-close&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;TABLE_HEAD&apos;]//div/div/a/i" />
+											</Selector>
+											<Selector>
+												<Value Value="//px-printer-table-options//a/i" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="Orders" Key="{D043A17C-E617-4363-B6CC-43346E4D2953}">
@@ -7750,6 +7875,21 @@
 			<Child Name="pageWebtocasefileuploads3" Owner="{21CE9F5B-948E-4911-88DD-5E8A06D533D9}">
 				<Child Name="formFileuploadform" Owner="{1FB5CA88-8A72-4CEC-9A82-82E4CB7B3551}">
 					<Child Name="labelBrowse" Owner="{B501FB36-47A3-4FCA-987F-E888CE653530}" />
+				</Child>
+			</Child>
+			<Child Name="pagePrintersPrintixAdministrator" Owner="{E1BE00CD-FF1F-4FF3-AE95-584C1E0F4B40}">
+				<Child Name="headerPrintix" Owner="{48B5B869-6819-44D8-8B57-C7564F6525C9}">
+					<Child Name="navPrintix" Owner="{7A06A2E0-5F92-4BA7-8C4F-66E3225F37F1}">
+						<Child Name="textnode" Owner="{AC9466A7-4C82-41DB-A810-DB2DC184F43B}">
+							<Child Name="textnode2" Owner="{9E001F54-0487-4F0C-94CE-F7F1FC4046B9}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="link" Owner="{79F8CE3D-6B26-454D-B029-3F0EBD5DC419}">
+					<Child Name="textnode3" Owner="{73CAC2C6-8CA5-4BB8-9834-4EAB06CD216B}" />
+				</Child>
+				<Child Name="link2" Owner="{1AB7D3B8-3D1A-4681-85B4-91332A965E34}">
+					<Child Name="textnode4" Owner="{37852C04-1503-4A1A-BF38-3F8D752DA725}" />
 				</Child>
 			</Child>
 		</Child>

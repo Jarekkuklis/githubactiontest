@@ -15,24 +15,7 @@
 	</children>
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{51CD66E3-9217-4BDF-A11B-6E3C1EC94830}" version="14">
-		<children>
-			<testItem name="Test1" key="{3E367322-FE06-4DB5-949C-E3F347C9076E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F4665231-D30F-425D-9FB2-6B624D789750}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="Test11" key="{F379F92E-147A-4C13-8180-2C0727D1D566}" group="False" parallel="False" enabled="True" testMoniker="KDT\{478ADA81-32EB-496C-94CC-65DB7009FF44}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="CBT" />
-				<children>
-					<testItem name="Test3" key="{71C71C36-94D8-4B29-A776-FD1443CA337A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6AD7069B-3002-4A60-8228-2A033C5196FA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-				</children>
-			</testItem>
-		</children>
+		<children />
 	</testItems>
 	<variables key="{894DA1B3-37AA-4631-A9E8-7C4FCB5425A7}">
 		<data Version="4">
