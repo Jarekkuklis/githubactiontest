@@ -15,7 +15,13 @@
 	</children>
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{51CD66E3-9217-4BDF-A11B-6E3C1EC94830}" version="14">
-		<children />
+		<children>
+			<testItem name="PINRITIPRIT" key="{5192D07D-3DF8-4713-95A3-CC8AF0BFBA6A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{34BA7A80-75BB-4AF4-8755-9901A251E721}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+		</children>
 	</testItems>
 	<variables key="{894DA1B3-37AA-4631-A9E8-7C4FCB5425A7}">
 		<data Version="4">
