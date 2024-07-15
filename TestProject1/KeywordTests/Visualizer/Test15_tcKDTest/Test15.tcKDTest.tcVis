@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{5A845804-9B10-4800-BC4C-DECFC8D66AB4}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45092.3372569444" objectName="Aliases.chrome.pagePostJobDiversityjobs.formVacancy.textboxJobTitle" objectLeft="459" objectTop="588" objectRight="769" objectBottom="630" clickPointX="526" clickPointY="613" imageFileName="tcvi36510484178201.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45092.3372685185" objectName="Aliases.chrome.pagePostJobDiversityjobs.formVacancy.textboxJobTitle" objectLeft="459" objectTop="588" objectRight="769" objectBottom="630" clickPointX="-3634" clickPointY="358" imageFileName="tcvi36510859178202.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45092.3373032407" objectName="Aliases.chrome.pagePostJobDiversityjobs.formVacancy.textboxJobId" objectLeft="459" objectTop="666" objectRight="769" objectBottom="708" clickPointX="515" clickPointY="691" imageFileName="tcvi36514171178204.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="45092.3373032407" objectName="Aliases.chrome.pagePostJobDiversityjobs.formVacancy.textboxJobId" objectLeft="459" objectTop="666" objectRight="769" objectBottom="708" clickPointX="-3634" clickPointY="358" imageFileName="tcvi36514421178205.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="45092.3373263889" objectName="Aliases.chrome.pagePostJobDiversityjobs.formVacancy.selectJobType" objectLeft="459" objectTop="744" objectRight="769" objectBottom="787" clickPointX="-3634" clickPointY="358" imageFileName="tcvi36516078178208.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

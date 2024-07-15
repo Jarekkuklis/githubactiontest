@@ -10,27 +10,13 @@
 		<child name="Stores" key="{0F080A2C-DD4B-4F99-9304-56155163E062}" type="Stores" typeId="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" pluginName="Stores" path="Stores\Stores.tcStores" />
 		<child name="AndroidGestureCollection" key="{AA82B217-D1F2-4848-85A7-CE8B25768E5E}" type="Android Gesture Collection" typeId="{1C993555-DDEB-4830-848C-5C3CF963DBD1}" pluginName="Android Support" path="AndroidGestureCollection\AndroidGestureCollection.agc" />
 	</children>
-	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
-	<testItems key="{51CD66E3-9217-4BDF-A11B-6E3C1EC94830}" version="14">
-		<children>
-			<testItem name="Test7" key="{EEB81250-DA15-43F0-A5D7-556820691B19}" group="False" parallel="False" enabled="False" testMoniker="*|@notepad" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-		</children>
+	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
+	<testItems key="{F17711DC-C63F-41B5-8C0D-D07D5B6AFF45}" version="14">
+		<children />
 	</testItems>
-	<variables key="{894DA1B3-37AA-4631-A9E8-7C4FCB5425A7}">
-		<data Version="4">
-			<Items>
-				<Variable Name="Password1" Type="Password" Local="False">
-					<DefValue StrValue="3800390036003100360033004400330046003400440038004300420046003100380043003900420041003700460036003800300042003100430037003100390042003200440039004400300031003000" />
-				</Variable>
-			</Items>
-		</data>
-	</variables>
-	<settings key="{AC7608EC-867E-4AD2-9911-E039D2023A3B}">
-		<settingsVersion value="15.52" />
+	<variables key="{7BD7B2D7-46A9-4398-AF56-646FF0AAAA92}" />
+	<settings key="{6E04B40A-632C-4037-B319-D12E67DF5986}">
+		<settingsVersion value="15.64" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -51,17 +37,17 @@
 			<data />
 		</setting>
 		<setting name="ApplicationHangingTimeout" type="2" value="30000" />
-		<setting name="AzureDevOps_CollectionID" type="5" value="{E784E582-D3FF-4F6B-845C-D27A85651C89}" />
-		<setting name="AzureDevOps_ProjectID" type="5" value="vstfs:///Classification/TeamProject/93ec8ccc-8194-4c96-915e-4d44c7e5687d" />
-		<setting name="AzureDevOps_ServerName" type="5" value="https://dev.azure.com/jaroslawkuklis" />
-		<setting name="AzureDevOps_TeamProject" type="5" value="PipelineTrening" />
+		<setting name="AzureDevOps_CollectionID" type="5" value="" />
+		<setting name="AzureDevOps_ProjectID" type="5" value="" />
+		<setting name="AzureDevOps_ServerName" type="5" value="" />
+		<setting name="AzureDevOps_TeamProject" type="5" value="" />
 		<setting name="AzureDevOps_TeamProjectCollection" type="5" value="" />
-		<setting name="AzureDevOps_URL" type="5" value="https://dev.azure.com/jaroslawkuklis" />
-		<setting name="BitBar_APIKey" type="5" value="3A02DEEB41C532B924A6C28CE2C0856BBF82FB6748CD7DDC5D6BAD2B44F9EE4162AA825D01A6D77AABCDD5C850532B09E6C761D7EAB72823453167E55D030CBC4235D6" />
+		<setting name="AzureDevOps_URL" type="5" value="" />
+		<setting name="BitBar_APIKey" type="5" value="" />
 		<setting name="BitBar_APIURL" type="5" value="https://cloud.bitbar.com/api/" />
 		<setting name="BitBar_FindAndroidDevice" type="5" value="( Device Group As in Selected Device )" />
 		<setting name="BitBar_FindIOSDevice" type="5" value="( Device Group As in Selected Device )" />
-		<setting name="BitBar_FRAMEWORKID_Android" type="2" value="869" />
+		<setting name="BitBar_FRAMEWORKID_Android" type="2" value="0" />
 		<setting name="BitBar_FRAMEWORKID_IOS" type="2" value="0" />
 		<setting name="BitBar_HUBURL" type="5" value="https://appium.bitbar.com/wd/hub/" />
 		<setting name="BitBar_NewCommandTimeout" type="2" value="300" />
@@ -82,7 +68,7 @@
 		<setting name="CBT_ProxyLogin" type="5" value="" />
 		<setting name="CBT_ProxyPassword" type="5" value="" />
 		<setting name="CBT_ProxyPort" type="2" value="0" />
-		<setting name="CBT_UserName" type="5" value="jaroslaw.kuklis@smartbear.com" />
+		<setting name="CBT_UserName" type="5" value="" />
 		<setting name="CLRBridge_PreferredApartmentModel" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
@@ -218,16 +204,14 @@
 			</data>
 		</setting>
 		<setting name="MouseMovementDelay" type="2" value="0" />
-		<setting name="ObjectMapping_Objects" type="6" rowIndex="0" colIndex="3">
+		<setting name="ObjectMapping_Objects" type="6" rowIndex="-1" colIndex="3">
 			<columns>
 				<column type="5" enabled="True" />
 				<column type="5" enabled="True" />
 				<column type="2" enabled="True" />
 				<column type="2" enabled="True" />
 			</columns>
-			<data>
-				<row val0="javax.swing.JTable" val1="{8EB26B4A-C26F-46DE-897C-282740A9C2FE}" val2="4" val3="0" />
-			</data>
+			<data />
 		</setting>
 		<setting name="OpenApps_ActivateSystemProcesses" type="1" value="False" />
 		<setting name="OpenApps_DbgAgent_AdvancedExceptionHandling" type="1" value="True" />
@@ -247,7 +231,7 @@
 			</data>
 		</setting>
 		<setting name="OpenApps_HybridMobile_AccessPolicy" type="1" value="False" />
-		<setting name="OpenApps_HybridMobile_DynamicIdentifiers" type="6" rowIndex="37" colIndex="4">
+		<setting name="OpenApps_HybridMobile_DynamicIdentifiers" type="6" rowIndex="37" colIndex="9">
 			<columns>
 				<column type="2" enabled="True" />
 				<column type="2" enabled="True" />
@@ -311,7 +295,7 @@
 			</data>
 		</setting>
 		<setting name="OpenApps_MethodInvokeTimeout" type="2" value="3000" />
-		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="0" colIndex="0">
+		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="11" colIndex="1">
 			<columns>
 				<column type="1" enabled="True" />
 				<column type="5" enabled="True" />
@@ -323,7 +307,7 @@
 				<row val0="True" val1="OpusApp" />
 				<row val0="True" val1="Vfp*" />
 				<row val0="True" val1="bosa_sdm_Microsoft Word *" />
-				<row val0="True" val1="Internet Explorer_Server" />
+				<row val0="False" val1="Internet Explorer_Server" />
 				<row val0="True" val1="XTPToolBar" />
 				<row val0="True" val1="XTPDockingPaneTabbedContainer" />
 				<row val0="True" val1="XTPTaskPanel" />
@@ -338,21 +322,21 @@
 			</columns>
 			<data>
 				<row val0="NativeSlObject" />
+				<row val0="NativeWebObject" />
 				<row val0="NativeVBObject" />
 				<row val0="NativeDelphiObject" />
 				<row val0="NativeTextObject" />
 				<row val0="NativeJavaObject" />
-				<row val0="NativeWebObject" />
-				<row val0="NativeCPPObject" />
+				<row val0="NativeChromeObject" />
 				<row val0="NativeClrObject" />
+				<row val0="NativeCPPObject" />
+				<row val0="NativeFirefoxObject" />
 				<row val0="NativeJavaFXObject" />
 				<row val0="NativeSAPObject" />
 				<row val0="NativeQtObject" />
-				<row val0="NativeChromeObject" />
-				<row val0="NativeFirefoxObject" />
 				<row val0="NativeWebDriverObject" />
-				<row val0="NativeMSAA" />
 				<row val0="NativeUIAObject" />
+				<row val0="NativeMSAA" />
 			</data>
 		</setting>
 		<setting name="OpenApps_ProcessFilter_ProcessFilterMode" type="6" rowIndex="0" colIndex="0">
@@ -372,7 +356,7 @@
 			</columns>
 			<data />
 		</setting>
-		<setting name="OpenApps_UIA_ListOfAcceptedWindows" type="6" rowIndex="0" colIndex="0">
+		<setting name="OpenApps_UIA_ListOfAcceptedWindows" type="6" rowIndex="2" colIndex="1">
 			<columns>
 				<column type="1" enabled="True" />
 				<column type="5" enabled="True" />
@@ -381,9 +365,6 @@
 				<row val0="False" val1="*" />
 				<row val0="True" val1="DirectUIHWND" />
 				<row val0="True" val1="Windows.UI.Core.CoreWindow" />
-				<row val0="True" val1="NetUIHWNDElement" />
-				<row val0="True" val1="_WwG" />
-				<row val0="True" val1="EXCEL7" />
 			</data>
 		</setting>
 		<setting name="OpenApps_UseNativeObjectNames" type="1" value="True" />
@@ -400,7 +381,7 @@
 			</data>
 		</setting>
 		<setting name="OpenApps_Web_EnableSupportForWebComponents" type="1" value="True" />
-		<setting name="OpenApps_Web_ObjIdentification_DynamicIdentifiers" type="6" rowIndex="37" colIndex="4">
+		<setting name="OpenApps_Web_ObjIdentification_DynamicIdentifiers" type="6" rowIndex="37" colIndex="9">
 			<columns>
 				<column type="2" enabled="True" />
 				<column type="2" enabled="True" />
@@ -414,23 +395,23 @@
 				<column type="2" enabled="True" />
 			</columns>
 			<data>
-				<row val0="-1" val1="0" val2="True" val3="True" val4="ASP.NET" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="2" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="ASP.NET" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
 				<row val0="0" val1="0" val2="False" val3="True" val4="Do not use IDs ending with a string like &quot;ctl00&quot;" val5="RegExp" val6="^(.*[-_$])?(ctl[0-9]+)$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
 				<row val0="0" val1="0" val2="False" val3="True" val4="Remove GUIDs and ctl00-like prefixes from Sharepoint IDs" val5="RegExp" val6="(.+?_(\h+_\h+_\h+_\h+_\h+))+(.*ctr?l[0-9]+)?[_$]?{.*}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
 				<row val0="0" val1="0" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;ctl00_MainContent_username&quot;" val5="RegExp" val6=".*(ctl[0-9]+)(.*)[-_$]+{[^_0-9]+}{[_0-9]*}$" val7="$1$2" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="-1" val1="0" val2="True" val3="True" val4="Dojo toolkit" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="2" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Dojo toolkit" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
 				<row val0="4" val1="0" val2="False" val3="True" val4="Do not use IDs starting with &quot;dijit_&quot;" val5="Wildcard" val6="dijit_*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="-1" val1="0" val2="True" val3="True" val4="Google Web Toolkit" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="2" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Google Web Toolkit" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
 				<row val0="6" val1="0" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;gwt-uid-370_runButton&quot;" val5="RegExp" val6="^(gwt-uid-[0-9]+)(_{.*})?$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
 				<row val0="6" val1="0" val2="False" val3="True" val4="Remove dynamic parts of Sencha GXT IDs" val5="RegExp" val6="^(x-((widget)|(auto))-.*[0-9]+)([-_]{.*})?$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="-1" val1="0" val2="True" val3="True" val4="JavaServer Faces" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="2" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="JavaServer Faces" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
 				<row val0="9" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;_t14&quot;" val5="RegExp" val6="^{_t}{[0-9]+}$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
 				<row val0="9" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;j_id23&quot; or &quot;j_idt23&quot;" val5="RegExp" val6="^{j_idt?}{[0-9]+}$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
 				<row val0="9" val1="0" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;frm:menuLinks:0:link&quot;" val5="RegExp" val6="(.+):{[^0-9]+}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
 				<row val0="9" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;frm:menuLinks:3:link&quot;" val5="RegExp" val6="(.+):(.*)" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
 				<row val0="-1" val1="0" val2="True" val3="True" val4="jQuery UI library" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
 				<row val0="14" val1="0" val2="False" val3="True" val4="Do not use IDs starting with &quot;ui-id-&quot;" val5="Wildcard" val6="ui-id-*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="-1" val1="0" val2="True" val3="True" val4="Microsoft Dynamics" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="2" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Microsoft Dynamics" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
 				<row val0="16" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;id-33&quot; or &quot;id__14&quot;" val5="RegExp" val6="^id[_0-9\-]+$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
 				<row val0="-1" val1="0" val2="True" val3="True" val4="Salesforce" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
 				<row val0="18" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;checkbox-1&quot; or &quot;checkbox-123-3&quot;" val5="RegExp" val6="^checkbox-[0-9\-]+$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
@@ -463,7 +444,7 @@
 				<row val0="Name" />
 			</data>
 		</setting>
-		<setting name="OpenApps_Web_RecordScalableTests" type="1" value="True" />
+		<setting name="OpenApps_Web_RecordScalableTests" type="1" value="False" />
 		<setting name="OpenApps_Web_RecordTestedHost" type="5" value="" />
 		<setting name="OpenApps_Web_TestedHost" type="5" value="" />
 		<setting name="OpenApps_Web_TreeModel" type="6" rowIndex="3" colIndex="0">
@@ -596,6 +577,7 @@
 		<setting name="Playback_Log_AutosaveInterval" type="2" value="0" />
 		<setting name="Playback_Log_EventCount" type="2" value="0" />
 		<setting name="Playback_Log_PostImageOnError" type="1" value="True" />
+		<setting name="Playback_Log_SuggestMoveSelector" type="1" value="True" />
 		<setting name="Playback_ObjectSearchStrategy" type="6" rowIndex="1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
@@ -606,7 +588,7 @@
 			</data>
 		</setting>
 		<setting name="Playback_OverlappingWindow_IgnoreOverlappingWindow" type="1" value="False" />
-		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="4000" />
+		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="10000" />
 		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="50" />
 		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
 		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="False" />
@@ -633,7 +615,7 @@
 			</columns>
 			<data />
 		</setting>
-		<setting name="TextRecognizer_AcceptedWindows" type="6" rowIndex="-1" colIndex="0">
+		<setting name="TextRecognizer_AcceptedWindows" type="6" rowIndex="-1" colIndex="1">
 			<columns>
 				<column type="1" enabled="True" />
 				<column type="5" enabled="True" />
@@ -716,16 +698,16 @@
 		<setting name="ZFJ_ZephyrAccessKey" type="5" value="" />
 		<setting name="ZFJ_ZephyrSecretKey" type="5" value="" />
 	</settings>
-	<analysis key="{555DD254-6D1D-4C35-8428-787A7819C783}" />
+	<analysis key="{C35667FD-46B3-46E8-A51E-F93E969531FB}" />
 	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
 		<data />
 	</scc>
-	<issueTracking key="{1E980114-9E7C-4DB5-ADFB-26762AC307A6}">
+	<issueTracking key="{82E80B31-085E-465B-8EAA-DAF08951950A}">
 		<Templates>
 			<Template Id="{1EB17ADF-E4EB-404D-97DC-AD758A1E8C1D}" ConnectionId="{00000000-0000-0000-0000-000000000000}" Description="This template is used by TestComplete&apos;s Log subsystem to post test results to an issue-tracking system. You can also use it at your desire." Name="CreateWorkItem" IsSystem="True" ItemTypeName="" ProjectName="" IsEditing="False" ItemId="">
 				<Fields>
-					<Field ItemId="{3B0A0A8D-2EE5-4269-871A-C205395249AE}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Subject" />
-					<Field ItemId="{B6DA4647-E47E-4290-B013-DECA50EDAB42}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Description" />
+					<Field ItemId="{DDCBFA37-027F-4097-8F99-887660BC197D}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Subject" />
+					<Field ItemId="{4E00235C-DED3-402D-8D44-CF23F894D3F8}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Description" />
 				</Fields>
 			</Template>
 		</Templates>

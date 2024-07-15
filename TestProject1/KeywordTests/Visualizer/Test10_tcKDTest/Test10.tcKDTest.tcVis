@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+<<<<<<< HEAD
 	<data key="{215E2514-181C-4523-8C5A-B2BFACE01E9B}">
 		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45027.5125694444" objectName="Aliases.IsoSpeak.MainOptionsModule2.centralWidget.uiLayoutWidget.ProjectInfoModule.ProjectFrame.ProjectOptionsContainer.ProjectOptions.ProjectOptionsButtonMenu.ButtonMenuButtonGroup.ANALYZE" objectLeft="438" objectTop="132" objectRight="600" objectBottom="232" clickPointX="562" clickPointY="175" imageFileName="tcvi45892198402.png" storageFileName="" needUpdate="False" rectColor="255" />
 		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45027.5125810185" objectName="Aliases.IsoSpeak.MessageBox.qt_msgbox_buttonbox.buttonOk" objectLeft="291" objectTop="99" objectRight="344" objectBottom="125" clickPointX="322" clickPointY="102" imageFileName="tcvi46053198404.png" storageFileName="" needUpdate="False" rectColor="255" />
@@ -21,4 +22,7 @@
 		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="17" kind="0" dateTime="45027.5128125" objectName="Aliases.IsoSpeak.MainOptionsModule2.centralWidget.uiLayoutWidget.ProjectInfoModule.ProjectFrame.ProjectOptionsContainer.ProjectOptions.qt_scrollarea_viewport.checkButton" objectLeft="191" objectTop="170" objectRight="246" objectBottom="192" clickPointX="231" clickPointY="178" imageFileName="tcvi480468984037.png" storageFileName="" needUpdate="False" rectColor="255" />
 		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="18" kind="0" dateTime="45027.5128240741" objectName="Aliases.IsoSpeak.MainOptionsModule2.centralWidget.uiLayoutWidget.ProjectInfoModule.ProjectFrame.ProjectOptionsContainer.ProjectOptions.qt_scrollarea_viewport.checkButton2" objectLeft="191" objectTop="203" objectRight="246" objectBottom="225" clickPointX="222" clickPointY="219" imageFileName="tcvi481250984039.png" storageFileName="" needUpdate="False" rectColor="255" />
 	</data>
+=======
+	<data key="{6C8D760E-9E74-490D-9671-72E0788D9D20}" />
+>>>>>>> 3a1af7d13643f5246ee4f71cd688107ff8f4b028
 </Root>

@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+<<<<<<< HEAD
 	<TestData Description="" Key="{21D8FE79-BB98-46DA-A94F-490DC05E6054}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+=======
+	<TestData Description="" Key="{9CF92467-7125-4094-BB72-DD29B7EB846A}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+>>>>>>> 3a1af7d13643f5246ee4f71cd688107ff8f4b028
 		<Data>
 			<Extenders>
 				<NodeBitmaps />
 			</Extenders>
 		</Data>
 		<Children>
+<<<<<<< HEAD
 			<Operation Type="{0CAB7DC6-68EA-472F-AAFD-F1EA1701087E}">
 				<Data>
 					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
@@ -34,4 +39,29 @@
 		</Children>
 	</TestData>
 	<Parameters Key="{BAF6AEB5-BA68-466C-9E68-0CE255E1C07A}" />
+=======
+			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+				<Data Description="Posts an error to the test log." MessageType="1">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="asfsaasdsadasd" />
+						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{E89EC29B-9E93-4698-BA41-F39B561031BA}" />
+>>>>>>> 3a1af7d13643f5246ee4f71cd688107ff8f4b028
 </Root>

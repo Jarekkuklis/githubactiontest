@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+<<<<<<< HEAD
 	<data key="{7FA072B9-26DA-46D8-A4BB-0214B01B3171}" />
+=======
+	<data key="{6AD7069B-3002-4A60-8228-2A033C5196FA}" />
+>>>>>>> 3a1af7d13643f5246ee4f71cd688107ff8f4b028
 </Root>

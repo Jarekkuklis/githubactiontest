@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
 	<children>
+<<<<<<< HEAD
 		<child name="Test1" key="{72DA583D-301E-49E1-87EC-9022A1BABF9F}" path="Test1.tcKDTest" />
 		<child name="Test3" key="{7FA072B9-26DA-46D8-A4BB-0214B01B3171}" path="Test3.tcKDTest" />
 		<child name="mobile" key="{1D49DDD7-BC2B-4753-BCF7-D449741C160A}" path="mobile.tcKDTest" />
@@ -11,5 +12,12 @@
 		<child name="Test12" key="{D0802365-88D9-4B33-A40C-68133E37D342}" path="Test12.tcKDTest" />
 		<child name="Test13" key="{0A66178B-97ED-4D13-8BB1-35E378C189B0}" path="Test13.tcKDTest" />
 		<child name="Test14" key="{E9C9BE73-009D-40DE-B9F8-8BF72FAF6F0F}" path="Test14.tcKDTest" />
+=======
+		<child name="Test7" key="{99DD4391-C79F-4FDC-BD45-5F5DFBE852DB}" path="Test7.tcKDTest" />
+		<child name="Test8" key="{7C7B9956-02D2-470D-A400-04B8CC08A8C4}" path="Test8.tcKDTest" />
+		<child name="Test1" key="{F4665231-D30F-425D-9FB2-6B624D789750}" path="Test1.tcKDTest" />
+		<child name="Test3" key="{6AD7069B-3002-4A60-8228-2A033C5196FA}" path="Test3.tcKDTest" />
+		<child name="Test11" key="{478ADA81-32EB-496C-94CC-65DB7009FF44}" path="Test11.tcKDTest" />
+>>>>>>> 3a1af7d13643f5246ee4f71cd688107ff8f4b028
 	</children>
 </Root>
