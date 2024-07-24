@@ -169,9 +169,213 @@
 																	</Property>
 																</Properties>
 															</Child>
+															<Child Name="labelConnection" Key="{83BD7D80-190D-490C-8C03-ABDDD3FEDD7E}" ExtendedFind="True">
+																<Image FileName="-50308040" Left="2010" Top="507" Right="2121" Bottom="531" />
+																<TypeInfo Item0="{DE289312-5293-4EA8-9D30-3794597CBA3A}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Label" />
+																	</Property>
+																	<Property Name="contentText">
+																		<Value Value="Connection" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="labelPrintixGo" Key="{30864906-921C-4063-A8D5-FAAEC5B0EEEC}" ExtendedFind="True">
+																<Image FileName="-669531050" Left="2010" Top="541" Right="2111" Bottom="565" />
+																<TypeInfo Item0="{DE289312-5293-4EA8-9D30-3794597CBA3A}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Label" />
+																	</Property>
+																	<Property Name="contentText">
+																		<Value Value="Printix Go" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="labelCustomized" Key="{41AAA660-907A-45FC-AFD8-AAFD696AE834}" ExtendedFind="True">
+																<Image FileName="1006377196" Left="2010" Top="575" Right="2123" Bottom="599" />
+																<TypeInfo Item0="{DE289312-5293-4EA8-9D30-3794597CBA3A}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Label" />
+																	</Property>
+																	<Property Name="contentText">
+																		<Value Value="Customized" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="radiobuttonConnection" Key="{38387868-29CB-45E6-A918-3F6F04DE805B}" ExtendedFind="True">
+																<Image FileName="-844494905" Left="2010" Top="510" Right="2030" Bottom="530" />
+																<TypeInfo Item0="{470A43F3-DEEE-4C90-B4F9-03DA773B78C3}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="RadioButton" />
+																	</Property>
+																	<Property Name="idStr">
+																		<Value Value="CONNECTION_OPTION" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="panelDefault" Key="{9C9C3C30-CAE0-4199-B241-DCED16A3A19E}" ExtendedFind="True">
+																<Image FileName="-844494905" Left="2010" Top="473" Right="2210" Bottom="657" />
+																<TypeInfo Item0="{DE289312-5293-4EA8-9D30-3794597CBA3A}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Panel" />
+																	</Property>
+																	<Property Name="contentText">
+																		<Value Value="440065006600610075006C0074000A0043006F006E006E0065006300740069006F006E000A005000720069006E00740069007800200047006F000A0043007500730074006F006D0069007A00650064000A0043006F006E006600690072006D00" Type="7" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="radiobuttonPrintixGo" Key="{DECD0E5D-9091-4944-A649-008A15643566}" ExtendedFind="True">
+																		<Image FileName="-390226007" Left="2010" Top="544" Right="2030" Bottom="564" />
+																		<TypeInfo Item0="{470A43F3-DEEE-4C90-B4F9-03DA773B78C3}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="RadioButton" />
+																			</Property>
+																			<Property Name="idStr">
+																				<Value Value="GO_OPTION" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="radiobuttonCustomized" Key="{D92FE70E-C58A-423F-BD8C-1A1E55D31839}" ExtendedFind="True">
+																		<Image FileName="190202643" Left="2010" Top="578" Right="2030" Bottom="598" />
+																		<TypeInfo Item0="{470A43F3-DEEE-4C90-B4F9-03DA773B78C3}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="RadioButton" />
+																			</Property>
+																			<Property Name="idStr">
+																				<Value Value="CUSTOM_OPTION" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
 														</Children>
 													</Child>
 												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="panelFilters" Key="{6FBFF892-1C45-4412-9D70-DDB619F82868}">
+										<Image FileName="-1808125799" Left="1135" Top="248" Right="2305" Bottom="375" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="10" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panel" Key="{140D9CE7-0617-4021-8993-0C69B442CEA7}">
+												<Image FileName="-1808125799" Left="1990" Top="267" Right="2290" Bottom="312" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="0" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="textbox" Key="{02290A1A-7097-441C-B850-F8B33FB26659}">
+														<Image FileName="-1808125799" Left="1990" Top="267" Right="2290" Bottom="312" />
+														<TypeInfo Item0="{2AA87AAC-13D5-49F5-BC68-A37D629FD039}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Textbox" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="asideSystemStatus" Key="{19F6FC0D-697D-4567-8311-4C287BD7A70F}">
+														<Image FileName="-968810751" Left="1135" Top="306" Right="1428" Bottom="911" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Aside" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panelSystemStatus" Key="{D2AE72DD-FFC8-490A-A0BE-AD736ABA0185}">
+																<Image FileName="-968810751" Left="1150" Top="306" Right="1413" Bottom="891" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Panel" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="panelSystemStatus" Key="{6CF0D6AD-48FE-4A06-A9ED-DA70D8E892F5}">
+																		<Image FileName="-968810751" Left="1150" Top="306" Right="1413" Bottom="527" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Panel" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value Value="0" Type="0" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="link29Printers" Key="{E08B5359-648E-4030-8EA7-DA228B12460A}">
+																				<Image FileName="-968810751" Left="1170" Top="367" Right="1393" Bottom="403" />
+																				<TypeInfo Item0="{DE289312-5293-4EA8-9D30-3794597CBA3A}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Link" />
+																					</Property>
+																					<Property Name="contentText">
+																						<Value Value="320039000A005000720069006E007400650072007300" Type="7" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{FCAAF631-38D2-4B58-BE6C-B65CC92A37F2}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_SecondaryTrayWnd" Key="{4C4F92AF-6556-4BB3-937E-2F5E5D3FB5DF}">
+								<Image FileName="-1264000850" Left="0" Top="0" Right="3440" Bottom="40" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_SecondaryTrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="WorkerW" Key="{2BA89586-DED8-4103-AEDE-D12365947CA1}">
+										<Image FileName="-1264000850" Left="144" Top="0" Right="3374" Bottom="40" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="WorkerW" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSTaskListWClass" Key="{5A9FED3E-01F6-4CEF-BD06-02961704F3ED}">
+												<Image FileName="-1264000850" Left="144" Top="0" Right="3374" Bottom="40" />
+												<TypeInfo Item0="{A98BE5E8-E65F-4893-8B15-1FD96C144C78}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MSTaskListWClass" />
+													</Property>
+												</Properties>
 											</Child>
 										</Children>
 									</Child>
@@ -185,5 +389,24 @@
 	</Nodes>
 	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
 		<Child Name="panelViewMode" Owner="{1B57BC98-9BB4-4714-B671-1FEF3E838615}" />
+		<Child Name="textbox" Owner="{02290A1A-7097-441C-B850-F8B33FB26659}" />
+		<Child Name="labelConnection" Owner="{83BD7D80-190D-490C-8C03-ABDDD3FEDD7E}" />
+		<Child Name="labelPrintixGo" Owner="{30864906-921C-4063-A8D5-FAAEC5B0EEEC}" />
+		<Child Name="labelCustomized" Owner="{41AAA660-907A-45FC-AFD8-AAFD696AE834}" />
+		<Child Name="asideSystemStatus" Owner="{19F6FC0D-697D-4567-8311-4C287BD7A70F}">
+			<Child Name="link29Printers" Owner="{E08B5359-648E-4030-8EA7-DA228B12460A}" />
+		</Child>
+		<Child Name="explorer" Owner="{FCAAF631-38D2-4B58-BE6C-B65CC92A37F2}">
+			<Child Name="wndShell_SecondaryTrayWnd" Owner="{4C4F92AF-6556-4BB3-937E-2F5E5D3FB5DF}">
+				<Child Name="WorkerW" Owner="{2BA89586-DED8-4103-AEDE-D12365947CA1}">
+					<Child Name="MSTaskListWClass" Owner="{5A9FED3E-01F6-4CEF-BD06-02961704F3ED}" />
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="radiobuttonConnection" Owner="{38387868-29CB-45E6-A918-3F6F04DE805B}" />
+		<Child Name="panelDefault" Owner="{9C9C3C30-CAE0-4199-B241-DCED16A3A19E}">
+			<Child Name="radiobuttonPrintixGo" Owner="{DECD0E5D-9091-4944-A649-008A15643566}" />
+			<Child Name="radiobuttonCustomized" Owner="{D92FE70E-C58A-423F-BD8C-1A1E55D31839}" />
+		</Child>
 	</LogicalNodes>
 </Root>
