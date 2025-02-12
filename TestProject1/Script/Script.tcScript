@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
-	<children />
+	<children>
+		<child name="Unit1" key="{0517F5EE-3314-4E0E-A6B4-EA373EC4A6D9}" path="Unit1.js" />
+		<child name="Unit2" key="{7EF9D16D-C4DD-4947-AEE6-20845F2EC54C}" path="Unit2.js" />
+		<child name="Unit3" key="{A1E284F1-1082-4F80-8B9B-DFA76B0E5599}" path="Unit3.js" />
+		<child name="Unit4" key="{1D55EADD-E82B-46CA-9812-ABE005E9DF7D}" path="Unit4.js" />
+		<child name="Unit5" key="{3A41BFA7-7A25-41DA-87CB-2B9F7291F174}" path="Unit5.js" />
+	</children>
 </Root>

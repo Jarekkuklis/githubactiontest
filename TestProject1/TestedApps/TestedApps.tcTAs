@@ -19,117 +19,32 @@
 		<child key="{617E6331-F339-42FA-80B8-DC59E747C8C9}">
 			<config nodeName="msedge" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="Simple">
-<<<<<<< HEAD
-					<param name="RunAs" parameters="--disable-web-security --user-data-dir=C:\Users\jaroslaw.kuklis\AppData\Local\Microsoft\Edge\User Data\Default --disable-site-isolation-trials" workFolder="" userName="" password="" domain="" />
-					<param name="Profile" parameters="--disable-web-security --user-data-dir=C:\Users\jaroslaw.kuklis\AppData\Local\Microsoft\Edge\User Data\Default --disable-site-isolation-trials" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="8" forceRunMode="False" />
-					<param name="Debug" parameters="--disable-web-security --user-data-dir=C:\Users\jaroslaw.kuklis\AppData\Local\Microsoft\Edge\User Data\Default --disable-site-isolation-trials" workFolder="" />
-					<param name="Simple" fileName="msedge.exe" filePath="C:\Program Files (x86)\Microsoft\Edge\Application\" parameters="--disable-web-security --user-data-dir=C:\Users\jaroslaw.kuklis\AppData\Local\Microsoft\Edge\User Data\Default --disable-site-isolation-trials" workFolder="" />
-=======
-					<param name="RunAs" parameters="-injectCefHook" workFolder="" userName="" password="" domain="" />
-					<param name="Profile" parameters="-injectCefHook" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="8" forceRunMode="False" />
-					<param name="Debug" parameters="-injectCefHook" workFolder="" />
-					<param name="Simple" fileName="msedge.exe" filePath="C:\Program Files (x86)\Microsoft\Edge\Application\" parameters="-injectCefHook" workFolder="" />
->>>>>>> 3a1af7d13643f5246ee4f71cd688107ff8f4b028
-				</runModeParams>
-			</config>
-			<testData />
-			<data />
-		</child>
-		<child key="{50D082D9-211E-478D-A76B-77F15A91042D}">
-			<config nodeName="chrome" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
-				<runModeParams activeRunMode="Simple">
-					<param name="RunAs" parameters="--disable-web-security --user-data-dir=C:\Users\jaroslaw.kuklis\AppData\Local\Google\Chrome\User Data\Default --disable-site-isolation-trials" workFolder="" userName="" password="" domain="" />
-					<param name="Profile" parameters="--disable-web-security --user-data-dir=C:\Users\jaroslaw.kuklis\AppData\Local\Google\Chrome\User Data\Default --disable-site-isolation-trials" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="8" forceRunMode="False" />
-					<param name="Debug" parameters="--disable-web-security --user-data-dir=C:\Users\jaroslaw.kuklis\AppData\Local\Google\Chrome\User Data\Default --disable-site-isolation-trials" workFolder="" />
-					<param name="Simple" fileName="chrome.exe" filePath="C:\Program Files\Google\Chrome\Application\" parameters="--disable-web-security --user-data-dir=C:\Users\jaroslaw.kuklis\AppData\Local\Google\Chrome\User Data\Default --disable-site-isolation-trials" workFolder="" />
-				</runModeParams>
-			</config>
-			<testData />
-			<data />
-		</child>
-<<<<<<< HEAD
-		<child key="{801AF494-0DA3-43E4-B1C0-9ED89FF395BE}">
-			<config nodeName="Orders1" autorunOnRecording="False" enabled="False" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
-				<runModeParams activeRunMode="BitBar">
-					<param name="BitBar" parameters="" workFolder="" application="C:\Users\Public\Documents\TestComplete 15 Samples\Mobile\Android\Orders\Orders Application\bin\Orders.apk" upload="True" />
-				</runModeParams>
-			</config>
-			<testData />
-			<data />
-		</child>
-=======
->>>>>>> 3a1af7d13643f5246ee4f71cd688107ff8f4b028
-		<child key="{7AD01411-484C-4F5E-91E9-E1A7EBBAB692}">
-			<config nodeName="_cambiofechahoy" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
-				<runModeParams activeRunMode="RunAs">
 					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />
 					<param name="Profile" parameters="" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="8" forceRunMode="False" />
 					<param name="Debug" parameters="" workFolder="" />
-					<param name="Simple" fileName="`cambiofechahoy.bat" filePath="C:\Users\jaroslaw.kuklis\Downloads\" parameters="" workFolder="" />
+					<param name="Simple" fileName="" filePath="" parameters="" workFolder="" />
 				</runModeParams>
 			</config>
 			<testData />
 			<data />
 		</child>
-		<child key="{5018E220-39B6-4874-AC4D-BA1FBB77F5B0}">
-			<config nodeName="tvc" autorunOnRecording="False" enabled="False" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+		<child key="{53C478B3-9FF1-4B00-814B-5598DFB5B98D}">
+			<config nodeName="Calculator_x13b4" autorunOnRecording="False" enabled="False" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="BitBar">
-					<param name="BitBar" parameters="" workFolder="" application="C:\Users\jaroslaw.kuklis\Downloads\tvc.apk" upload="True" />
+					<param name="BitBar" parameters="" workFolder="" application="C:\Users\jaroslaw.kuklis\Downloads\Calculator_x13b4.ipa" upload="True" />
 				</runModeParams>
 			</config>
 			<testData />
 			<data />
 		</child>
-		<child key="{8EF329BD-F884-4F02-A345-54E2B3F77198}">
-			<config nodeName="notepad" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
-				<runModeParams activeRunMode="Simple">
-					<param name="RunAs" parameters="" workFolder="%HOMEDRIVE%%HOMEPATH%" userName="" password="" domain="" />
-					<param name="Profile" parameters="" workFolder="%HOMEDRIVE%%HOMEPATH%" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="8" forceRunMode="False" />
-					<param name="Debug" parameters="" workFolder="%HOMEDRIVE%%HOMEPATH%" />
-					<param name="Simple" fileName="notepad.exe" filePath="C:\WINDOWS\system32\" parameters="" workFolder="%HOMEDRIVE%%HOMEPATH%" />
-				</runModeParams>
-			</config>
-			<testData />
-			<data />
-		</child>
-<<<<<<< HEAD
-=======
-		<child key="{3D8DF1FC-2ED2-49F6-8143-62E8C88F0995}">
-			<config nodeName="GNWTest" autorunOnRecording="False" enabled="False" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+		<child key="{448BEBA3-6E0D-4157-B5AA-F7A359797254}">
+			<config nodeName="SelfServiceApp2_2_28" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="BitBar">
-					<param name="BitBar" parameters="" workFolder="" application="C:\Users\jaroslaw.kuklis\Downloads\GNWTest.apk" upload="True" />
+					<param name="BitBar" parameters="" workFolder="" application="C:\Users\jaroslaw.kuklis\Downloads\SelfServiceApp2.2.28.ipa" upload="True" />
 				</runModeParams>
 			</config>
 			<testData />
 			<data />
 		</child>
-		<child key="{FF4EE309-100A-4BA8-9112-D1E297F34B80}">
-			<config nodeName="app_debug" autorunOnRecording="False" enabled="False" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
-				<runModeParams activeRunMode="BitBar">
-					<param name="BitBar" parameters="" workFolder="" application="C:\Users\jaroslaw.kuklis\Downloads\app-debug.apk" upload="True" />
-				</runModeParams>
-			</config>
-			<testData />
-			<data />
-		</child>
-		<child key="{BEF84657-7C58-4D6C-97E8-210DD8EAC804}">
-			<config nodeName="AndroidProdUAT" autorunOnRecording="False" enabled="False" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
-				<runModeParams activeRunMode="BitBar">
-					<param name="BitBar" parameters="" workFolder="" application="C:\Users\jaroslaw.kuklis\Downloads\AndroidProdUAT.apk" upload="True" />
-				</runModeParams>
-			</config>
-			<testData />
-			<data />
-		</child>
-		<child key="{961655E1-16CB-4303-8A8D-8EABCB35D0D2}">
-			<config nodeName="Orders1" autorunOnRecording="False" enabled="False" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
-				<runModeParams activeRunMode="BitBar">
-					<param name="BitBar" parameters="" workFolder="" application="C:\Users\Public\Documents\TestComplete 15 Samples\Mobile\Android\Orders\Orders Application\bin\Orders.apk" upload="True" />
-				</runModeParams>
-			</config>
-			<testData />
-			<data />
-		</child>
->>>>>>> 3a1af7d13643f5246ee4f71cd688107ff8f4b028
 	</children>
 </Root>

@@ -2,13 +2,29 @@
 <Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{47BF23AB-46AC-4EAA-A990-3EDD7C1703E4}">
 	<children>
 		<child name="TestProject1" key="{308B8A5F-54C3-47EC-AD46-B4B585BE52D9}" path="TestProject1\TestProject1.mds" />
+		<child name="TestProject4" key="{30AE91CC-E7BA-42BE-BDD5-2F782AE7D09A}" path="TestProject4\TestProject4.mds" />
 	</children>
 	<testItems key="{0E10A4DD-312B-4FF6-9014-0C740D8678CE}">
 		<children>
 			<testItem key="{308B8A5F-54C3-47EC-AD46-B4B585BE52D9}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{30AE91CC-E7BA-42BE-BDD5-2F782AE7D09A}" enabled="True" timeout="0" stopOnError="True" description="" />
 		</children>
 	</testItems>
-	<variables key="{4896C4D1-A1CA-4C72-8C4A-7944D2328C44}" />
+	<variables key="{4896C4D1-A1CA-4C72-8C4A-7944D2328C44}">
+		<data Version="4">
+			<Items>
+				<Variable Name="Var1" Type="Integer" Local="False">
+					<DefValue IntValue="1" />
+				</Variable>
+				<Variable Name="Var2" Type="Integer" Local="False">
+					<DefValue IntValue="2" />
+				</Variable>
+				<Variable Name="Var3" Type="String" Local="False">
+					<DefValue StrValue="Edge" />
+				</Variable>
+			</Items>
+		</data>
+	</variables>
 	<analysis key="{4B288D7E-64DE-4D8D-959E-3AC143DFA8E7}" />
 	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
 		<data />

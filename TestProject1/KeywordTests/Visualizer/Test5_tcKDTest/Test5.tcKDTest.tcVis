@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{8814C709-A11B-4F8F-A5A8-9DBCA899AB92}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45595.5220023148" objectName="NameMapping.Sys.Process(&quot;notepad&quot;).UIAObject(&quot;Untitled_Notepad&quot;).UIAObject(&quot;Text_Editor&quot;).MSAAObject(&quot;editable_text_Text_Editor&quot;)" objectLeft="8" objectTop="51" objectRight="1446" objectBottom="753" clickPointX="353" clickPointY="188" imageFileName="tcvi10350532836161.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45595.522025463" objectName="Aliases.notepad.Untitled_Notepad.Text_Editor" objectLeft="8" objectTop="51" objectRight="1463" objectBottom="753" clickPointX="-235" clickPointY="-110" imageFileName="tcvi10350704636162.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

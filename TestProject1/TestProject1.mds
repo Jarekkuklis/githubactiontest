@@ -13,16 +13,28 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{F17711DC-C63F-41B5-8C0D-D07D5B6AFF45}" version="14">
 		<children>
-			<testItem name="aspfsafsaf" key="{839B26B9-03C9-47E6-9AC0-FEACFBB8AD76}" group="False" parallel="False" enabled="True" testMoniker="KDT\{33447B8D-E588-4E5F-A2BF-378E04BAF823}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="aspfsafsaf" key="{14EF0E29-515F-4676-8A0E-839224898DAC}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{33447B8D-E588-4E5F-A2BF-378E04BAF823}" count="1" timeout="0" stopOnError="4" stopOnException="2" description="" tmsData="" testCase="False" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT" />
-				<children />
+				<children>
+					<testItem name="Test2" key="{7F7816E8-732D-4C31-AC1C-B353822D74BE}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{8A6A620B-6CB1-46C2-A5D5-021F6D4A4492}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False" lnID="{00000000-0000-0000-0000-000000000000}">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children>
+							<testItem name="Test4" key="{6CDEE3DE-E1AA-462F-9B74-3298D5AE27C1}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{BD42BBE2-17F1-4ECB-85C4-DCE8D06B7EA7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+								<testParameters />
+								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+				</children>
 			</testItem>
 		</children>
 	</testItems>
 	<variables key="{78657EB0-E957-4A56-9C8A-9AFDF4662D31}" />
 	<settings key="{371590B1-8E9E-4771-AC4D-9DBCE62B9F47}">
-		<settingsVersion value="15.64" />
+		<settingsVersion value="15.72" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -43,18 +55,18 @@
 			<data />
 		</setting>
 		<setting name="ApplicationHangingTimeout" type="2" value="30000" />
-		<setting name="AzureDevOps_CollectionID" type="5" value="" />
-		<setting name="AzureDevOps_ProjectID" type="5" value="" />
-		<setting name="AzureDevOps_ServerName" type="5" value="" />
-		<setting name="AzureDevOps_TeamProject" type="5" value="" />
+		<setting name="AzureDevOps_CollectionID" type="5" value="{E784E582-D3FF-4F6B-845C-D27A85651C89}" />
+		<setting name="AzureDevOps_ProjectID" type="5" value="vstfs:///Classification/TeamProject/93ec8ccc-8194-4c96-915e-4d44c7e5687d" />
+		<setting name="AzureDevOps_ServerName" type="5" value="https://dev.azure.com/jaroslawkuklis" />
+		<setting name="AzureDevOps_TeamProject" type="5" value="PipelineTrening" />
 		<setting name="AzureDevOps_TeamProjectCollection" type="5" value="" />
-		<setting name="AzureDevOps_URL" type="5" value="" />
-		<setting name="BitBar_APIKey" type="5" value="" />
+		<setting name="AzureDevOps_URL" type="5" value="https://dev.azure.com/jaroslawkuklis" />
+		<setting name="BitBar_APIKey" type="5" value="3A02A04190AF828D0C862B0233BDB56856F449873CFC079CC1C073C01A8A4043C6C07D5615958A0C0D6F4AC96B8B3E7D8E842CD87B27A7AD44E8930C4271DFCAC1" />
 		<setting name="BitBar_APIURL" type="5" value="https://cloud.bitbar.com/api/" />
 		<setting name="BitBar_FindAndroidDevice" type="5" value="( Device Group As in Selected Device )" />
 		<setting name="BitBar_FindIOSDevice" type="5" value="( Device Group As in Selected Device )" />
 		<setting name="BitBar_FRAMEWORKID_Android" type="2" value="0" />
-		<setting name="BitBar_FRAMEWORKID_IOS" type="2" value="0" />
+		<setting name="BitBar_FRAMEWORKID_IOS" type="2" value="871" />
 		<setting name="BitBar_HUBURL" type="5" value="https://appium.bitbar.com/wd/hub/" />
 		<setting name="BitBar_NewCommandTimeout" type="2" value="300" />
 		<setting name="CBT_AppsAvailability" type="6" rowIndex="0" colIndex="0">
@@ -200,6 +212,10 @@
 		</setting>
 		<setting name="JavaOpenApp_DoNotRecognizeChildSWTAsParent" type="1" value="False" />
 		<setting name="KeyPressingDelay" type="2" value="0" />
+		<setting name="LoadTestAPIKey" type="5" value="" />
+		<setting name="LoadTestAPIKeyLogin" type="5" value="&lt;A&gt;Login to LoadNinja&lt;/A&gt; to get your API key." />
+		<setting name="LoadTestAPIKeySales" type="5" value="Want to know more &lt;A&gt;Contact Sales&lt;/A&gt;." />
+		<setting name="LoadTestAPIKeySignup" type="5" value="&lt;A&gt;Sign up for LN trial&lt;/A&gt;." />
 		<setting name="MobileSupportType" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
@@ -301,13 +317,13 @@
 			</data>
 		</setting>
 		<setting name="OpenApps_MethodInvokeTimeout" type="2" value="3000" />
-		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="11" colIndex="1">
+		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="1" enabled="True" />
 				<column type="5" enabled="True" />
 			</columns>
 			<data>
-				<row val0="False" val1="*" />
+				<row val0="True" val1="*" />
 				<row val0="True" val1="MsoCommandBar*" />
 				<row val0="True" val1="_Ww*" />
 				<row val0="True" val1="OpusApp" />
@@ -321,7 +337,7 @@
 				<row val0="True" val1="XTPPopupBar" />
 			</data>
 		</setting>
-		<setting name="OpenApps_MSAA_TreeModel" type="1" value="False" />
+		<setting name="OpenApps_MSAA_TreeModel" type="1" value="True" />
 		<setting name="OpenApps_PriorityOfObjects" type="6" rowIndex="15" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
@@ -362,13 +378,13 @@
 			</columns>
 			<data />
 		</setting>
-		<setting name="OpenApps_UIA_ListOfAcceptedWindows" type="6" rowIndex="2" colIndex="1">
+		<setting name="OpenApps_UIA_ListOfAcceptedWindows" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="1" enabled="True" />
 				<column type="5" enabled="True" />
 			</columns>
 			<data>
-				<row val0="False" val1="*" />
+				<row val0="True" val1="*" />
 				<row val0="True" val1="DirectUIHWND" />
 				<row val0="True" val1="Windows.UI.Core.CoreWindow" />
 			</data>
@@ -594,7 +610,7 @@
 			</data>
 		</setting>
 		<setting name="Playback_OverlappingWindow_IgnoreOverlappingWindow" type="1" value="False" />
-		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="10000" />
+		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="100" />
 		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="50" />
 		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
 		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="False" />
@@ -672,6 +688,7 @@
 		</setting>
 		<setting name="Visualizer_UseDuringPlayback" type="1" value="True" />
 		<setting name="Visualizer_UseDuringRecording" type="1" value="True" />
+		<setting name="VTAPIKey" type="5" value="" />
 		<setting name="WebCloudProvider" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />

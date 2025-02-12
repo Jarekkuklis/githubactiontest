@@ -9,5 +9,11 @@
 		<item caption="Item2" moniker="{11D7019E-F9CE-4D1C-8BE2-43BADD602688}" isComposite="False" simpleMode="True" currentImageIndex="0">
 			<image imageFileName="Data\Item2.png" initialHash="70FC09AF" selectionLeft="4899" selectionTop="411" selectionWidth="75" selectionHeight="33" initialLeft="4899" initialTop="411" initialWidth="75" initialHeight="33" pixelTolerance="743" colorTolerance="0" deviceName="button yes" />
 		</item>
+		<item caption="Item3" moniker="{568C9CCD-22F2-4E90-9922-89CDEDFBADF0}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\Item3.png" initialHash="018B2382" selectionLeft="3800" selectionTop="230" selectionWidth="440" selectionHeight="400" initialLeft="3800" initialTop="230" initialWidth="440" initialHeight="400" pixelTolerance="0" colorTolerance="0" deviceName="" />
+		</item>
+		<item caption="Item4" moniker="{4918A05F-DA58-4307-8189-8941942ECA27}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\Item4.png" initialHash="00000000" selectionLeft="3855" selectionTop="460" selectionWidth="51" selectionHeight="48" initialLeft="3855" initialTop="460" initialWidth="51" initialHeight="48" pixelTolerance="0" colorTolerance="0" deviceName="" />
+		</item>
 	</data>
 </Root>

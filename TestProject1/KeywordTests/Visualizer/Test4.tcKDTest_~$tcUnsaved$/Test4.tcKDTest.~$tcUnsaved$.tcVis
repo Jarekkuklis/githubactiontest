@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{BD42BBE2-17F1-4ECB-85C4-DCE8D06B7EA7}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45590.3515509259" objectName="Aliases.MCAshvinsWorkstation.Item" objectLeft="0" objectTop="0" objectRight="660" objectBottom="500" clickPointX="273" clickPointY="254" imageFileName="tcvi148348093277000.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45590.3515625" objectName="Aliases.MCAshvinsWorkstation.Item" objectLeft="0" objectTop="0" objectRight="660" objectBottom="500" clickPointX="-3311" clickPointY="-92" imageFileName="tcvi148348890277001.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45590.3515856481" objectName="Aliases.MCAshvinsWorkstation.Item" objectLeft="0" objectTop="0" objectRight="660" objectBottom="500" clickPointX="386" clickPointY="336" imageFileName="tcvi148351218277002.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45590.3516087963" objectName="Aliases.MCAshvinsWorkstation.wndWindowsForms10Window8app03553390r9ad1.WindowsForms10Window8app03553390r9ad1" objectLeft="199" objectTop="100" objectRight="216" objectBottom="111" clickPointX="211" clickPointY="105" imageFileName="tcvi148353140277004.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>
