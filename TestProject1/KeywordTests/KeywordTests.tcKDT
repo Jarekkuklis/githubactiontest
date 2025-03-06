@@ -4,6 +4,5 @@
 		<child name="Test2" key="{8A6A620B-6CB1-46C2-A5D5-021F6D4A4492}" path="Test2.tcKDTest" />
 		<child name="Test4" key="{BD42BBE2-17F1-4ECB-85C4-DCE8D06B7EA7}" path="Test4.tcKDTest" />
 		<child name="Test5" key="{8814C709-A11B-4F8F-A5A8-9DBCA899AB92}" path="Test5.tcKDTest" />
-		<child name="Test1" key="{CFA1852A-5068-4876-8F01-6877336C4BB9}" path="..\..\..\TestProject2\TestProject2\KeywordTests\Test1.tcKDTest" />
 	</children>
 </Root>
