@@ -38,9 +38,30 @@
 			<data />
 		</child>
 		<child key="{448BEBA3-6E0D-4157-B5AA-F7A359797254}">
-			<config nodeName="SelfServiceApp2_2_28" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+			<config nodeName="SelfServiceApp2_2_28" autorunOnRecording="False" enabled="False" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="BitBar">
 					<param name="BitBar" parameters="" workFolder="" application="C:\Users\jaroslaw.kuklis\Downloads\SelfServiceApp2.2.28.ipa" upload="True" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{B9DDAC0B-6308-4200-8643-9020A92CF193}">
+			<config nodeName="CEF73Test" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="-cdpAutoSetPort" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="-cdpAutoSetPort" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="8" forceRunMode="False" />
+					<param name="Debug" parameters="-cdpAutoSetPort" workFolder="" />
+					<param name="Simple" fileName="CEF73Test.exe" filePath="C:\Users\jaroslaw.kuklis\Downloads\CEF129Test\Release\" parameters="-cdpAutoSetPort" workFolder="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{78C430D1-6625-470C-9C37-A691B7E6EF76}">
+			<config nodeName="TestApk" autorunOnRecording="False" enabled="False" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="BitBar">
+					<param name="BitBar" parameters="" workFolder="" application="C:\Users\jaroslaw.kuklis\Downloads\TestApk.apk" upload="True" />
 				</runModeParams>
 			</config>
 			<testData />

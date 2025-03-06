@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{8A6A620B-6CB1-46C2-A5D5-021F6D4A4492}" />
+	<data key="{8A6A620B-6CB1-46C2-A5D5-021F6D4A4492}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45712.5738194444" objectName="Aliases.pageKfcMenuRestauracjeZamWieniaO.button" objectLeft="1546" objectTop="1266" objectRight="1594" objectBottom="1314" clickPointX="1576" clickPointY="1297" imageFileName="tcvi79823631251800.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45712.5738425926" objectName="Aliases.pageKfcMenuRestauracjeZamWieniaO.button2" objectLeft="1626" objectTop="1173" objectRight="1666" objectBottom="1213" clickPointX="1651" clickPointY="1192" imageFileName="tcvi79823856251801.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45712.5738657407" objectName="Aliases.pageKfcMenuRestauracjeZamWieniaO.button3" objectLeft="1892" objectTop="1173" objectRight="1932" objectBottom="1213" clickPointX="1911" clickPointY="1193" imageFileName="tcvi79824042151802.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45712.5738888889" objectName="Aliases.pageKfcMenuRestauracjeZamWieniaO.button4" objectLeft="1718" objectTop="1173" objectRight="1758" objectBottom="1213" clickPointX="1747" clickPointY="1207" imageFileName="tcvi79824231251803.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45712.573912037" objectName="Aliases.pageKfcMenuRestauracjeZamWieniaO.button5" objectLeft="1452" objectTop="1173" objectRight="1492" objectBottom="1213" clickPointX="1469" clickPointY="1191" imageFileName="tcvi79824421851804.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="45712.5739351852" objectName="Aliases.pageKfcMenuRestauracjeZamWieniaO.button22" objectLeft="1438" objectTop="1266" objectRight="1486" objectBottom="1314" clickPointX="1460" clickPointY="1286" imageFileName="tcvi79824596851805.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
 </Root>

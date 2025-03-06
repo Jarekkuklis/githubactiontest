@@ -13,28 +13,32 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{F17711DC-C63F-41B5-8C0D-D07D5B6AFF45}" version="14">
 		<children>
-			<testItem name="aspfsafsaf" key="{14EF0E29-515F-4676-8A0E-839224898DAC}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{33447B8D-E588-4E5F-A2BF-378E04BAF823}" count="1" timeout="0" stopOnError="4" stopOnException="2" description="" tmsData="" testCase="False" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="Test1" key="{CA1DE9DF-24B7-48A9-947C-9EF71918F24E}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{CFA1852A-5068-4876-8F01-6877336C4BB9}" count="1" timeout="0" stopOnError="4" stopOnException="2" description="" tmsData="" testCase="False" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children>
-					<testItem name="Test2" key="{7F7816E8-732D-4C31-AC1C-B353822D74BE}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{8A6A620B-6CB1-46C2-A5D5-021F6D4A4492}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False" lnID="{00000000-0000-0000-0000-000000000000}">
+					<testItem name="Test2" key="{110DA3B6-9EE9-46F4-80A8-61F7F6C0EDCE}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{8A6A620B-6CB1-46C2-A5D5-021F6D4A4492}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False" lnID="{00000000-0000-0000-0000-000000000000}">
 						<testParameters />
 						<environments activeCloud="SWT" />
-						<children>
-							<testItem name="Test4" key="{6CDEE3DE-E1AA-462F-9B74-3298D5AE27C1}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{BD42BBE2-17F1-4ECB-85C4-DCE8D06B7EA7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters />
-								<environments activeCloud="SWT" />
-								<children />
-							</testItem>
-						</children>
+						<children />
 					</testItem>
 				</children>
+			</testItem>
+			<testItem name="Test5" key="{CF7E92B0-0FB2-4962-9606-FAD0CADC454A}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{8814C709-A11B-4F8F-A5A8-9DBCA899AB92}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
+			<testItem name="Test4" key="{9224D770-CEE1-4D74-99A9-E49FB9F52051}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{BD42BBE2-17F1-4ECB-85C4-DCE8D06B7EA7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
 			</testItem>
 		</children>
 	</testItems>
 	<variables key="{78657EB0-E957-4A56-9C8A-9AFDF4662D31}" />
 	<settings key="{371590B1-8E9E-4771-AC4D-9DBCE62B9F47}">
-		<settingsVersion value="15.72" />
+		<settingsVersion value="15.73" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -65,7 +69,7 @@
 		<setting name="BitBar_APIURL" type="5" value="https://cloud.bitbar.com/api/" />
 		<setting name="BitBar_FindAndroidDevice" type="5" value="( Device Group As in Selected Device )" />
 		<setting name="BitBar_FindIOSDevice" type="5" value="( Device Group As in Selected Device )" />
-		<setting name="BitBar_FRAMEWORKID_Android" type="2" value="0" />
+		<setting name="BitBar_FRAMEWORKID_Android" type="2" value="869" />
 		<setting name="BitBar_FRAMEWORKID_IOS" type="2" value="871" />
 		<setting name="BitBar_HUBURL" type="5" value="https://appium.bitbar.com/wd/hub/" />
 		<setting name="BitBar_NewCommandTimeout" type="2" value="300" />

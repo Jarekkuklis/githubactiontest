@@ -7,11 +7,17 @@
 	</children>
 	<config language="{897793E3-73F3-4895-A956-3D41D3A24A45}" />
 	<testItems key="{047E3F1B-E2FE-4E93-B3EE-FD560DD889FC}" version="14">
-		<children />
+		<children>
+			<testItem name="abc" key="{B05558AC-C104-4523-9160-034AFD881873}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{CE414A70-A411-4803-BD89-6DB06688971A}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+		</children>
 	</testItems>
 	<variables key="{553FAC5A-C8E6-408E-9064-374171A7E3D9}" />
 	<settings key="{84E325FB-D5E6-4A19-B93B-7761D4B7D795}">
-		<settingsVersion value="15.70" />
+		<settingsVersion value="15.73" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>

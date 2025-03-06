@@ -830,6 +830,421 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageMenuKfcWDostawieKubeKiBoxyBu" Key="{CF9F9746-AE68-4828-A4C7-644136A82C66}">
+								<Image FileName="1972848574" Left="0" Top="121" Right="3440" Bottom="1400" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://kfc.pl/menu/dostawa" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="kfcProductItemshakeKrWka180ml" Key="{4AB59FC5-76D1-440A-BB47-2601C45DBCCB}" ExtendedFind="True">
+										<Image FileName="1972848574" Left="1104" Top="501" Right="1488" Bottom="669" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="TextNode" />
+											</Property>
+											<Property Name="contentText">
+												<Value Value="5300680061006B00650020004B007200F30077006B00610020003100380030006D006C000A005300680061006B0065002000440065006C0075007800650020004B007200F30077006B00610020003100380030006D006C002E000A00310030002C0034003900" Type="7" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="button" Key="{C803953D-525D-460D-BC4B-46613C05F126}" ExtendedFind="True">
+												<Image FileName="1972848574" Left="1432" Top="613" Right="1472" Bottom="653" />
+												<TypeInfo Item0="{C7A21A38-9072-44DB-B16D-D048DFF5D52A}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Button" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="panelPowiKszSwojegoShakeA" Key="{2734D824-F1FD-49D9-BE63-DCF1F8182C23}" ExtendedFind="True">
+										<Image FileName="-695598456" Left="1324" Top="489" Right="2116" Bottom="632" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="contentText">
+												<Value Value="Powiększ swojego shake&apos;a!" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="button" Key="{753F61A6-624B-4A21-A24E-AC65CD5B45AE}" ExtendedFind="True">
+												<Image FileName="-695598456" Left="1348" Top="513" Right="1384" Bottom="549" />
+												<TypeInfo Item0="{C7A21A38-9072-44DB-B16D-D048DFF5D52A}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Button" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="kfcProductItemshakeKrWka300ml" Key="{436A25DA-BDF7-4413-A523-7FBDAB54A6F1}" ExtendedFind="True">
+										<Image FileName="2130904898" Left="1520" Top="501" Right="1904" Bottom="669" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="TextNode" />
+											</Property>
+											<Property Name="contentText">
+												<Value Value="5300680061006B00650020004B007200F30077006B00610020003300300030006D006C000A005300680061006B0065002000440065006C0075007800650020004B007200F30077006B0061002000440075007C01790020003300300030006D006C002E000A00310032002C0034003900" Type="7" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="button" Key="{A4A80434-5E9D-4CBE-B7C7-950170DED09B}" ExtendedFind="True">
+												<Image FileName="2130904898" Left="1848" Top="613" Right="1888" Bottom="653" />
+												<TypeInfo Item0="{C7A21A38-9072-44DB-B16D-D048DFF5D52A}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Button" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="panel" Key="{35BD7D63-D68F-4FB6-9B8A-1D2B6C01F40C}" ExtendedFind="True">
+										<Image FileName="984131758" Left="1385" Top="461" Right="2055" Bottom="604" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="contentText">
+												<Value Value="Wygląda pysznie! Weź coś na większy apetyt!" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="button" Key="{B5DBB35F-8425-416B-AA50-03D41794EC26}" ExtendedFind="True">
+												<Image FileName="984131758" Left="1409" Top="485" Right="1445" Bottom="521" />
+												<TypeInfo Item0="{C7A21A38-9072-44DB-B16D-D048DFF5D52A}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Button" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="kfcProductItemshakeTruskawka500ml" Key="{40F798FF-5819-41A7-976F-CB2FC430D56B}" ExtendedFind="True">
+										<Image FileName="-1571421327" Left="1936" Top="901" Right="2320" Bottom="1069" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="TextNode" />
+											</Property>
+											<Property Name="contentText">
+												<Value Value="5300680061006B006500200054007200750073006B00610077006B00610020003500300030006D006C000A005300680061006B0065002000440065006C00750078006500200054007200750073006B00610077006B00610020003500300030006D006C002E000A00310035002C0039003900" Type="7" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="button" Key="{798604BF-55C9-47B3-B86A-72CFA81B57A5}" ExtendedFind="True">
+												<Image FileName="-1571421327" Left="2264" Top="1013" Right="2304" Bottom="1053" />
+												<TypeInfo Item0="{C7A21A38-9072-44DB-B16D-D048DFF5D52A}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Button" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="kfcProductDialogshakeTruskawka500ml" Key="{C1686113-AD62-4C8C-83AD-BF4D5C22A890}" ExtendedFind="True">
+										<Image FileName="1616512751" Left="0" Top="15321" Right="0" Bottom="15321" />
+										<Properties>
+											<Property Name="CustomObjectType">
+												<Value Value="KfcProductDialog" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panelShakeTruskawka500ml" Key="{51FBC8AB-506B-4D47-B7AC-8475C452AF47}" ExtendedFind="True">
+												<Image FileName="1616512751" Left="1370" Top="177" Right="2070" Bottom="1344" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="button" Key="{6DA7EB60-AFF3-47A3-AFBE-C2448873DB2D}" ExtendedFind="True">
+														<Image FileName="1616512751" Left="1394" Top="201" Right="1416" Bottom="232" />
+														<TypeInfo Item0="{C7A21A38-9072-44DB-B16D-D048DFF5D52A}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="0" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="kfcMenuwojeProdukty" Key="{F12F56B5-E601-4533-885C-2F1BF7AF08B2}" ExtendedFind="True">
+										<Image FileName="-1531002697" Left="8" Top="-7511" Right="3431" Bottom="9047" />
+										<TypeInfo Item0="{9B9EE4CD-6B93-467D-BC30-6537D9215A37}" />
+										<Properties>
+											<Property Name="CustomObjectType">
+												<Value Value="KfcMenu" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panelShakesDeluxe" Key="{8ACD84C2-17F0-4A35-B349-834A2722BE27}" ExtendedFind="True">
+												<Image FileName="-1531002697" Left="1112" Top="-5937" Right="2328" Bottom="-5013" />
+												<TypeInfo Item0="{5DDA967F-11BD-45C5-B949-947F7331936C}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="2" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="kfcMenuDetailshakesDeluxe" Key="{45004A49-8193-4410-B4E3-04D93CEB3F64}" ExtendedFind="True">
+														<Image FileName="-1531002697" Left="1112" Top="-5937" Right="2328" Bottom="-5013" />
+														<TypeInfo Item0="{9B9EE4CD-6B93-467D-BC30-6537D9215A37}" />
+														<Properties>
+															<Property Name="CustomObjectType">
+																<Value Value="KfcMenuDetails" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panelShakeKrWka180ml" Key="{0F715C09-0623-419F-AC9C-FDD657CC6D16}" ExtendedFind="True">
+																<Image FileName="-1531002697" Left="1112" Top="-5653" Right="2328" Bottom="-5085" />
+																<TypeInfo Item0="{5DDA967F-11BD-45C5-B949-947F7331936C}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Panel" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="2" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="kfcProductItemshakeTruskawka180ml" Key="{B1F8A195-247A-4300-BC24-07B98A06C9D0}">
+																		<Image FileName="-1531002697" Left="1112" Top="-5253" Right="1496" Bottom="-5085" />
+																		<TypeInfo Item0="{9B9EE4CD-6B93-467D-BC30-6537D9215A37}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="TextNode" />
+																			</Property>
+																			<Property Name="contentText">
+																				<Value Value="5300680061006B006500200054007200750073006B00610077006B00610020003100380030006D006C000A005300680061006B0065002000440065006C00750078006500200054007200750073006B00610077006B00610020003100380030006D006C002E000A00310030002C0034003900" Type="7" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="button" Key="{03CDF6BE-9E57-40AD-8334-C6670836F39E}" ExtendedFind="True">
+																				<Image FileName="-1531002697" Left="1440" Top="-5141" Right="1480" Bottom="-5101" />
+																				<TypeInfo Item0="{36CFFC03-2DA7-46DB-8805-83611DB37CDF}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Button" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																	<Child Name="kfcProductItemshakePeanutButter300ml" Key="{DD171687-4C12-412E-BDB1-8F7686010628}">
+																		<Image FileName="1340258784" Left="1528" Top="709" Right="1912" Bottom="877" />
+																		<TypeInfo Item0="{9B9EE4CD-6B93-467D-BC30-6537D9215A37}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="TextNode" />
+																			</Property>
+																			<Property Name="contentText">
+																				<Value Value="5300680061006B00650020005000650061006E0075007400200042007500740074006500720020003300300030006D006C000A005300680061006B0065002000440065006C00750078006500200055002E0053002E0020005000650061006E007500740020004200750074007400650072002000440075007C01790020003300300030006D006C002E000A00310032002C0034003900" Type="7" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="button" Key="{7226FC2A-3F8D-4D90-BA5C-179B50E96C09}" ExtendedFind="True">
+																				<Image FileName="1340258784" Left="1856" Top="821" Right="1896" Bottom="861" />
+																				<TypeInfo Item0="{36CFFC03-2DA7-46DB-8805-83611DB37CDF}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Button" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																	<Child Name="kfcProductItemshakePeanutButter180ml" Key="{F6D92656-D0BB-46D9-B1C3-1EB71D62D18B}">
+																		<Image FileName="-1190241001" Left="1112" Top="709" Right="1496" Bottom="877" />
+																		<TypeInfo Item0="{9B9EE4CD-6B93-467D-BC30-6537D9215A37}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="TextNode" />
+																			</Property>
+																			<Property Name="contentText">
+																				<Value Value="5300680061006B00650020005000650061006E0075007400200042007500740074006500720020003100380030006D006C000A005300680061006B00650073002000440065006C00750078006500200055002E0053002E0020005000650061006E0075007400200042007500740074006500720020003100380030006D006C002E000A00310030002C0034003900" Type="7" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="button" Key="{99F5051D-87B8-4372-A72C-00EAAD126A15}" ExtendedFind="True">
+																				<Image FileName="-1190241001" Left="1440" Top="821" Right="1480" Bottom="861" />
+																				<TypeInfo Item0="{36CFFC03-2DA7-46DB-8805-83611DB37CDF}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Button" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageKfcMenuRestauracjeZamWieniaO" Key="{10F5744C-8D85-4641-A4D8-3391C42C502A}">
+								<Image FileName="92813020" Left="0" Top="121" Right="3440" Bottom="1400" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://kfc.pl/menu/nawynos" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panel1" Key="{3E70235A-E698-4057-9335-86143427329E}" ExtendedFind="True">
+										<Image FileName="92813020" Left="1370" Top="1256" Right="2070" Bottom="1344" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="contentText">
+												<Value Value="31000A0044006F00640061006A00200064006F0020006B006F0073007A0079006B0061000A00310037002C0030003000" Type="7" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="button" Key="{8AD659F7-44C2-4368-9141-FE216A74ACF4}" ExtendedFind="True">
+												<Image FileName="92813020" Left="1546" Top="1266" Right="1594" Bottom="1314" />
+												<TypeInfo Item0="{C7A21A38-9072-44DB-B16D-D048DFF5D52A}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Button" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="button2" Key="{7D77F061-4F38-4446-A645-FD8F1129D5A5}" ExtendedFind="True">
+												<Image FileName="1091472272" Left="1438" Top="1266" Right="1486" Bottom="1314" />
+												<TypeInfo Item0="{C7A21A38-9072-44DB-B16D-D048DFF5D52A}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Button" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="0" Type="0" />
+													</Property>
+													<Property Name="ObjectLabel">
+														<Value Value="" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="panelWielkaDolewka" Key="{A547C9F2-1C34-42BB-BF46-409A954E9001}" ExtendedFind="True">
+										<Image FileName="-2101780339" Left="1426" Top="926" Right="1692" Bottom="1231" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="contentText">
+												<Value Value="5700690065006C006B006100200044006F006C00650077006B0061000A002B0039002C0039003900" Type="7" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="button" Key="{F57751A8-D4B5-4E00-88A2-4B745D91BB39}" ExtendedFind="True">
+												<Image FileName="-2101780339" Left="1626" Top="1173" Right="1666" Bottom="1213" />
+												<TypeInfo Item0="{C7A21A38-9072-44DB-B16D-D048DFF5D52A}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Button" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="panel" Key="{A504190E-2CAA-47C5-8C04-F459AC284305}" ExtendedFind="True">
+												<Image FileName="-2101780339" Left="1452" Top="1173" Right="1666" Bottom="1213" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="button" Key="{5AF9F097-BDBA-4E3F-B0A4-B40E9BFE9828}">
+														<Image FileName="1576230935" Left="1452" Top="1173" Right="1492" Bottom="1213" />
+														<TypeInfo Item0="{C7A21A38-9072-44DB-B16D-D048DFF5D52A}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Button" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="panelCheeseburger" Key="{5AA5049C-725A-4025-8691-1493BA7790B3}" ExtendedFind="True">
+										<Image FileName="2033030965" Left="1692" Top="926" Right="1958" Bottom="1231" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="contentText">
+												<Value Value="4300680065006500730065006200750072006700650072000A002B0036002C0039003900" Type="7" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="button" Key="{FBE09A7C-7BEE-4C97-B29F-6F500A7894D9}" ExtendedFind="True">
+												<Image FileName="2033030965" Left="1892" Top="1173" Right="1932" Bottom="1213" />
+												<TypeInfo Item0="{C7A21A38-9072-44DB-B16D-D048DFF5D52A}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Button" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="panel" Key="{0B9E9DFC-543B-47B2-99A8-34FCD59A29F6}" ExtendedFind="True">
+												<Image FileName="2033030965" Left="1718" Top="1173" Right="1932" Bottom="1213" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="button" Key="{E31FCF0D-EC3A-4558-B7F6-6FB8DD227D41}">
+														<Image FileName="68282043" Left="1718" Top="1173" Right="1758" Bottom="1213" />
+														<TypeInfo Item0="{C7A21A38-9072-44DB-B16D-D048DFF5D52A}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Button" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="explorer" Key="{FCAAF631-38D2-4B58-BE6C-B65CC92A37F2}">
@@ -1993,6 +2408,27 @@
 				</Child>
 				<Child Name="buttonClose" Owner="{FC7AF7E9-58F2-4AFA-8449-21AEBF2EE91C}" />
 			</Child>
+		</Child>
+		<Child Name="pageMenuKfcWDostawieKubeKiBoxyBu" Owner="{CF9F9746-AE68-4828-A4C7-644136A82C66}">
+			<Child Name="button" Owner="{C803953D-525D-460D-BC4B-46613C05F126}" />
+			<Child Name="button2" Owner="{753F61A6-624B-4A21-A24E-AC65CD5B45AE}" />
+			<Child Name="button3" Owner="{A4A80434-5E9D-4CBE-B7C7-950170DED09B}" />
+			<Child Name="button4" Owner="{B5DBB35F-8425-416B-AA50-03D41794EC26}" />
+			<Child Name="button5" Owner="{798604BF-55C9-47B3-B86A-72CFA81B57A5}" />
+			<Child Name="panelShakeTruskawka500ml" Owner="{51FBC8AB-506B-4D47-B7AC-8475C452AF47}">
+				<Child Name="button" Owner="{6DA7EB60-AFF3-47A3-AFBE-C2448873DB2D}" />
+			</Child>
+			<Child Name="button6" Owner="{03CDF6BE-9E57-40AD-8334-C6670836F39E}" />
+			<Child Name="button7" Owner="{7226FC2A-3F8D-4D90-BA5C-179B50E96C09}" />
+			<Child Name="button8" Owner="{99F5051D-87B8-4372-A72C-00EAAD126A15}" />
+		</Child>
+		<Child Name="pageKfcMenuRestauracjeZamWieniaO" Owner="{10F5744C-8D85-4641-A4D8-3391C42C502A}">
+			<Child Name="button" Owner="{8AD659F7-44C2-4368-9141-FE216A74ACF4}" />
+			<Child Name="button2" Owner="{F57751A8-D4B5-4E00-88A2-4B745D91BB39}" />
+			<Child Name="button3" Owner="{FBE09A7C-7BEE-4C97-B29F-6F500A7894D9}" />
+			<Child Name="button4" Owner="{E31FCF0D-EC3A-4558-B7F6-6FB8DD227D41}" />
+			<Child Name="button5" Owner="{5AF9F097-BDBA-4E3F-B0A4-B40E9BFE9828}" />
+			<Child Name="button22" Owner="{7D77F061-4F38-4446-A645-FD8F1129D5A5}" />
 		</Child>
 	</LogicalNodes>
 </Root>
