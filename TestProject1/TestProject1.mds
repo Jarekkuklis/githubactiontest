@@ -37,9 +37,29 @@
 			</testItem>
 		</children>
 	</testItems>
-	<variables key="{78657EB0-E957-4A56-9C8A-9AFDF4662D31}" />
+	<variables key="{78657EB0-E957-4A56-9C8A-9AFDF4662D31}">
+		<data Version="4">
+			<Items>
+				<Variable Name="Var1" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="Var2" Type="String" Local="False">
+					<DefValue StrValue="abc" />
+				</Variable>
+				<Variable Name="Var3" Type="Password" Local="False">
+					<DefValue StrValue="38003900360031003900330044003100460034004400380046003300460037004500430039003900320037003900340035004100460039003600330037004200370036003100440031004100370046004100430030003000310043003600430037003200300033004400360036004100" />
+				</Variable>
+				<Variable Name="Var4" Type="Password" Local="False">
+					<DefValue StrValue="38003900360031003900330044003100460034004400380046003300460037004500430039003900320037003900340035004100460039003600330037004200370036003100440031004100370046004100430030003000310043003600430037003200300033004400360036004100" />
+				</Variable>
+				<Variable Name="Var5" Type="Password" Local="False">
+					<DefValue StrValue="38003900360031003900330044003100460034004400380046003300460037004500430039003900320037003900340035004100460039003600330037004200370036003100440031004100370046004100430030003000310043003600430037003200300033004400360036004100" />
+				</Variable>
+			</Items>
+		</data>
+	</variables>
 	<settings key="{371590B1-8E9E-4771-AC4D-9DBCE62B9F47}">
-		<settingsVersion value="15.73" />
+		<settingsVersion value="15.74" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>

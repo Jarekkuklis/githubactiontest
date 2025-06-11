@@ -1245,6 +1245,102 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageGoogle2" Key="{2C6D8195-2187-40E2-A384-9B113D50571B}">
+								<Image FileName="1850410809" Left="8" Top="121" Right="1726" Bottom="1399" />
+								<TypeInfo Item0="{6A1BE656-B1BC-4C9A-AAB2-AF573C975663}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="regex:^https:\/\/www\.google\.com\/.*$" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formSearch" Key="{6B93778C-204D-4D61-8AB7-023252963A26}" ExtendedFind="True">
+										<Image FileName="1850410809" Left="28" Top="491" Right="1706" Bottom="633" />
+										<TypeInfo Item0="{5DDA967F-11BD-45C5-B949-947F7331936C}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Form" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="textareaApjfqb" Key="{D0EBBCD8-2605-4A1F-A23D-2391B0E126D2}" ExtendedFind="True">
+												<Image FileName="1850410809" Left="623" Top="498" Right="1026" Bottom="544" />
+												<TypeInfo Item0="{2B7C15B9-CC64-44EA-8BEC-E7616E05D0D4}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Textarea" />
+													</Property>
+													<Property Name="idStr">
+														<Value Value="APjFqb" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageGoogle3" Key="{980AEF96-B615-4E62-AE16-643DB0726FFF}">
+								<Image FileName="-977383960" Left="8" Top="121" Right="1726" Bottom="1394" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.google.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textareaApjfqb" Key="{010E57AB-3C0C-4828-A0EA-7134D99932AE}" ExtendedFind="True">
+										<Image FileName="-977383960" Left="623" Top="498" Right="1026" Bottom="544" />
+										<TypeInfo Item0="{DE289312-5293-4EA8-9D30-3794597CBA3A}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Textarea" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="APjFqb" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageAaSzukajWGoogle" Key="{2A66F3BC-3F81-48E3-8910-D8CAC087F3F5}">
+								<Image FileName="2001333724" Left="8" Top="129" Right="3448" Bottom="1408" />
+								<TypeInfo Item0="{6A1BE656-B1BC-4C9A-AAB2-AF573C975663}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="FullName">
+										<Value Value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.google.com/search?q=aa&amp;rlz=1C1CHBF_enUS1008US1008&amp;oq=aa&amp;gs_lcrp=EgZjaHJvbWUyBggAEEUYOTITCAEQLhiDARjHARixAxjRAxiABDIQCAIQLhjHARixAxjRAxiABDINCAMQLhivARjHARiABDIQCAQQLhiDARixAxiABBiKBTIKCAUQLhixAxiABDIKCAYQABixAxiABDINCAcQABiDARixAxiABDIHCAgQABiPAjIHCAkQABiPAtIBCDc5M2owajE1qAIIsAIB8QXt96zrqMPvVg&amp;sourceid=chrome&amp;ie=UTF-8&quot;)" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelCnt" Key="{314DBA4D-5B54-409E-A7DB-D92CD59BEC02}" ExtendedFind="True">
+										<Image FileName="-1138930781" Left="8" Top="-668" Right="3433" Bottom="2204" />
+										<TypeInfo Item0="{5DDA967F-11BD-45C5-B949-947F7331936C}" />
+										<Properties>
+											<Property Name="FullName">
+												<Value Value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.google.com/search?q=aa&amp;rlz=1C1CHBF_enUS1008US1008&amp;oq=aa&amp;gs_lcrp=EgZjaHJvbWUyBggAEEUYOTITCAEQLhiDARjHARixAxjRAxiABDIQCAIQLhjHARixAxjRAxiABDINCAMQLhivARjHARiABDIQCAQQLhiDARixAxiABBiKBTIKCAUQLhixAxiABDIKCAYQABixAxiABDINCAcQABiDARixAxiABDIHCAgQABiPAjIHCAkQABiPAtIBCDc5M2owajE1qAIIsAIB8QXt96zrqMPvVg&amp;sourceid=chrome&amp;ie=UTF-8&quot;).Panel(&quot;main&quot;).Panel(&quot;cnt&quot;)" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panelRcnt" Key="{C2021B4A-8E9A-483E-9122-7FC613FEDF72}">
+												<Image FileName="-128601021" Left="8" Top="-511" Right="3433" Bottom="2059" />
+												<TypeInfo Item0="{5DDA967F-11BD-45C5-B949-947F7331936C}" />
+												<Properties>
+													<Property Name="FullName">
+														<Value Value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.google.com/search*&quot;).Panel(&quot;main&quot;).Panel(&quot;cnt&quot;).Panel(&quot;rcnt&quot;)" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="explorer" Key="{FCAAF631-38D2-4B58-BE6C-B65CC92A37F2}">
@@ -1910,88 +2006,6 @@
 							</Child>
 						</Children>
 					</Child>
-					<Child Name="notepad" Key="{06436DBD-830C-4460-BD31-BE35734A0F96}">
-						<Properties>
-							<Property Name="ProcessName">
-								<Value Value="notepad" />
-							</Property>
-						</Properties>
-						<Children>
-							<Child Name="Untitled_Notepad" Key="{ABB59D0C-07BC-4C4F-805B-09991EAF6116}">
-								<Image FileName="-776894267" Left="0" Top="0" Right="1471" Bottom="784" />
-								<Properties>
-									<Property Name="FrameworkId">
-										<Value Value="Win32" />
-									</Property>
-									<Property Name="ClassName">
-										<Value Value="Notepad" />
-									</Property>
-									<Property Name="LocalizedControlType">
-										<Value Value="window" />
-									</Property>
-									<Property Name="ObjectIdentifier">
-										<Value Value="Untitled_Notepad" />
-									</Property>
-									<Property Name="ObjectGroupIndex">
-										<Value Value="1" Type="0" />
-									</Property>
-								</Properties>
-								<Children>
-									<Child Name="Text_Editor" Key="{73BEAF24-458B-4FBB-8E52-CAD32BF6A5BC}">
-										<Image FileName="-776894267" Left="8" Top="51" Right="1463" Bottom="753" />
-										<TypeInfo Item0="{6568204B-7F0A-4FCF-A5A6-DAC269719FC8}" />
-										<Properties>
-											<Property Name="FrameworkId">
-												<Value Value="Win32" />
-											</Property>
-											<Property Name="ClassName">
-												<Value Value="Edit" />
-											</Property>
-											<Property Name="LocalizedControlType">
-												<Value Value="document" />
-											</Property>
-											<Property Name="ObjectIdentifier">
-												<Value Value="Text_Editor" />
-											</Property>
-											<Property Name="ObjectGroupIndex">
-												<Value Value="1" Type="0" />
-											</Property>
-										</Properties>
-										<Children>
-											<Child Name="editable_text_Text_Editor" Key="{97D2286B-867E-450E-BF82-0C3118DA3F34}">
-												<Image FileName="644339566" Left="8" Top="51" Right="1446" Bottom="753" />
-												<TypeInfo Item0="{2005113E-3393-4791-B65B-DA3870C16AD8}" />
-												<Properties>
-													<Property Name="Id">
-														<Value Value="4" Type="0" />
-													</Property>
-												</Properties>
-											</Child>
-										</Children>
-									</Child>
-								</Children>
-							</Child>
-							<Child Name="wndNotepad" Key="{136D8EA4-7488-4769-B267-23003384C028}">
-								<Image FileName="506056603" Left="0" Top="0" Right="1471" Bottom="784" />
-								<Properties>
-									<Property Name="WndClass">
-										<Value Value="Notepad" />
-									</Property>
-								</Properties>
-								<Children>
-									<Child Name="Edit" Key="{C403A46C-7047-457C-AAE7-23EF838D8AA6}">
-										<Image FileName="506056603" Left="8" Top="51" Right="1463" Bottom="753" />
-										<TypeInfo Item0="{6568204B-7F0A-4FCF-A5A6-DAC269719FC8}" />
-										<Properties>
-											<Property Name="WndClass">
-												<Value Value="Edit" />
-											</Property>
-										</Properties>
-									</Child>
-								</Children>
-							</Child>
-						</Children>
-					</Child>
 					<Child Name="Acrobat" Key="{CDBCD348-9A3E-4D20-96BE-E257FB842E6C}">
 						<TypeInfo Item0="{89609E1F-37F4-436B-93AE-40EAE225F412}" />
 						<Properties>
@@ -2187,6 +2201,66 @@
 							</Child>
 						</Children>
 					</Child>
+					<Child Name="notepad" Key="{B29619B1-7EC6-46A9-826A-5CC217815814}">
+						<TypeInfo Item0="{89609E1F-37F4-436B-93AE-40EAE225F412}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="notepad" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="Untitled_Notepad" Key="{C5855D80-3334-48F7-BA8D-2FC739920EDD}">
+								<Image FileName="1981271249" Left="0" Top="0" Right="1471" Bottom="838" />
+								<TypeInfo Item0="{8524A8A4-290E-4C86-978B-6E17DD7DB29A}" />
+								<Properties>
+									<Property Name="FrameworkId">
+										<Value Value="Win32" />
+									</Property>
+									<Property Name="ClassName">
+										<Value Value="Notepad" />
+									</Property>
+									<Property Name="LocalizedControlType">
+										<Value Value="window" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="Untitled_Notepad" />
+									</Property>
+									<Property Name="ObjectGroupIndex">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Text_Editor" Key="{03665937-2CE1-47C6-A7F2-03838CC91242}">
+										<Image FileName="1981271249" Left="8" Top="51" Right="1463" Bottom="807" />
+										<TypeInfo Item0="{8B6377D2-EDD9-4C29-BFCC-69072EC98C02}" />
+										<Properties>
+											<Property Name="FrameworkId">
+												<Value Value="Win32" />
+											</Property>
+											<Property Name="ClassName">
+												<Value Value="Edit" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value Value="document" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="Text_Editor" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="editable_text_Text_Editor" Key="{A6B84217-18CB-42C6-8D4B-1914FC91C0BD}">
+												<Image FileName="1981271249" Left="8" Top="51" Right="1446" Bottom="807" />
+												<TypeInfo Item0="{1480DC44-798C-4124-8844-973A9FD3DE6C}" />
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
 				</Children>
 			</Child>
 			<Child Name="Mobile" Key="{5170E486-1C04-4D96-B04D-FEAE873582B5}">
@@ -2365,16 +2439,6 @@
 		<Child Name="cmd" Owner="{B34BB1CC-82CB-4F7D-823B-248DF3B2EF34}">
 			<Child Name="wndConsoleWindowClass" Owner="{290F139D-2E22-4FD5-954E-0C03028C5972}" />
 		</Child>
-		<Child Name="notepad" Owner="{06436DBD-830C-4460-BD31-BE35734A0F96}">
-			<Child Name="Untitled_Notepad" Owner="{ABB59D0C-07BC-4C4F-805B-09991EAF6116}">
-				<Child Name="Text_Editor" Owner="{73BEAF24-458B-4FBB-8E52-CAD32BF6A5BC}">
-					<Child Name="editable_text_Text_Editor" Owner="{97D2286B-867E-450E-BF82-0C3118DA3F34}" />
-				</Child>
-			</Child>
-			<Child Name="wndNotepad" Owner="{136D8EA4-7488-4769-B267-23003384C028}">
-				<Child Name="Edit" Owner="{C403A46C-7047-457C-AAE7-23EF838D8AA6}" />
-			</Child>
-		</Child>
 		<Child Name="Acrobat" Owner="{CDBCD348-9A3E-4D20-96BE-E257FB842E6C}">
 			<Child Name="AcrobatSDIWindow" Owner="{E3FF9CDB-F209-475F-8C51-D3F66E93C8A2}">
 				<Child Name="AVTabsContainerView" Owner="{0D8E69D4-350C-404A-8CF6-2B3162B79CAD}">
@@ -2429,6 +2493,21 @@
 			<Child Name="button4" Owner="{E31FCF0D-EC3A-4558-B7F6-6FB8DD227D41}" />
 			<Child Name="button5" Owner="{5AF9F097-BDBA-4E3F-B0A4-B40E9BFE9828}" />
 			<Child Name="button22" Owner="{7D77F061-4F38-4446-A645-FD8F1129D5A5}" />
+		</Child>
+		<Child Name="pageGoogle3" Owner="{980AEF96-B615-4E62-AE16-643DB0726FFF}">
+			<Child Name="textareaApjfqb" Owner="{010E57AB-3C0C-4828-A0EA-7134D99932AE}" />
+		</Child>
+		<Child Name="notepad" Owner="{B29619B1-7EC6-46A9-826A-5CC217815814}">
+			<Child Name="Untitled_Notepad" Owner="{C5855D80-3334-48F7-BA8D-2FC739920EDD}">
+				<Child Name="Text_Editor" Owner="{03665937-2CE1-47C6-A7F2-03838CC91242}">
+					<Child Name="editable_text_Text_Editor" Owner="{A6B84217-18CB-42C6-8D4B-1914FC91C0BD}" />
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="pageAaSzukajWGoogle" Owner="{2A66F3BC-3F81-48E3-8910-D8CAC087F3F5}">
+			<Child Name="panelCnt" Owner="{314DBA4D-5B54-409E-A7DB-D92CD59BEC02}">
+				<Child Name="panelRcnt" Owner="{C2021B4A-8E9A-483E-9122-7FC613FEDF72}" />
+			</Child>
 		</Child>
 	</LogicalNodes>
 </Root>
