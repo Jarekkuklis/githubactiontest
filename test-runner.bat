@@ -18,11 +18,11 @@ IF NOT %2.==. GOTO ParamProjectPath
 GOTO EchoProjectPath
 
 :MobileProjectRun
-set ProjectPath="%cd%\MobileTesting\MobileTesting.pjs"
+set ProjectPath="C:\Users\jaroslaw.kuklis\Documents\TestComplete 15 Projects\TestProject1\TestProject1.pjs"
 GOTO EchoProjectPath
 
 :WebProjectRun
-set ProjectPath="%cd%\WebTesting\WebTesting.pjs"
+set ProjectPath="C:\Users\jaroslaw.kuklis\Documents\TestComplete 15 Projects\TestProject1\TestProject1.pjs"
 GOTO EchoProjectPath
 
 :ParamProjectPath
