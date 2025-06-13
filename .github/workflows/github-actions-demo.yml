@@ -2,39 +2,40 @@ name: TestExecute Simple Test
 run-name: TestExecute run from GitHub Action (${{ github.actor }})
 on:
   push:
+    branches:
+      - main  # or your target branch
   workflow_dispatch:
     inputs:
       project:
         type: choice
         description: Project to be executed
         options:
-        - Mobile
-        - Web
+          - Mobile
+          - Web
 jobs:
   DownloadInstallAndRunTE:
     name: Install and Run TestExecute (${{ github.actor }})
     timeout-minutes: 30
     runs-on: windows-latest
-    permissions: write-all
+    permissions:
+      contents: write-all
     steps:
       - uses: actions/checkout@v4
       - name: Job Startup
-       run: |
-        echo "Starting job [Event=${{ github.event_name }}]"
-        echo "This job is now running on a ${{ runner.os }} server hosted by GitHub!"
-
-      
+        run: |
+          echo "Starting job [Event=${{ github.event_name }}]"
+          echo "This job is now running on a ${{ runner.os }} server hosted by GitHub!"
       - name: Launch TestExecute
-       run: .\test-runner.bat
-       shell: cmd
+        run: .\test-runner.bat
+        shell: cmd
       - name: JUnit Report from TestExecute
-       uses: dorny/test-reporter@v1.9.1
-       if: always()
-       with:
-        name: TestComplete JUnit Report
-        path: logs/runlog.xml
-        reporter: java-junit
+        uses: dorny/test-reporter@v1.9.1
+        if: always()
+        with:
+          name: TestComplete JUnit Report
+          path: logs/runlog.xml
+          reporter: java-junit
       - name: GitHub Action Summary
-       if: always()
-       run: |
-        type summary.md | Out-File -FilePath $env:GITHUB_STEP_SUMMARY -Append
+        if: always()
+        run: |
+          type summary.md | Out-File -FilePath $env:GITHUB_STEP_SUMMARY -Append
