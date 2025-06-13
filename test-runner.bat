@@ -10,7 +10,7 @@ IF %1.==. GOTO AccessKeyMissing
 set AccessKey=b12f4231-34da-4ccd-9be8-25b2b17ba825
 
 REM By default we run web testing
-set ProjectPath="%cd%C:\Users\jaroslaw.kuklis\Documents\TestComplete 15 Projects\TestProject1\TestProject1.pjs""
+set ProjectPath="%cd%C:\Users\jaroslaw.kuklis\Documents\TestComplete 15 Projects\TestProject1\TestProject1.pjs"
 
 IF "%2" == "Mobile" GOTO MobileProjectRun
 IF "%2" == "Web" GOTO WebProjectRun
