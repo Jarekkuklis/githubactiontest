@@ -1,5 +1,5 @@
 name: Run TestComplete Tests
-
+shell: cmd
 on:
   push:
     branches:
