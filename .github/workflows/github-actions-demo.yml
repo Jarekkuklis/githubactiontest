@@ -17,6 +17,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Run Tests
-        shell: cmd
         run: .\test-runner.bat ${{ secrets.TEST_EXECUTE_ACCESS_KEY }} ${{ github.event.inputs.project }}
         
