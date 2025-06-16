@@ -15,6 +15,9 @@ jobs:
   run-tests:
     runs-on: windows-latest
     steps:
+      - name: List directory contents
+        shell: cmd
+        run: dir
       - uses: actions/checkout@v4
       - name: Run Tests
         run: .\test-runner.bat ${{ secrets.TEST_EXECUTE_ACCESS_KEY }} ${{ github.event.inputs.project }}
