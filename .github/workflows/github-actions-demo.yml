@@ -1,0 +1,27 @@
+name: Run TestComplete Tests
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+    inputs:
+      project:
+        description: 'Test project to run'
+        required: true
+        default: 'Web'
+
+jobs:
+  run-tests:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download TestExecute
+        run: |
+          Invoke-WebRequest -Uri "${{ secrets.TEST_EXECUTE_DOWNLOAD_URL }}" -OutFile "TestExecute.exe"
+      - name: Install TestExecute
+        run: |
+          Start-Process -Wait -FilePath "TestExecute.exe" -ArgumentList "/S"
+      - name: Run Tests
+        run: |
+          .\test-runner.bat ${{ secrets.TEST_EXECUTE_ACCESS_KEY }} ${{ github.event.inputs.project }}
