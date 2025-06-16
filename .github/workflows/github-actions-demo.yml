@@ -3,7 +3,7 @@ name: Run TestComplete Tests
 on:
   push:
     branches:
-      - main
+      - master
   workflow_dispatch:
     inputs:
       project:
